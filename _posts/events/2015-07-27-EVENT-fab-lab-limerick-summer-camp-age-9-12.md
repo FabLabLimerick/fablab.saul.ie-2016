@@ -3,7 +3,7 @@ category: events
 layout: "single-event"
 published: true
 title: "Fab Lab Summer Camp 9-12"
-slug: "Fab-Lab-Limerick-Summer-Camp-Ag-9-12"
+slug: "fab-lab-limerick-summer-camp-age-9-12"
 permalink: "/events/fab-lab-limerick-summer-camp-age-9-12/"
 hours: "27th to 31st  July 11.30-15.30"
 fee: €100 per Child
@@ -42,7 +42,7 @@ Ed Devane, a local sound artist, will instruct the group in how to create home-m
 
 ### Day 5
 
-On our final day we will turn into real designers, makers and innovators. We will use everything we have learned during the week and incorporate it into our final project. By translating an idea into an item we will learn about the process of fabrication through design and making. At the end of the day each child will have its own ‘real like from the shop’ product made ready to be packed as a cool present! 
+On our final day we will turn into real designers, makers and innovators. We will use everything we have learned during the week and incorporate it into our final project. By translating an idea into an item we will learn about the process of fabrication through design and making. At the end of the day each child will have its own ‘real like from the shop’ product made ready to be packed as a cool present!
 
 All materials will be provided by Fab Lab Limerick and each child will be able to take home their individual projects. No personal computers/tablets are permitted at the camp.
 
