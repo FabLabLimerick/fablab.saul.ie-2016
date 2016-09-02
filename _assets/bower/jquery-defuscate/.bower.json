@@ -1,0 +1,38 @@
+{
+  "name": "jquery-defuscate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jgerigmeyer/jquery-defuscate",
+  "authors": [
+    "Jonny Gerig Meyer <jonny@oddbird.net>"
+  ],
+  "description": "jQuery Email Defuscator Plugin",
+  "main": "dist/defuscate.js",
+  "keywords": [
+    "obfuscate",
+    "defuscate",
+    "obfuscator",
+    "defuscator",
+    "email"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "libs",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "6da3af6d2d09494a34bbaa8bbd3425c1febe94bf"
+  },
+  "_source": "https://github.com/jgerigmeyer/jquery-defuscate.git",
+  "_target": "1.0.0",
+  "_originalSource": "jquery-defuscate"
+}

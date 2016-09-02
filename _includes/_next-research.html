@@ -1,0 +1,19 @@
+<p class="text-center">
+{% for category in site.categories %}
+    {% assign catg_name = category.first %}
+    {% if catg_name == page.category %}
+        {% assign catg_posts = category.last %}
+    {% endif %}
+{% endfor %}
+{% for post in catg_posts %}
+    {% if post.title == page.title %}
+        {% if forloop.first %}
+            {% assign next = catg_posts[2] %}
+            MORE RESEARCH: <a href="{{ next.url }}">{{ next.title }}</a>
+        {% else %}
+            MORE RESEARCH: <a href="{{ prev.url }}">{{ prev.title }}</a>
+        {% endif %}
+    {% endif %}
+    {% assign prev = post %}
+{% endfor %}
+</p>

@@ -1,0 +1,277 @@
+// GENERAL BOOTSTRAP IMPORTS
+@import "_0_general_variables";
+@import "_0_general_bootstrap";
+
+// FONTS AND ICONFONTS
+@import "_1_fontfaces";
+
+// THEME IMPORTS
+@import "_2_THEME_variables&mixins";
+@import "_3_INCLUDES_header";
+@import "_3_INCLUDES_footer";
+@import "_3_INCLUDES_carousel";
+@import "_4_LAYOUT_home";
+@import "_4_LAYOUT_space";
+
+
+// WIDE WEBSITE ELEMENT STYLES
+
+body, html{
+	height: 100%;
+}
+iframe{
+  border: none;
+}
+hr{
+  border-top: 1px solid grey;
+  border-bottom: none;
+  padding: 0px;
+  margin: 0px;
+  &.top{
+    border-top: 1px solid grey;
+    border-bottom: none;
+  }
+  &.bottom{
+    border-bottom: 1px solid grey;
+    border-top: none;
+  }
+  &.gray{
+    opacity: 0.5;
+  }
+  &.white{
+    border-top: 1px dotted grey;
+    border-bottom: none;
+  }
+  &.table{
+  }
+  &.none{
+    border-top: none;
+    border-bottom: none;
+  }
+}
+a{
+  &.disabled, &.disabled:link, &.disabled:visited, &.disabled:active, &.disabled:hover{
+    color: $gray-color;
+    text-decoration: none;
+    border-bottom: none;
+  }
+  &:link, &:visited, &:active{
+    color: $link-color;
+    text-decoration: none;
+    border-bottom: 1px solid $link-color-underline;
+  }
+  &:hover{
+    color: $link-color-underline;
+    text-decoration: none;
+    border-bottom: 1px solid $link-color-underline;
+  }
+  &.white:link, &.white:visited, &.white:active{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+  }
+  &.white:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid $link-color-underline;
+  }
+  &.nounderline:link, &.nounderline:visited, &.nounderline:active{
+    color: $link-color;
+    text-decoration: none;
+    border-bottom: none;
+  }
+  &.nounderline:hover{
+    color: $link-color-underline;
+    text-decoration: none;
+    border-bottom: none;
+  }
+  &.gray:link, &.gray:visited, &.gray:active{
+    color: $gray-color;
+    text-decoration: none;
+    border-bottom: none;
+  }
+  &.gray:hover{
+    color: $link-color-underline;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
+
+.versalite{
+  font-size: 80%;
+}
+.share-button{
+  display: inline-block!important;
+  .entypo-false{
+    margin: 0px!important;
+    padding:0px!important;
+    font-size: inherit!important;
+  }
+  label span{
+    font-family: "fablab_300"!important;
+    font-weight: 300!important;
+    text-transform: uppercase!important;
+    font-size: inherit!important;
+    margin: 0px!important;
+    padding:0px!important;
+    color: $link-color!important;
+    text-decoration: none!important;
+    border-bottom: 1px solid $link-color-underline!important;
+    &:hover{
+      color: $link-color-underline!important;
+      text-decoration: none!important;
+      border-bottom: 1px solid $link-color-underline!important;
+    }
+  }
+}
+label{
+  font-family: "fablab_300"!important;
+  font-weight: 300!important;
+  font-size: 85%;
+}
+#subscribe{
+  .response{
+    font-size: 85%;
+    color: $gray-color;
+  }
+  #mce-normal-response{
+    color: $gray-color;
+  }
+  #mce-error-response{
+    color: $brand-danger;
+  }
+  #mce-success-response{
+    color: $brand-success;
+  }
+}
+
+.header-hero{
+  width: 100%;
+  height:100%;
+  background-color: rgb(40,40,40);
+  position: relative;
+  .header-hero-image{
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    background-position: center, center;
+  }
+  .header-hero-title{
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    .header-hero-container{
+      background-color: rgba(0,0,0,0.7);
+      color: white;
+    }
+    p.imagecredits{
+      color: gray;
+    }
+  }
+}
+.header-single{
+  width: 100%;
+  height:100%;
+  background-color: rgb(40,40,40);
+  position: relative;
+  .header-single-image{
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    background-position: center, center;
+  }
+  .header-single-title{
+    z-index:2;
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    .header-single-container{
+      background-color: rgba(0,0,0,0.7);
+      color: white;
+    }
+    p.imagecredits{
+      display: block;
+      color: gray;
+    }
+  }
+}
+.body-single{
+  .body-single-content{
+    img{
+      width: 100%;
+    }
+    p{
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+  }
+}
+h1{
+  font-family: "fablab_stencil";
+  text-transform: uppercase;
+}
+h2{
+  font-family: "fablab_100";
+  text-transform: uppercase;
+}
+h2.body-single-excerpt{
+  font-family: "fablab_500";
+  text-transform: none;
+}
+.body-single{
+  font-family: "fablab_300";
+  text-transform: none;
+}
+.list-header h3{
+  font-family: "fablab_100";
+}
+.body-single-info{
+  h5{
+    font-family: "fablab_300";
+    text-transform: uppercase;
+    color: $link-color;
+  }
+}
+h5{
+  font-family: "fablab_300";
+  color: $gray-color;
+}
+.uppercase{
+  font-family: "fablab_300";
+  text-transform: uppercase;
+}
+
+#header-hero-title{
+  h1{
+    font-family: "fablab_500";
+  }
+}
+.body-single-next{
+  font-family: "fablab_300";
+  text-transform: uppercase;
+}
+section{
+  .section-header{
+    font-family: "fablab_100";
+    text-transform: uppercase;
+  }
+  .section-description{
+    font-family: "fablab_300";
+  }
+  .section-list{
+    font-family: "fablab_300";
+    .list-header{
+      font-family: "fablab_300";
+      text-transform: uppercase
+    }
+  }
+  .section-link{
+    font-family: "fablab_300";
+    text-transform: uppercase;
+  }
+}

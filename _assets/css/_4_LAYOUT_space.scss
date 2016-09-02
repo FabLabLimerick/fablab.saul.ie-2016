@@ -1,0 +1,93 @@
+@import "_2_THEME_variables&mixins";
+
+.body-who{
+  .imagen{
+      box-sizing: border-box;
+      display: block;
+      overflow:hidden;
+      background-position:center center;
+      background-size: cover;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 50%;
+  }
+  .membertext{
+      margin-top: 0.7em;
+      margin-bottom: 1.5em;
+  }
+}
+
+
+.imagenmarco{
+  position: relative;
+}
+.imagenmarco:before{
+  content: "";
+  display: block;
+  padding-top: 100%;  /* initial ratio of 1:1*/
+}
+.imagen{
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position:center center;
+  background-size: cover;
+}
+
+#body-how{
+  .booking{
+      margin-top: 2em;
+      margin-bottom: 1.5em;
+      //Overwrite bottom redline for links
+      a:link, a:visited{
+        color: white;
+        border-bottom: 1px solid $btn-success-border!important;
+      }
+      a:hover{
+        border-bottom: 1px solid darken($btn-success-border, 5%)!important;
+      }
+  }
+}
+
+.equipment{
+  .list-header{
+    margin-top: 0em;
+  }
+  .machinetype{
+    font-family: "fablab_500";
+    text-transform: uppercase;
+  }
+  .machinetype-xs{
+    font-family: "fablab_500";
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .imagen{
+    //height: 110px;
+    //width: 110px;
+  }
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .imagen{
+    //height: 135px;
+    //width: 135px;
+  }
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .imagen{
+    //height: 120px;
+    //width: 120px;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  .imagen{
+    //height: 140px;
+    //width: 140px;
+  }
+}

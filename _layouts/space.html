@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include socialmeta-page.html %}
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    <!-- build:css({app,.tmp}) /css/main.css -->
+    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/css/fablabtheme.css">
+    <!-- endbuild -->
+
+    <!-- build:js(app) /js/head-scripts.js -->
+    <!-- Replace with a custom modernizer build for production -->
+    <script src="/_bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header id="header">
+        {% include header.html %}
+    </header>
+    <section class="header-hero">
+        {% for banner in site.categories.banner-space limit:1 %}
+        <div class="header-hero-image" style="background-image: url({{site.url}}/img{{ banner.image }})"></div>
+        {% endfor %}
+        </div>
+        <div class="header-hero-title">
+            <div class="container">
+                <div class="header-hero-container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <hgroup class="text-center">
+                                <h1>Space</h1>
+                                <h2 class="subheader"><span class="hidden-xs">Who We Are And How You <br>Can Use The Fab Lab</span><span class="visible-xs">How You Can Use<br>the Fab Lab</span></h2>
+                            </hgroup>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            {% for banner in site.categories.banner-space limit:1 %}
+                            <p class="text-center imagecredits clearfix">
+                                {% if banner.caption.display != false %}
+                                <span class="hidden-xs">Background image: {{banner.title}} by {{banner.caption.credits}}</span><span class="visible-xs">Image by {{banner.caption.credits}}</span>
+                                {% else %}
+                                <span></span>
+                                {% endif %}
+                            </p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="body-who">
+        <div class="container">
+            <div class="section-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hgroup class="text-center">
+                            <h1>Who</h1>
+                            <h2 class="subheader"><span class="hidden-xs">Where Are A group Of Staff, Students and <br> graduates from The School Of Architecture at UL</span><span class="visible-xs">Where are The School <br>of Architecture at UL</span></h2>
+                        </hgroup>
+                    </div>
+                </div>
+            </div>
+            <div class="section-description">
+                <div class="row">
+                    <div class="col-md-6" lang="en">
+                        <p>Fab Lab Limerick started in 2012 when we began to build our own 3D printers, CNC Routers and laser cutters as part of the elective programme at the School of Architecture, University of Limerick.</p>
+                    </div>
+                    <div class="col-md-6" lang="en">
+                        <p>We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-list">
+                <div class="row list-header">
+                    <div class="col-md-12">
+                        <hr class="none">
+                        <h3 class="text-center">The Team</h3>
+                        <hr class="bottom">
+                    </div>
+                </div>
+                <div class="row list-body">
+                    {% for member in site.categories.team reversed %}
+                    {% if member.current %}
+                    <div class="col-md-2 col-sm-3 col-xs-6 list-member">
+                        <div class="imagenmarco">
+                            <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}}); background-color: #d7d7d7"></div>
+                        </div>
+                        <hgroup class="text-center membertext">
+                            <h4>{{ member.title }}</h4>
+                            <h5>{{ member.position }}</h5>
+                        </hgroup>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <br/>
+                <div class="row">
+                  <div class="col-md-12">
+                  <p><strong>Former Fab Lab Limerick collaborators:</strong>
+                    {% assign members = '' %}
+                    {% for member in site.categories.team reversed %}
+                      {% if member.current != true %}
+                      {% assign members = members | append: member.title | append: ', ' %}
+                      {% endif %}
+                    {% endfor %}
+                    {% assign members = members |  append: '---' %}
+                    <span>
+                      {{ members |  replace: ', ---','.' }}
+                    </span>
+                    {% comment %}
+                    After creating a string with all the members separated by comma, the string '---' is
+                    appended in order to replace it afterwards by '.'. This way the last comma is eliminated.
+                    {% endcomment %}
+                  </p>
+                  </div>
+                </div>
+                <br/>
+            </div>
+            <div class="section-link">
+                <div class="row">
+                    <div class="col-md-12 text-center" style = "text-transform: lowercase;">
+                        <hr class="top" >
+                        <!--<a class="text-center disabled">More soon!</a><br>-->
+                        <!-- added-by-ger -->
+                        <span style="color:red; text-transform: uppercase">NEW: </span><span style = "text-transform: capitalize;">If</span> you would like to become a Volunteer yourself, <a href="/assets/VolunteerDoc.pdf" download style = "text-transform: lowercase;">please check out this document.</a>
+                        <p><span style = "text-transform: capitalize;">and</span> send your request by email to <a href="mailto:fablab@saul.ie">fablab@saul.ie</a>.</p>
+                        <hr class="none">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="body-how">
+       <div class="container">
+            <div class="section-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hgroup class="text-center">
+                            <h1>How</h1>
+                            <h2 class="subheader"><span class="hidden-xs">Interested in using the Fab Lab for<br> your own creative projects?</span><span class="visible-xs">Interested in using<br> the Fab Lab?</span></h2>
+                        </hgroup>
+                    </div>
+                </div>
+            </div>
+            <div class="section-description">
+                <div class="row">
+                    <div class="col-md-6" lang="en">
+                        <p>We are determined to bridge the gap between digital fabrication technologies and local makers from all disciplines. We have learned by making and we want to encourage you to do the same.</p>
+                    </div>
+                    <div class="col-md-6" lang="en">
+                        <p>We can help you to start using all these technologies in your own projects wether they are commercial or not. Drop us a line and let us know about your project or pass by the Fab Lab in any of our <a href="{{site.url}}/#events">Open Days.</a></p>
+                    </div>
+                </div>
+                <div class="row booking">
+                    <div class="col-md-12" lang="en">
+                        <p class="text-center">To check our rates and book our equipment:</p>
+
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                                <a role="button" href="http://fablablimerick.schedulista.com" target="_blank" class="btn btn-success btn-lg btn-block"><span class="glyphicon glyphicon-calendar"></span> Schedule Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-list">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="equipment list">
+                            <div class="row list-header">
+                                <div class="col-md-12">
+                                    <hr class="none">
+                                    <h3 class="text-center">The Equipment</h3>
+                                    <hr class="bottom">
+                                </div>
+                            </div>
+                            <div class="list-body">
+                            {% for machine in site.categories.equipment %}
+                                {% capture currenttype %}{{ machine.type }}{% endcapture %}
+                                {% if currenttype != thetype %}
+                                {% if forloop.first %}
+                                {% else %}
+                                <hr class="table gray hidden-xs">
+                                {% endif %}
+                                <div class="row list-equipment visible-xs list-subheader-phone">
+                                    <div class="col-md-12 text-center"><span class="machinetype-xs">{{ machine.type }}</span></div>
+                                </div>
+                                <hr class="table gray visible-xs">
+                                <div class="row list-equipment">
+                                    <div class="col-md-3 col-sm-2 col-xs-4"><span class="hidden-xs machinetype">{{ machine.type }}</span><span class="visible-xs">{{ machine.title }}</span></div>
+                                    <div class="col-md-3 col-sm-3 hidden-xs">{{ machine.title }}</div>
+                                    <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description | markdownify }}</div>
+                                </div>
+                                {% capture thetype %}{{ currenttype }}{% endcapture %}
+                                {% else %}
+                                <hr class="none">
+                                <div class="row list-equipment">
+                                    <div class="col-md-3 col-sm-2 col-xs-4"><span class="visible-xs">{{ machine.title }}</span></div>
+                                    <div class="col-md-3 col-sm-3 hidden-xs">{{ machine.title }}</div>
+                                    <div class="col-md-6 col-sm-7 col-xs-8">{{ machine.description | markdownify }}</div>
+                                </div>
+                                {% endif %}
+                            {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-link">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <hr class="top">
+                        <a href="{{ site.external.wiki }}" class="text-center"><span class="hidden-xs">Visit Our Wiki For Tutorials and more equipment information</span><span class="visible-xs">more information about our equipment</span></a>
+                        <hr class="none">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        {% include footer.html %}
+    </section>
+    {% include scripts-home.html %}
+    <script>
+        new Share('.share-button', {
+            url: 'http://fablab.saul.ie{{ page.url}}',
+            image: 'http://fablab.saul.ie/img{{ page.imageurl }}',
+            title: '{{ page.title }}',
+            text: '{{ page.description }}',
+            ui: {
+                button_icon: 'false',
+                button_text: 'Share it',
+                button_font: 'false',
+                button_background: 'none',
+                button_color: '#4A4A4A'
+            },
+            networks: {
+                facebook: {
+                    enabled: true,
+                    load_sdk: false
+                },
+                twitter: {
+                    enabled: true
+                }
+            }
+        });
+    </script>
+    {% include googleanalytics.html %}
+  </body>
+</html>

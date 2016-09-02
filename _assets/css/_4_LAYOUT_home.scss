@@ -1,0 +1,595 @@
+@import "_2_THEME_variables&mixins";
+
+//
+// BRAND MOTTO
+//
+#brand-motto{
+  z-index: 1000;
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  height: 100%;
+  .container{
+    height: 100%;
+    .row{
+      height: 100%;
+      .col-sm-12{
+        width:100%;
+        height: 100%;
+        display: table;
+      }
+      h2{
+        font-family: "fablab_500";
+        text-transform: uppercase;
+        text-shadow: rgba(0, 0, 0, 0.6) 0 0 50px;
+        color: white;
+        width:100%;
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+  }
+}
+//Phones
+@media (max-width: $screen-xs-max) {
+  #brand-motto h2{
+    font-size: 42px;
+    line-height: 110%;
+  }
+}
+//Tables
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  #brand-motto h2{
+    font-size: 46px;
+    line-height: 110%;
+  }
+}
+//Medium
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  #brand-motto h2{
+    font-size: 52px;
+    line-height: 110%;
+  }
+}
+//large
+@media (min-width: $screen-lg-min) {
+  #brand-motto h2{
+    font-size: 55px;
+    line-height: 110%;
+  }
+}
+// BRAND MOTTO END
+
+
+
+//
+// EVENTS
+//
+.section-strip{
+  .row{
+    margin-left: 0px;
+    margin-right:0px;
+    .col-md-3{
+      &:first-child{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 2px;
+      }
+      &:nth-child(2){
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 1px;
+      }
+      &:nth-child(3){
+        margin-left: 1px;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      &:last-child{
+        margin-left: 2px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+      }
+    }
+  }
+  /* make elements on teh strip squares based on this http://www.mademyday.de/css-height-equals-width-with-pure-css.html*/
+  .event-strip{
+    background-color: black;
+    position: relative;
+  }
+  .event-strip:before{
+    content: "";
+    display: block;
+    padding-top: 100%;  /* initial ratio of 1:1*/
+  }
+  a .content{
+    &:hover{
+      opacity: 1;
+    }
+  }
+  a:link .content{
+    &:hover{
+      opacity: 0.75;
+    }
+  }
+  .content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-position:center center;
+    background-size: cover;
+    .title{
+      width:100%;
+      height: 50%;
+      position: absolute;
+      bottom: 0px;
+      hgroup{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        h3{
+          font-family: "fablab_500";
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+article.event{
+  &.past{
+    opacity: 0.6;
+  }
+  .title{
+    position: relative;
+    box-sizing: border-box;
+    h3{
+      font-family: "fablab_500";
+      text-transform: uppercase;
+    }
+    h4{
+      font-family: "fablab_300";
+      color: $gray-color;
+    }
+    p{
+      font-family: "fablab_300";
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+    .fee{
+      position: absolute;
+      bottom: 0px;
+      font-family: "fablab_300";
+      color: $gray-color;
+    }
+    .fee-phone{
+      bottom: 0px;
+      font-family: "fablab_300";
+      color: $gray-color;
+    }
+  }
+  .description{
+    p{
+      display: block;
+      overflow: hidden;
+      font-family: "fablab_300";
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+    }
+  }
+  .image{
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-position:center center;
+    background-size: cover;
+  }
+}
+
+
+//
+// SPACE
+//
+#space{
+  height:100%;
+  .container{
+    height:100%;
+    position: relative;
+    .imageTop{
+      position: absolute;
+      top:0px;
+      left:0px;
+      width:100%;
+      height:100%;
+      background-color: rgba(0,0,0,0.5);
+    }
+    .visor{
+      width: 100%;
+      height:100%;
+      display: table;
+      background-color: black;
+      background-position:center center;
+      background-size: cover;
+      background-image: url(asset_path('space/space-2.jpg'));
+      .centradovertical{
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+//
+// RESEARCH
+//
+#research{
+  .container{
+    .row{
+      margin-left: 0px;
+      margin-right:0px;
+      .col-md-4{
+        @media (min-width: $screen-md-min) {
+          &:first-child{
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 2px;
+            .marco{
+              margin-left: 0px;
+              margin-right: 2px;
+            }
+          }
+          &:nth-child(2){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+          &:nth-child(3){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 2px;
+          }
+          &:nth-child(4){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 2px;
+            .marco{
+              margin-left: 0px;
+              margin-right: 2px;
+            }
+          }
+          &:nth-child(5){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+          &:nth-child(6){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 2px;
+          }
+        }
+        @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+          &:first-child{
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 1px;
+            margin-left: 0px;
+          }
+          &:nth-child(2){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 1px;
+            margin-right: 0px;
+          }
+          &:nth-child(3){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 1px;
+            margin-left: 0px;
+          }
+          &:nth-child(4){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 1px;
+            margin-right: 0px;
+          }
+          &:nth-child(5){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 1px;
+          }
+          &:nth-child(6){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 1px;
+          }
+        }
+        @media (max-width: $screen-xs-max) {
+          &:first-child{
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+          }
+          &:nth-child(2){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+          &:nth-child(3){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+          }
+          &:nth-child(4){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 10px;
+            margin-right: 0px;
+          }
+          &:nth-child(5){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-right: 0px;
+          }
+          &:nth-child(6){
+            margin-top: 2px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#research{
+  article{
+    box-sizing: border-box;
+    .gradient{
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      display: table;
+      @include blackGradientBackgroundVertical;
+      .caption{
+        color: white;
+        box-sizing: border-box;
+        display: table-cell;
+        vertical-align: bottom;
+        padding: $padding-base-horizontal * 2;
+        h3{
+          font-family: "fablab_500";
+          text-transform: uppercase;
+        }
+        h4{
+          font-family: "fablab_300";
+        }
+      }
+    }
+    .marco{
+      box-sizing: border-box;
+      z-index: -1000;
+      position: absolute;
+      top:0px;
+      left:0px;
+      display: block;
+      margin: 0;
+      padding: 0;
+      overflow:hidden;
+      background-position:center center;
+      background-size: cover;
+    }
+  }
+  clear: both;
+}
+
+
+
+// Visibility utilities
+//Phones
+@media (max-width: $screen-xs-max) {
+  body{
+  	min-height: 460px;
+    text-size: 16px;
+  }
+  @include typescale (16px, 22px);
+  h2{
+    line-height: 1em;
+  }
+  form{
+    margin-bottom: 1em;
+  }
+  article.event{
+    height: 27.5em;
+    .description, .title{
+      margin-top: 1.375em;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 1.375em;
+      height: 12.375em;
+    }
+    .image{
+      height: 13.75em;
+    }
+  }
+
+  .research {
+    height: 300px;
+    width: 100% !important;
+    &:first-child{
+      margin-bottom: 2px;
+
+    }
+    .marco{
+      height: 300px;
+      width: 100% !important;
+    }
+  }
+  .event-strip{
+    width: 49% !important;
+  }
+  .section-strip{
+    .row{
+      margin-left: 0px;
+      margin-right:0px;
+      .col-md-3{
+        &:first-child{
+          margin-left: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 1px;
+          margin-bottom: 1px;
+        }
+        &:nth-child(2){
+          margin-left: 1px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 0px;
+          margin-bottom: 1px;
+        }
+        &:nth-child(3){
+          margin-left: 0px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 1px;
+          margin-top: 1px;
+        }
+        &:last-child{
+          margin-left: 1px;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 0px;
+          margin-top: 1px;
+        }
+      }
+    }
+    .event-strip{
+      background-color: black;
+    }
+  }
+}
+//Tables
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  body{
+    text-size: 16px;
+  }
+  @include typescale (16px, 24px);
+  article.event{
+    height: 15em;
+    .description, .title{
+      margin-top: .75em;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: .75em;
+      height: 13.5em;
+    }
+    .image{
+      height: 15em;
+    }
+  }
+  .event-strip{
+    width: 178px !important;
+  }
+  .research {
+    height: 359px;
+    width: 359px !important;
+    .marco{
+      width: 359px;
+      height: 359px;
+    }
+  }
+}
+//Medium
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  @include typescale (18px, 26px);
+  body{
+    text-size: 18px;
+  }
+  article.event{
+    height: 10em;
+    .description, .title{
+      margin-top: .75em;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: .75em;
+      height: 8.5em;
+    }
+    .image{
+      height: 10em;
+    }
+  }
+  .event-strip{
+    width: 233px !important;
+  }
+  .research {
+    height: 312px;
+    width: 312px !important;
+    .marco{
+      width: 312px;
+      height: 312px;
+
+    }
+  }
+}
+//large
+@media (min-width: $screen-lg-min) {
+  body{
+    text-size: 20px;
+  }
+  @include typescale (20px, 30px);
+  article.event{
+    height: 10.5em;
+    .description, .title{
+      margin-top: .75em;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: .75em;
+    }
+    .image{
+      height: 10.5em;
+    }
+  }
+  .event-strip{
+    width: 283px !important;
+  }
+  .research {
+    height: 378px;
+    width: 378px !important;
+    .marco{
+      height: 378px;
+      width: 378px;
+    }
+  }
+}
