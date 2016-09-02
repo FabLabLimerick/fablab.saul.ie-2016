@@ -37,7 +37,7 @@
             <div class="section-title">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                         MONTHLY 101 TUTORIALS
+                         OUR WEEKLY, MONTHLY AND SEASONALY EVENTS
                     </div>
                 </div>
             </div>
@@ -46,13 +46,13 @@
                 <div class="row">
                     {% for event in site.posts reversed %}
                     {% if event.category contains 'recurring' %}
-                    <article class="col-md-3 col-sm-3 col-xs-6 text-center event-strip lasercutting">
+                    <article class="col-md-4 col-sm-4 col-xs-4 text-center event-strip">
                         <a {% if event.active %}href="{{event.permalink}}"{% else %}{% endif %}>
-                        <div class="content" style="background-image: url({% asset_path 'events/{{ event.slug }}-thumb.jpg' %})">
+                        <div class="content" style="background-image: url({% asset_path 'events/{{ event.date | date: "%F" }}-EVENT-RECURRING-{{ event.slug }}.jpg' %})">
                             <div class="title">
                                 <hgroup>
-                                    <h3>{{ event.title }}</h3>
-                                    <h4>{{ event.description }}</h4>
+                                    <h4>{{ event.description-formatted }}</h4>
+                                    <h3>{{ event.title-formatted }}</h3>
                                 </hgroup>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
             <div class="section-title">
                 <div class="row">
                     <div id="nextEvents" class="col-md-12 text-center">
-                        FORTHCOMING EVENTS
+                        OUR ONCE-OFF ACTIVITIES
                     </div>
                 </div>
             </div>

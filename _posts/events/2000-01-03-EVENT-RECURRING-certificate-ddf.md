@@ -1,19 +1,19 @@
 ---
-title: 3D Printing
+title: Certificate in Digital Fabrication
+description: "Each semester"
+description-formatted: "Each<br>semester"
+title-formatted: "Certificate<br>in Digital<br>Fabrication"
+
 layout: single-event
 category: events recurring
 active: true
-permalink: /events/tutorial-3dprinting/
+permalink: /events/certificate-ddf/
 excerpt: "This is an introductory course so no previous experienced is required. The 'ReprapPro Mendel' is an open-source 3D printer with the ability to print 3D objects in variety of plastics."
 hours: "Third Wednesday of each month 19:30-21:30"
-description: "Wed 3rd Week"
 fee: "€8/15 per person"
-slug: tutorial-3dprinting
+slug: certificate-ddf
 past: false
-image:
-  thumbnail: events/tutorial-3dprinting-thumb.jpg
 
-imageurl: /events/tutorial-3dprinting.jpg
 imagedisplay: true
 imagetitle:
 imagecredits: "rasterweb.net CC BY-NC-SA 2.0"

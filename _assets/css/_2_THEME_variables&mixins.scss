@@ -28,8 +28,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	}
 	article.event-strip{
 		h3, h4, p {
-			font-size: 1em;
-			line-height: 1.5em;
+			font-size: 1.5em;
+			line-height: 1.1em;
+			text-transform: uppercase;
+			color: black;
 		}
 	}
 	article.event {

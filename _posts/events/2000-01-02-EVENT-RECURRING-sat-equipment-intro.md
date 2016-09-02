@@ -1,19 +1,19 @@
 ---
-title: Lasercutting
+title: Equipment Tutorials
+description: "First saturday of the month"
+description-formatted: "First<br>saturday<br>of the<br>month"
+title-formatted: "Equipment<br>Tutorials"
+
 layout: single-event
 category: events recurring
 active: true
-permalink: /events/tutorial-lasercutting1/
+permalink: /events/sat-equipment-intro/
 excerpt: "This is an introductory course so no previous experienced is required. Lasercutting is the easiest form of digital fabrication we have to offer so it is a great course to start off with."
 hours: "Second Wednesday of each month 19:30-21:30"
-description: "Wed 2nd Week"
 fee: "€8/15 per person"
-slug: tutorial-lasercutting
+slug: sat-equipment-intro
 past: false
-image:
-  thumbnail: events/tutorial-lasercutting-thumb.jpg
 
-imageurl: /events/tutorial-lasercutting.jpg
 imagedisplay: true
 imagetitle:
 imagecredits: "Lasersaur.com"

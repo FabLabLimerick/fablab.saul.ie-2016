@@ -1,19 +1,19 @@
 ---
-title: CNC Router
+title: Makers Night
+description: "Every Thursday evening"
+description-formatted: "Every<br>Thursday<br>Night"
+title-formatted: "Makers<br>Night"
+
 layout: single-event
 category: events recurring
 active: true
-permalink: /events/tutorial-cnc/
+permalink: /events/thu-makers-night/
 excerpt: "Fab Lab Limerick would like to invite people from all disciplines to a course on how to use our CNC Router. No previous experience is required"
 hours: "First Wednesday of each month 19:30-21:30"
-description: "Wed 1st Week"
-fee: "€8/15 per person"
-slug: tutorial-cnc
+fee: "Free"
+slug: thu-makers-night
 past: false
-image:
-  thumbnail: events/tutorial-cnc-thumb.jpg
 
-imageurl: tutorial-cnc.jpg
 imagedisplay: true
 imagetitle:
 imagecredits: "sindrianarts.com"
