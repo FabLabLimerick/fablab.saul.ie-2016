@@ -41,6 +41,19 @@ timetable:
   long_2: "Late opening evening on Thursdays from 19.30 to 21.30"
   sort: "Open: Monday to Friday, 9:00 to 17:00. Late opening evening on Thursdays 19.30 to 21.30"
 
+collections:
+  events:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: events   # <= here you can specify a collection now!
+    values:
+      layout: single-event
+      permalink: /events/:slug/
+
 # Prose configuration
 prose:
   rooturl: "app/_posts"

@@ -18,8 +18,9 @@
         {% include header.html %}
     </header>
     <section class="header-hero">
-        <div class="header-hero-image" style="background-image: url({{site.url}}/img{{ page.imageurl }})"></div>
-        </div>
+      <section id="headerslideshow">
+          {% include carousel-single.html %}
+      </section>
         <div class="header-hero-title">
             <div class="container">
                 <div class="header-hero-container">
@@ -82,8 +83,7 @@
             <div class="section-list">
                 {% assign counter=0 %}
                 <!-- add 24 hours 59 min to date of post to keep it until celebrated  -->
-                {% for event in site.categories.events reversed %}
-                {% if event.category contains 'events' %}
+                {% for event in site.events %}
                 {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
                 {% capture posttime %}{{ event.date | date: '%s'| plus: 89940 }}{% endcapture %}
                 {% capture eventdate %}{{ event.date | date: '%s'| plus: 1 }}{% endcapture %}
@@ -97,7 +97,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
-                                    <div class="image" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_posts/events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
+                                    <div class="image" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="title" lang="en">
@@ -121,8 +121,7 @@
                             </div>
                         </div>
                     </article>
-                {% assign counter=counter | plus:1 %}
-                {% endif %}
+                    {% assign counter=counter | plus:1 %}
                 {% endif %}
                 {% endfor %}
                 <hr class="event">
@@ -145,7 +144,9 @@
             <!-- EVENTS LIST PAST -->
             <div class="section-list">
                 {% assign counter=0 %}
-                {% for event in site.categories.events %}
+                {% for event in site.events %}
+                {% if event.category contains 'recurring' %}
+                {% else %}
                 {% capture nowunix %}{{ site.time | date: '%s'}}{% endcapture %}
                 {% capture posttime %}{{ event.date | date: '%s' | plus: 89940}}{% endcapture %}
                 <!-- add 24 hours 59 min to date of post to keep it until celebrated  -->
@@ -184,6 +185,7 @@
                         </div>
                     </article>
                 {% assign counter=counter | plus:1 %}
+                {% endif %}
                 {% endif %}
                 {% endfor %}
             </div>

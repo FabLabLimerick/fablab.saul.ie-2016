@@ -1,10 +1,10 @@
 <div class="section-strip">
     <div class="row">
-        {% for event in site.posts reversed %}
+        {% for event in site.events %}
         {% if event.category contains 'recurring' %}
         <article class="col-md-4 col-sm-4 col-xs-4 text-center event-strip">
-            <a {% if event.active %}href="{{event.permalink}}"{% else %}{% endif %}>
-            <div class="content" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_posts/events/" | remove: ".md" | append: ".jpg" }}' %})">
+            <a {% if event.active %}href="{{ event.url }}"{% else %}{% endif %}>
+            <div class="content" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_events/" | remove: ".md" | append: ".jpg" }}' %})">
                 <div class="title">
                     <hgroup>
                         <h4>{{ event.description-formatted }}</h4>

@@ -7,16 +7,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include socialmeta-page.html %}
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-    <!-- build:css({app,.tmp}) /css/main.css -->
-    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/css/fablabtheme.css">
-    <!-- endbuild -->
-
-    <!-- build:js(app) /js/head-scripts.js -->
-    <!-- Replace with a custom modernizer build for production -->
-    <script src="/_bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
+    {% stylesheet normalize-css %}
+    {% stylesheet fablabtheme %}
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -65,7 +57,7 @@
                     <h2 class="body-single-excerpt text-center">{{ page.excerpt }}</h2>
                     <div class="body-single-info">
                         <hr class="top">
-                        <h5 class="text-center">{{ page.fee }}  ·  <div class="share-button"></div></h5>
+                        <h5 class="text-center">{{ page.fee }}</h5>
                         <hr class="bottom">
                     </div>
                     <div class="body-single-content" lang="en">
@@ -90,30 +82,6 @@
         {% include footer.html %}
     </section>
     {% include scripts-home.html %}
-    <script>
-        new Share('.share-button', {
-            url: 'http://fablab.saul.ie{{ page.url}}',
-            image: 'http://fablab.saul.ie/img{{ page.imageurl }}',
-            title: '{{ page.title }}',
-            text: '{{ page.description }}',
-            ui: {
-                button_icon: 'false',
-                button_text: 'Share it',
-                button_font: 'false',
-                button_background: 'none',
-                button_color: '#4A4A4A'
-            },
-            networks: {
-                facebook: {
-                    enabled: true,
-                    load_sdk: false
-                },
-                twitter: {
-                    enabled: true
-                }
-            }
-        });
-    </script>
     {% include googleanalytics.html %}
   </body>
 </html>

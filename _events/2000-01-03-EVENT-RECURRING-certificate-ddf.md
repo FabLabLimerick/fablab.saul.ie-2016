@@ -4,10 +4,8 @@ description: "Each semester"
 description-formatted: "Each<br>semester"
 title-formatted: "Certificate<br>in Digital<br>Fabrication"
 
-layout: single-event
-category: events recurring
+category: recurring
 active: true
-permalink: /events/certificate-ddf/
 excerpt: "This is an introductory course so no previous experienced is required. The 'ReprapPro Mendel' is an open-source 3D printer with the ability to print 3D objects in variety of plastics."
 hours: "Third Wednesday of each month 19:30-21:30"
 fee: "€8/15 per person"

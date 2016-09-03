@@ -1,10 +1,7 @@
 ---
 title: "SPRINGBOARD CERTIFICATE IN DIGITAL FABRICATION"
 slug: springboard2016
-layout: single-event
-category: events
 published: true
-permalink: /events/springboard2016/
 excerpt: "SPRINGBOARD CERTIFICATE IN DIGITAL FABRICATION
 Design and Manufacture, Level 7 (Ordinary Bachelors Degree-Level Certificate)"
 hours: "Part time course, 12 weeks"
