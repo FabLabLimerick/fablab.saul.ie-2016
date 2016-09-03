@@ -56,31 +56,12 @@
                     <div class="col-md-12">
                         <hgroup class="text-center">
                             <h1></h1>
-                            <h2 class="subheader">MONTHLY 101 TUTORIALS</h2>
+                            <h2 class="subheader">EVERY WEEK, MONTH AND SEMESTER</h2>
                         </hgroup>
                     </div>
                 </div>
             </div>
-            <div class="section-strip">
-                <div class="row">
-                    {% for event in site.posts reversed %}
-                    {% if event.category contains 'recurring' %}
-                    <article class="col-md-3 col-sm-3 col-xs-6 text-center event-strip lasercutting">
-                        <a href="{{event.permalink}}">
-                        <div class="content" style="background-image: url(../img{{event.image.thumbnail}})">
-                            <div class="title">
-                                <hgroup>
-                                    <h3>{{ event.title }}</h3>
-                                    <h4>{{ event.description }}</h4>
-                                </hgroup>
-                            </div>
-                        </div>
-                        </a>
-                    </article>
-                    {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
+            {% include _section-strip.html %}
         </div>
         <!-- EVENTS STRIP -->
     </section>
@@ -92,7 +73,7 @@
                     <div class="col-md-12">
                         <hgroup class="text-center">
                             <h1></h1>
-                            <h2 class="subheader">Next Events</h2>
+                            <h2 class="subheader">OUR ONCE-OFF ACTIVITIES</h2>
                         </hgroup>
                     </div>
                 </div>
@@ -116,7 +97,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
-                                    <div class="image" style="background-image: url(../img{{event.imageurl}})"></div>
+                                    <div class="image" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_posts/events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="title" lang="en">

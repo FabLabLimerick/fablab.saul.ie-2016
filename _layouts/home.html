@@ -41,27 +41,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="section-strip">
-                <div class="row">
-                    {% for event in site.posts reversed %}
-                    {% if event.category contains 'recurring' %}
-                    <article class="col-md-4 col-sm-4 col-xs-4 text-center event-strip">
-                        <a {% if event.active %}href="{{event.permalink}}"{% else %}{% endif %}>
-                        <div class="content" style="background-image: url({% asset_path 'events/{{ event.date | date: "%F" }}-EVENT-RECURRING-{{ event.slug }}.jpg' %})">
-                            <div class="title">
-                                <hgroup>
-                                    <h4>{{ event.description-formatted }}</h4>
-                                    <h3>{{ event.title-formatted }}</h3>
-                                </hgroup>
-                            </div>
-                        </div>
-                        </a>
-                    </article>
-                    {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
+            {% include _section-strip.html %}
             <!-- EVENTS STRIP -->
             <!-- EVENTS TITLE -->
             <div class="section-title">
@@ -93,7 +73,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
-                                    <div class="image" style="background-image: url({% asset_path 'events/{{ event.slug }}.jpg' %})"></div>
+                                    <div class="image" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_posts/events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="title" lang="en">

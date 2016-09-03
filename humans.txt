@@ -1,9 +1,9 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
+# The humans responsible & technology
 
 # TEAM
 
-    Colaborativa -- design and development -- @colaborativaeu
+    Colaborativa.eu -- graphic identity, web design and development -- @colaborativaeu
 
 # THANKS
 
