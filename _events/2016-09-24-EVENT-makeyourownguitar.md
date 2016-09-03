@@ -2,12 +2,11 @@
 title: "Customise, Modify and Build an Electric Guitar"
 slug: makeyourownguitar
 published: true
-excerpt: "Create your own personalised Electric Guitar - with unique CNC cut designs and all electronic components included"
-hours: "4 sessions, beginning Sept. 24th"
-description: "Create your own personalised Electric Guitar - with unique CNC cut designs and all electronic components included"
-fee: "€300, book before Aug. 12th"
 soon: false
 past: false
+excerpt: "Create your own personalised Electric Guitar - with unique CNC cut designs and all electronic components included"
+hours: "4 sessions, beginning Sept. 24th"
+fee: "€300, book before Aug. 12th"
 
 imagedisplay: false
 imagetitle: ""
