@@ -23,7 +23,7 @@
                 {% include carousel-single.html %}
             </section>
         {% else %}
-            <div class="header-single-image" style="background-image: url(/img{{ page.imageurl }})"></div>
+            <div class="header-single-image" style="background-image: url({% asset_path 'events/{{ page.path | remove: "_events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
         {% endif %}
          <div class="header-single-title">
             <div class="container">
@@ -63,17 +63,6 @@
                     <div class="body-single-content" lang="en">
                         {{ content }}
                     </div>
-                    <!--
-                    <div class="body-single-next">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <hr class="top">
-                                {% include _next-research.html %}
-                            </div>
-                        </div>
-                        <hr class="none">
-                    </div>
-                    -->
                 </div>
             </div>
         </div>

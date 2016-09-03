@@ -160,7 +160,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
-                                    <div class="image" style="background-image: url(../img{{event.imageurl}})"></div>
+                                    <div class="image" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="title" lang="en">
