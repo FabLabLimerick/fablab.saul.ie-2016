@@ -153,19 +153,19 @@
             </div>
             <div class="section-list">
                 <div class="row">
-                    {% for research in site.categories.research limit:3 %}
+                    {% for made in site.made limit:3 %}
                     {% if forloop.last %}
                     {% assign hiddensmall = "hidden-sm hidden-xs" %}
                     {% endif %}
                     <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}">
-                        <a href="{{research.permalink}}">
+                        <a href="{{ made.url }}">
                             <div class="gradient">
                                 <div class="caption">
-                                    <h3>{{research.title}}</h3>
-                                    <h4>{{research.description}}</h4>
+                                    <h3>{{made.title}}</h3>
+                                    <h4>{{made.description}}</h4>
                                 </div>
                             </div>
-                            <div class="marco" style="background-image: url({% asset_path 'research/{{ research.slug }}.jpg' %})" >
+                            <div class="marco" style="background-image: url({% asset_path 'made/{{ made.path | remove: "_made/" | remove: ".md" | append: ".jpg" }}' %})" >
                             </div>
                         </a>
                     </article>
@@ -191,6 +191,8 @@
         {% include footer.html %}
     </section>
     {% include scripts-home.html %}
+    {% if jekyll.environment == "production" %}
     {% include googleanalytics.html %}
+    {% endif %}
   </body>
 </html>

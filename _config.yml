@@ -9,7 +9,16 @@ author:
   name: Colaborativa.eu
   email: info@colaborativa.eu
 
+url: http://fablab.saul.ie
+
 include: ['.htaccess']
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - README.md
+  - bower.json
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
@@ -17,6 +26,7 @@ show_drafts: true
 
 gems:
   - jekyll-assets
+  - jekyll-redirect-from
 
 # Markdown library
 markdown: kramdown
@@ -44,6 +54,8 @@ timetable:
 collections:
   events:
     output: true
+  made:
+    output: true
 
 defaults:
   -
@@ -53,6 +65,13 @@ defaults:
     values:
       layout: single-event
       permalink: /events/:slug/
+  -
+    scope:
+      path: ""
+      type: made   # <= here you can specify a collection now!
+    values:
+      layout: single-made
+      permalink: /made/:slug/
 
 # Prose configuration
 prose:

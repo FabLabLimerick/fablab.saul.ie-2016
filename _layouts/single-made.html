@@ -7,16 +7,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include socialmeta-page.html %}
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-    <!-- build:css({app,.tmp}) /css/main.css -->
-    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/css/fablabtheme.css">
-    <!-- endbuild -->
-
-    <!-- build:js(app) /js/head-scripts.js -->
-    <!-- Replace with a custom modernizer build for production -->
-    <script src="/_bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
+    {% stylesheet normalize-css %}
+    {% stylesheet fablabtheme %}
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -26,13 +18,7 @@
         {% include header.html %}
     </header>
     <section class="header-single">
-        {% if page.slideshow %}
-            <section id="headerslideshow">
-                {% include carousel-single.html %}
-            </section>
-        {% else %}
-            <div class="header-single-image" style="background-image: url(/img{{ page.imageurl }})"></div>
-        {% endif %}
+        <div class="header-single-image" style="background-image: url({% asset_path 'made/{{ page.path | remove: "_made/" | remove: ".md" | append: ".jpg" }}' %})"></div>
         <div class="header-single-title">
             <div class="container">
                 <div class="header-single-container col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
@@ -46,7 +32,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-                            <p class="text-center imagecredits">                                
+                            <p class="text-center imagecredits">
                                 {% if page.imagedisplay != false %}
                                 <span>Image by {{ page.imagecredits }}</span>
                                 {% else %}
@@ -64,11 +50,16 @@
                     <h2 class="body-single-excerpt text-center">{{ page.excerpt }}</h2>
                     <div class="body-single-info">
                         <hr class="top">
-                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}  ·  <div class="share-button"></div></h5>
+                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}</h5>
                         <hr class="bottom">
                     </div>
                     <div class="body-single-content" lang="en">
                         {{ content }}
+                        {% if page.vimeo %}
+                        <div class="video">
+                        	<iframe src="//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;portrait=0"> </iframe>
+                        </div>
+                        {% endif %}
                     </div>
                     <div class="body-single-next">
                         <div class="row">
@@ -87,30 +78,6 @@
         {% include footer.html %}
     </section>
     {% include scripts-home.html %}
-    <script>
-        new Share('.share-button', {
-            url: 'http://fablab.saul.ie{{ page.url}}',
-            image: 'http://fablab.saul.ie/img{{ page.imageurl }}',
-            title: '{{ page.title }}',
-            text: '{{ page.description }}',
-            ui: {
-                button_icon: 'false',
-                button_text: 'Share it',
-                button_font: 'false',
-                button_background: 'none',
-                button_color: '#4A4A4A'
-            },
-            networks: {
-                facebook: {
-                    enabled: true,
-                    load_sdk: false
-                },
-                twitter: {
-                    enabled: true
-                }
-            }
-        });
-    </script>
     {% include googleanalytics.html %}
   </body>
 </html>
