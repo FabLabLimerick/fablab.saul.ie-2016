@@ -12,6 +12,7 @@
           {% assign post-id = post.path | remove: "_collection_made/" | remove: ".md" %}
           {% if image-id == post-id %}
             {% assign image-post-url = post.url %}
+            {% assign image-post-title = post.title %}
           {% else %}
           {% endif %}
         {% endfor %}
@@ -22,13 +23,14 @@
           {% assign post-id = post.path | remove: "_collection_events/" | remove: ".md" %}
           {% if image-id == post-id %}
             {% assign image-post-url = post.url %}
+            {% assign image-post-title = post.title %}
           {% else %}
           {% endif %}
         {% endfor %}
       {% endif %}
 
       <div class="item {% if forloop.first %}active{% endif %}">
-        <a href="{{ image-post-url }}">
+        <a href="{{ image-post-url }}" title="{{ image-post-title }}">
         <div class="image image{{ forloop.index }}">
         </div>
         <style>

@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="row list-body">
-                    {% for member in site.categories.team reversed %}
+                    {% for member in site.collection_team %}
                     {% if member.current %}
                     <div class="col-md-2 col-sm-3 col-xs-6 list-member">
                         <div class="imagenmarco">
@@ -100,7 +100,7 @@
                   <div class="col-md-12">
                   <p><strong>Former Fab Lab Limerick collaborators:</strong>
                     {% assign members = '' %}
-                    {% for member in site.categories.team reversed %}
+                    {% for member in site.collection_team %}
                       {% if member.current != true %}
                       {% assign members = members | append: member.title | append: ', ' %}
                       {% endif %}
@@ -177,7 +177,7 @@
                                 </div>
                             </div>
                             <div class="list-body">
-                            {% for machine in site.categories.equipment %}
+                            {% for machine in site.collection_equipment %}
                                 {% capture currenttype %}{{ machine.type }}{% endcapture %}
                                 {% if currenttype != thetype %}
                                 {% if forloop.first %}

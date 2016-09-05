@@ -56,6 +56,10 @@ collections:
     output: true
   collection_made:
     output: true
+  collection_team:
+    output: false
+  collection_equipment:
+    output: true
 
 defaults:
   -
