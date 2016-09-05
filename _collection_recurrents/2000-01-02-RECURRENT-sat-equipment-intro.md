@@ -4,7 +4,6 @@ description: "First saturday of the month"
 description-formatted: "First<br>saturday<br>of the<br>month"
 title-formatted: "Equipment<br>Tutorials"
 
-category: recurring
 active: true
 excerpt: "This is an introductory course so no previous experienced is required. Lasercutting is the easiest form of digital fabrication we have to offer so it is a great course to start off with."
 hours: "Second Wednesday of each month 19:30-21:30"

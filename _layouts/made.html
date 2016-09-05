@@ -7,16 +7,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include socialmeta-page.html %}
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-    <!-- build:css({app,.tmp}) /css/main.css -->
-    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/css/fablabtheme.css">
-    <!-- endbuild -->
-
-    <!-- build:js(app) /js/head-scripts.js -->
-    <!-- Replace with a custom modernizer build for production -->
-    <script src="/_bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
+    {% stylesheet normalize-css %}
+    {% stylesheet fablabtheme %}
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -26,8 +18,9 @@
         {% include header.html %}
     </header>
     <section class="header-hero">
-        <div class="header-hero-image" style="background-image: url({{site.url}}/img{{ page.imageurl }})"></div>
-        </div>
+      <section id="headerslideshow">
+          {% include carousel.html %}
+      </section>
         <div class="header-hero-title">
             <div class="container">
                 <div class="header-hero-container">
@@ -88,30 +81,6 @@
         {% include footer.html %}
     </section>
     {% include scripts-home.html %}
-    <script>
-        new Share('.share-button', {
-            url: 'http://fablab.saul.ie{',
-            image: 'http://fablab.saul.ie/thumbnail.jpg',
-            title: 'Fab Lab Limerick',
-            text: 'A space for makers in Limerick city',
-            ui: {
-                button_icon: 'false',
-                button_text: 'Share it',
-                button_font: 'false',
-                button_background: 'none',
-                button_color: '#4A4A4A'
-            },
-            networks: {
-                facebook: {
-                    enabled: true,
-                    load_sdk: false
-                },
-                twitter: {
-                    enabled: true
-                }
-            }
-        });
-    </script>
     {% include googleanalytics.html %}
   </body>
 </html>

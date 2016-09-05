@@ -4,7 +4,6 @@ description: "Each semester"
 description-formatted: "Each<br>semester"
 title-formatted: "Certificate<br>in Digital<br>Fabrication"
 
-category: recurring
 active: true
 excerpt: "This is an introductory course so no previous experienced is required. The 'ReprapPro Mendel' is an open-source 3D printer with the ability to print 3D objects in variety of plastics."
 hours: "Third Wednesday of each month 19:30-21:30"

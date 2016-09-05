@@ -23,7 +23,7 @@
                 {% include carousel-single.html %}
             </section>
         {% else %}
-            <div class="header-single-image" style="background-image: url({% asset_path 'events/{{ page.path | remove: "_events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
+            <div class="header-single-image" style="background-image: url({% asset_path 'events/{{ page.path | remove: "_collection_events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
         {% endif %}
          <div class="header-single-title">
             <div class="container">

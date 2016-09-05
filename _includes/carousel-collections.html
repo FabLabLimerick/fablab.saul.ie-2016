@@ -1,0 +1,25 @@
+<div id="myslideshow" class="carousel slide" data-interval="5000" data-ride="carousel">
+  <ol class="carousel-indicators">
+  </ol>
+  <div class="carousel-inner">
+    {% assign images = site.static_files | where_exp:"item", "item.path contains 'banners/events'" %}
+    {% for image in images %}
+    <div class="item {% if forloop.first %}active{% endif %}">
+      <div class="image image{{ forloop.index }}">
+      </div>
+      <style>
+          .image{{ forloop.index }}{
+            background: url({{ image.path }}) top center no-repeat;
+          }
+      </style>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myslideshow" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myslideshow" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>

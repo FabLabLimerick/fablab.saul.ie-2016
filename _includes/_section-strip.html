@@ -1,10 +1,9 @@
 <div class="section-strip">
     <div class="row">
-        {% for event in site.events %}
-        {% if event.category contains 'recurring' %}
+        {% for event in site.collection_recurrents %}
         <article class="col-md-4 col-sm-4 col-xs-4 text-center event-strip">
             <a {% if event.active %}href="{{ event.url }}"{% else %}{% endif %}>
-            <div class="content" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_events/" | remove: ".md" | append: ".jpg" }}' %})">
+            <div class="content" style="background-image: url({% asset_path 'recurrents/{{ event.path | remove: "_collection_recurrents/" | remove: ".md" | append: ".jpg" }}' %})">
                 <div class="title">
                     <hgroup>
                         <h4>{{ event.description-formatted }}</h4>
@@ -14,7 +13,6 @@
             </div>
             </a>
         </article>
-        {% endif %}
         {% endfor %}
     </div>
 </div>

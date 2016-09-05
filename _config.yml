@@ -9,8 +9,6 @@ author:
   name: Colaborativa.eu
   email: info@colaborativa.eu
 
-url: http://fablab.saul.ie
-
 include: ['.htaccess']
 
 exclude:
@@ -52,26 +50,35 @@ timetable:
   sort: "Open: Monday to Friday, 9:00 to 17:00. Late opening evening on Thursdays 19.30 to 21.30"
 
 collections:
-  events:
+  collection_events:
     output: true
-  made:
+  collection_recurrents:
+    output: true
+  collection_made:
     output: true
 
 defaults:
   -
     scope:
       path: ""
-      type: events   # <= here you can specify a collection now!
+      type: collection_events   # <= here you can specify a collection now!
     values:
       layout: single-event
       permalink: /events/:slug/
   -
     scope:
       path: ""
-      type: made   # <= here you can specify a collection now!
+      type: collection_made   # <= here you can specify a collection now!
     values:
       layout: single-made
       permalink: /made/:slug/
+  -
+    scope:
+      path: ""
+      type: collection_recurrents   # <= here you can specify a collection now!
+    values:
+      layout: single-recurrent
+      permalink: /recurrents/:slug/
 
 # Prose configuration
 prose:

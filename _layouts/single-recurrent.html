@@ -18,25 +18,32 @@
         {% include header.html %}
     </header>
     <section class="header-single">
-        <div class="header-single-image" style="background-image: url({% asset_path 'made/{{ page.path | remove: "_collection_made/" | remove: ".md" | append: ".jpg" }}' %})"></div>
-        <div class="header-single-title">
+        {% if page.slideshow %}
+            <section id="headerslideshow">
+                {% include carousel-single.html %}
+            </section>
+        {% else %}
+            <div class="header-single-image" style="background-image: url({% asset_path 'recurrents/{{ page.path | remove: "_collection_recurrents/" | remove: ".md" | append: ".jpg" }}' %})"></div>
+        {% endif %}
+         <div class="header-single-title">
             <div class="container">
                 <div class="header-single-container col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                             <hgroup class="text-center">
                                 <h1>{{page.title}}</h1>
-                                <h2 class="subheader">{{page.author}}</span></h2>
+                                <h2 class="subheader">{{page.hours}}</span></h2>
                             </hgroup>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
-                            <p class="text-center imagecredits">
+                            <p class="text-center imagecredits clearfix">
                                 {% if page.imagedisplay != false %}
                                 <span>Image by {{ page.imagecredits }}</span>
                                 {% else %}
                                 {% endif %}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -50,25 +57,11 @@
                     <h2 class="body-single-excerpt text-center">{{ page.excerpt }}</h2>
                     <div class="body-single-info">
                         <hr class="top">
-                        <h5 class="text-center">{{ page.date | date: "%-d %B %Y"}}</h5>
+                        <h5 class="text-center">{{ page.fee }}</h5>
                         <hr class="bottom">
                     </div>
                     <div class="body-single-content" lang="en">
                         {{ content }}
-                        {% if page.vimeo %}
-                        <div class="video">
-                        	<iframe src="//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;portrait=0"> </iframe>
-                        </div>
-                        {% endif %}
-                    </div>
-                    <div class="body-single-next">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <hr class="top">
-                                {% include _next-research.html %}
-                            </div>
-                        </div>
-                        <hr class="none">
                     </div>
                 </div>
             </div>

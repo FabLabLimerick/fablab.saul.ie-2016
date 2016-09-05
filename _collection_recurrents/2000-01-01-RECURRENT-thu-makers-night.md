@@ -4,7 +4,6 @@ description: "Every Thursday evening"
 description-formatted: "Every<br>Thursday<br>Night"
 title-formatted: "Makers<br>Night"
 
-category: recurring
 active: true
 excerpt: "Fab Lab Limerick would like to invite people from all disciplines to a course on how to use our CNC Router. No previous experience is required"
 hours: "First Wednesday of each month 19:30-21:30"
