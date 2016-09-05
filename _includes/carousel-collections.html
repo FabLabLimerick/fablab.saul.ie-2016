@@ -2,7 +2,8 @@
   <ol class="carousel-indicators">
   </ol>
   <div class="carousel-inner">
-    {% assign images = site.static_files | where_exp:"item", "item.path contains 'banners/events'" %}
+    {% assign image-filter = 'banners/' | append: page.layout %}
+    {% assign images = site.static_files | where_exp:"item", "item.path contains image-filter" %}
     {% for image in images %}
     <div class="item {% if forloop.first %}active{% endif %}">
       <div class="image image{{ forloop.index }}">
