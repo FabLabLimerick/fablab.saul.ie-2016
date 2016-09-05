@@ -1,7 +1,7 @@
 ---
 title: Digital fabrication & self-build
 redirect_from: /research/self-build/
-category: research
+
 slug: self-build
 published: true
 description: "An analysis of experimental construction self-build methods based on digital fabrication"

@@ -1,7 +1,7 @@
 ---
 title: Limerick City Model
 redirect_from: /research/limerick-city-model/
-category: research
+
 slug: limerick-city-model
 description: "A tool for design and development of Limerick city, surveyed and fabricated in Fab Lab Limerick"
 excerpt: "The idea of Limerick City Model was conceived in late 2013 when three graduates of The School of Architecture, University Of Limerick (SA UL), applied for funding from Limerick City Of Culture. Those graduates were Michael Mc Laughlin, Ger Walsh and Sean Collins."

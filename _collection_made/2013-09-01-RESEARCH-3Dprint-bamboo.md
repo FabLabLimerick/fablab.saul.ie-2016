@@ -1,7 +1,7 @@
 ---
 title: Bamboo and Digital Fabrication
 redirect_from: /research/3Dprint-bamboo/
-category: research
+
 slug: 3Dprint-bamboo
 description: "A two-week research on low-cost & temporary structures"
 excerpt: "In two weeks a group of five students explored the design and fabrication of low-cost, resistant and made-to-size structures that could be embedded within the actual Georgian Limerick urban fabric to allow temporary uses and prevent further deterioration of abandoned buildings"

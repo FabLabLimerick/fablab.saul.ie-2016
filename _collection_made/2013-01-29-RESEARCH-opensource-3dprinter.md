@@ -1,7 +1,7 @@
 ---
 title: Open Source 3D Printer
 redirect_from: /research/opensource-3dprinter/
-category: research
+
 slug: opensource-3dprinter
 description: "Second self-build project: RepRapPro 3D Printer"
 excerpt: "As a warm-up project before attempting the much more complex laser cutter machine, we decided to build a  RepRap 3d printer during the first week of SAUL spring 2013 elective programme."

@@ -1,7 +1,7 @@
 ---
 title: Geodesic dome at 2014 Electric Picnic
 redirect_from: /research/geodesicpicnic/
-category: research
+
 slug: geodesicpicnic
 description: "Low cost geodesic dome using cardboard tubes and plywood"
 excerpt: "Low cost, digitally fabricated geodesic dome using cardboard tubes and CNC cut plywood connectors. This research is a collaboration project between Fab Lab Limerick and Colaborativa.eu"
