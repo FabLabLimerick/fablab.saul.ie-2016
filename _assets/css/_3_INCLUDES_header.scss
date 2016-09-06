@@ -70,7 +70,6 @@
     height: $navbar-height;
     width: 50%;
     left: 50%;
-    margin-left: ($navbar-logowidth /2) + $navbar-height * 3 + 4px;
     position: absolute;
   }
   .barranavegacion{
@@ -78,7 +77,6 @@
     z-index: 4000;
     left:50%;
     margin-left: - $navbar-logowidth/2;
-    width: $navbar-logowidth + $navbar-height * 3 + 3px;
     height: $navbar-height;
     a:link, a:visited, a:active{
       border-bottom: none;
@@ -124,13 +122,10 @@
         margin:0px;
         background-color: none;
         li{
-          line-height: $navbar-height;
           list-style-type: none;
           text-align: center;
           background-color: rgba(0,0,0,0.8);
           font-size: $navbar-fontsize;
-          height: $navbar-height;
-          width: $navbar-height;
           float:left;
           margin-left: 1px;
           text-transform: uppercase;
@@ -149,6 +144,9 @@
     }
   }
 }
+
+
+//phones
 @media (max-width: $screen-xs-max) {
   .botones-phone{
     visibility: visible;
@@ -176,12 +174,52 @@
             width:70px;
             a:link{
               display: block;
-              line-height: $navbar-height;
-              height: $navbar-height;
-              width: $navbar-height;
+              line-height: 70px;
+              height: 70px;
+              width: 70px;
             }
           }
         }
+      }
+    }
+  }
+}
+//tablets
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .filling-right{
+    margin-left: 240px/2 + 65px * 4 + 5px;
+  }
+  .barranavegacion{
+    width: 240px + 65px * 4 + 4px;
+    a:link, a:visited, a:active{
+    }
+  }
+  .botones{
+    ul{
+      li{
+        line-height: 80px;
+        height: 80px;
+        width: 65px;
+      }
+    }
+  }
+}
+//Medium
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .filling-right{
+    margin-left: 240px/2 + 80px * 4 + 5px;
+  }
+  .barranavegacion{
+    width: 240px + 80px * 4 + 4px;
+    a:link, a:visited, a:active{
+    }
+  }
+  .botones{
+    ul{
+      li{
+        line-height: 80px;
+        height: 80px;
+        width: 80px;
       }
     }
   }
@@ -201,11 +239,11 @@
     }
     .filling-right{
       height: $navbar-height;
-      margin-left: ($navbar-logowidth /2) + $navbar-height * 3 + 4px;
+      margin-left: ($navbar-logowidth /2) + $navbar-height * 4 + 5px;
     }
     .barranavegacion{
       margin-left: - $navbar-logowidth/2;
-      width: $navbar-logowidth + $navbar-height * 3 + 3px;
+      width: $navbar-logowidth + $navbar-height * 4 + 4px;
       height: $navbar-height;
       #logo, #logo a, #logo a:link{
         width: $navbar-logowidth;
