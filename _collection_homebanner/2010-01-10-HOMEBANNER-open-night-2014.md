@@ -1,9 +1,9 @@
 ---
 published: true
 title: Open Night
-category: banner-homepage
 slug: opennight
 link: /events/opennight/
+
 caption:
   display: true
   description: Event, Autumn 2014

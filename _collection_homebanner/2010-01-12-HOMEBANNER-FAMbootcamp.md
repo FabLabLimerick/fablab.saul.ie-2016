@@ -1,9 +1,9 @@
 ---
 published: true
 title: OPEN CALL Future Artist Makers - Summer Bootcamp
-category: banner-homepage
 slug: FAMbootcamp
 link: /events/FAMbootcamp/
+
 caption:
   display: true
   description: DEADLINE 30th MAY 2016
