@@ -60,6 +60,8 @@ collections:
     output: false
   collection_equipment:
     output: true
+  collection_homebanner:
+    output: false
 
 defaults:
   -

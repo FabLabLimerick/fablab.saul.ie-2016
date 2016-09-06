@@ -2,10 +2,11 @@
   <ol class="carousel-indicators">
   </ol>
   <div class="carousel-inner">
-    {% assign image-filter = 'banners/' | append: page.layout %}
+    {% assign image-filter = 'collection_banners/' | append: page.layout %}
     {% assign images = site.static_files | where_exp:"item", "item.path contains image-filter" %}
     {% for image in images %}
-      {% assign image-id = image.path | remove: "/banners/" | remove: page.layout | remove: "/BANNER-" | remove: ".jpg" %}
+
+      {% assign image-id = image.path | remove: "/collection_banners/" | remove: page.layout | remove: "/BANNER-" | remove: ".jpg" %}
 
       {% if page.layout == "made" %}
         {% for post in site.collection_made %}

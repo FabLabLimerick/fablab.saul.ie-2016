@@ -1,7 +1,7 @@
 <div id="myslideshow" class="carousel slide" data-interval="12000" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    {% for banner in site.categories.banner-homepage %}
+    {% for banner in site.collection_homebanner reversed %}
       {% if forloop.length == 1 %}
       {% else %}
       <li data-target="#myslideshow" data-slide-to="0" class="{% if forloop.first %}active{% endif %}"></li>
@@ -10,7 +10,7 @@
   </ol>
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    {% for banner in site.categories.banner-homepage %}
+    {% for banner in site.collection_homebanner reversed %}
     <div class="item {% if forloop.first %}active{% endif %}">
       {% if banner.motto.display !=  false %}
       <div id="brand-motto">
@@ -34,25 +34,26 @@
       {% endif %}
       <div class="image {{ banner.slug }}"></div>
       <style>
+      {% assign banner-id = banner.path | remove: "_collection_homebanner/" | remove: page.layout | remove: ".md" %}
         {% if banner.responsive %}
           @media (max-width: 767px) {
             .image.{{ banner.slug }}{
-              background: url({% asset_path 'banner/{{ banner.slug }}-phone.jpg' %}) top center no-repeat;
+              background: url(/collection_homebanner/{{ banner-id }}-phone.jpg) top center no-repeat;
             }
           }
           @media (min-width: 768px) and (max-width: 1199px) {
             .image.{{ banner.slug }}{
-              background: url({% asset_path 'banner/{{ banner.slug }}-medium.jpg' %}) top center no-repeat;
+              background: url(/collection_homebanner/{{ banner-id }}-medium.jpg) top center no-repeat;
             }
           }
           @media (min-width: 1200px) {
             .image.{{ banner.slug }}{
-              background: url({% asset_path 'banner/{{ banner.slug }}-big.jpg' %}) top center no-repeat;
+              background: url(/collection_homebanner/{{ banner-id }}-big.jpg) top center no-repeat;
             }
           }
         {% else %}
           .image.{{ banner.slug }}{
-            background: url({% asset_path 'banner/{{ banner.slug }}.jpg' %}) top center no-repeat;
+            background: url(/collection_homebanner/{{ banner-id }}.jpg) top center no-repeat;
           }
         {% endif %}
       </style>

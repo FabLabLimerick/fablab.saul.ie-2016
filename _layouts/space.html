@@ -20,7 +20,6 @@
     </header>
     <section class="header-hero">
       <section id="headerslideshow">
-          {% include carousel.html %}
       </section>
         <div class="header-hero-title">
             <div class="container">
@@ -85,7 +84,7 @@
                     {% if member.current %}
                     <div class="col-md-2 col-sm-3 col-xs-6 list-member">
                         <div class="imagenmarco">
-                            <div class="imagen" style="background-image: url({{site.url}}/img/team/{{member.image}}); background-color: #d7d7d7"></div>
+                            <div class="imagen" style="background-image: url(/collection_team/{{ member.path | remove: "_collection_team/" | remove: ".md" | append: ".jpg" }}); background-color: #d7d7d7"></div>
                         </div>
                         <hgroup class="text-center membertext">
                             <h4>{{ member.title }}</h4>
