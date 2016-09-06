@@ -40,19 +40,19 @@
         <div class="container">
             <div class="section-list">
                 <div class="row">
-                    {% for research in site.collection_made limit:20 %}
+                    {% for made in site.collection_made limit:20 %}
                     {% if forloop.last %}
                     {% assign hiddensmall = "hidden-sm hidden-xs" %}
                     {% endif %}
                     <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}">
-                        <a href="{{ research.url }}">
+                        <a href="{{ made.url }}">
                             <div class="gradient">
                                 <div class="caption">
-                                    <h3>{{research.title}}</h3>
-                                    <h4>{{research.description}}</h4>
+                                    <h3>{{made.title}}</h3>
+                                    <h4>{{made.description}}</h4>
                                 </div>
                             </div>
-                            <div class="marco" style="background-image: url({% asset_path 'made/{{ research.path | remove: "_collection_made/" | remove: ".md" | append: ".jpg" }}' %})" >
+                            <div class="marco" style="background-image: url(/collection_made/{{ made.path | remove: "_collection_made/" | remove: ".md" | append: ".jpg" }})" >
                             </div>
                         </a>
                     </article>

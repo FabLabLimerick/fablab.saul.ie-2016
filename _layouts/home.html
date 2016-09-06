@@ -56,11 +56,10 @@
                 {% assign counter=0 %}
                 <!-- add 24 hours 59 min to date of post to keep it until celebrated  -->
                 {% for event in site.collection_events %}
-                {% else %}
-                    {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
-                    {% capture posttime %}{{ event.date | date: '%s'| plus: 89940 }}{% endcapture %}
-                    {% capture eventdate %}{{ event.date | date: '%s'| plus: 1 }}{% endcapture %}
-                {% if posttime >= nowunix %}
+                  {% capture nowunix %}{{ site.time | date: '%s' }}{% endcapture %}
+                  {% capture posttime %}{{ event.date | date: '%s'| plus: 89940 }}{% endcapture %}
+                  {% capture eventdate %}{{ event.date | date: '%s'| plus: 1 }}{% endcapture %}
+                  {% if posttime >= nowunix %}
                     {% if counter == 0 %}
                     <hr class="event">
                     {% else %}
@@ -70,7 +69,7 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
-                                    <div class="image" style="background-image: url({% asset_path 'events/{{ event.path | remove: "_collection_events/" | remove: ".md" | append: ".jpg" }}' %})"></div>
+                                    <div class="image" style="background-image: url(/collection_events/{{ event.path | remove: "_collection_events/" | remove: ".md" | append: ".jpg" }})"></div>
                                 </div>
                                 <div class="col-md-4 col-sm-6">
                                     <div class="title" lang="en">
@@ -95,7 +94,7 @@
                         </div>
                     </article>
                     {% assign counter=counter | plus:1 %}
-                {% endif %}
+                  {% endif %}
                 {% endfor %}
                 <hr class="event">
             </div>
@@ -162,7 +161,7 @@
                                     <h4>{{made.description}}</h4>
                                 </div>
                             </div>
-                            <div class="marco" style="background-image: url({% asset_path 'made/{{ made.path | remove: "_collection_made/" | remove: ".md" | append: ".jpg" }}' %})" >
+                            <div class="marco" style="background-image: url(/collection_made/{{ made.path | remove: "_collection_made/" | remove: ".md" | append: ".jpg" }})" >
                             </div>
                         </a>
                     </article>
@@ -174,7 +173,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <hr class="top none">
-                        <a href="/research/" class="text-center"><span class="hidden-xs">See All Our Research Projects</span><span class="visible-xs">See All Our Research Projects</span></a>
+                        <a href="/made/" class="text-center"><span class="hidden-xs">See All Our Research Projects</span><span class="visible-xs">See All Our Research Projects</span></a>
                     </div>
                 </div>
                 <hr class="none">

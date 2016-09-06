@@ -18,7 +18,7 @@
         {% include header.html %}
     </header>
     <section class="header-single">
-        <div class="header-single-image" style="background-image: url({% asset_path 'made/{{ page.path | remove: "_collection_made/" | remove: ".md" | append: ".jpg" }}' %})"></div>
+        <div class="header-single-image" style="background-image: url(/collection_made/{{ page.path | remove: "_collection_made/" | remove: ".md" | append: ".jpg" }})"></div>
         <div class="header-single-title">
             <div class="container">
                 <div class="header-single-container col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
