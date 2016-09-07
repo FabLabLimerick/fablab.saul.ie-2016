@@ -2,7 +2,7 @@
     <div class="filling-left"></div>
     <div class="barranavegacion">
         <div id="logo">
-            <a href="{{ site.url }}/"><span>Fab Lab Limerick</span></a>
+            <a href="{{ site.url }}/"><span>{{ site.data.blurbs.header.title }}</span></a>
         </div>
         <div class="menucollapse visible-xs">
             <button type="button" class="visible-xs navbar-toggle" data-toggle="collapse" data-target="#botones">
@@ -14,10 +14,9 @@
         </div>
         <div class="botones hidden-xs">
             <ul class="">
-                <li><a href="{{ site.url }}/events/">Events</a></li>
-                <li><a href="{{ site.url }}/space/">Space</a></li>
-                <li><a href="{{ site.url }}/us/">Us</a></li>
-                <li><a href="{{ site.url }}/made/">Made</a></li>
+              {% for item in site.data.blurbs.header.nav %}
+                <li><a href="{{ site.url }}/{{ item.title | downcase }}/">{{ item.title }}</a></li>
+              {% endfor %}
             </ul>
         </div>
     </div>
@@ -25,9 +24,8 @@
 </nav>
 <div id="botones" class="botones-phone">
     <ul>
-        <li><a href="{{ site.url }}/events/">Events</a></li>
-        <li><a href="{{ site.url }}/space/">Space</a></li>
-        <li><a href="{{ site.url }}/us/">Us</a></li>
-        <li><a href="{{ site.url }}/made/">Made</a></li>
+      {% for item in site.data.blurbs.header.nav %}
+        <li><a href="{{ site.url }}/{{ item.title | downcase }}/">{{ item.title }}</a></li>
+      {% endfor %}
     </ul>
 </div>
