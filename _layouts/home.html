@@ -27,8 +27,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <hgroup class="text-center">
-                            <h1>Events</h1>
-                            <h2 class="subheader"><span class="hidden-xs">Tutorials, workshops, talks and much more</span><span class="visible-xs">Tutorials, workshops, talks and much more</span></h2>
+                            <h1>{{ site.data.blurbs.events.title }}</h1>
+                            <h2 class="subheader"><span class="hidden-xs">{{ site.data.blurbs.events.subtitle.long }}</span><span class="visible-xs">{{ site.data.blurbs.events.subtitle.sort }}</span></h2>
                         </hgroup>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
             <div class="section-title">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                         EVERY WEEK, MONTH AND SEMESTER
+                         {{ site.data.blurbs.events.title }}
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
             <div class="section-title">
                 <div class="row">
                     <div id="nextEvents" class="col-md-12 text-center">
-                        OUR ONCE-OFF ACTIVITIES
+                        {{ site.data.blurbs.events.once-off }}
                     </div>
                 </div>
             </div>
@@ -74,9 +74,9 @@
                                 <div class="col-md-4 col-sm-6">
                                     <div class="title" lang="en">
                                         {% if event.soon %}
-                                        {% capture link %} <a class="eventlink versalite disabled">MORE INFO SOON</a>{% endcapture %}
+                                        {% capture link %} <a class="eventlink versalite disabled">{{ site.data.blurbs.events.more_info_soon }}</a>{% endcapture %}
                                         {% else %}
-                                        {% capture link %}<a class="eventlink versalite" href="{{event.url}}">MORE INFO</a>{% endcapture %}
+                                        {% capture link %}<a class="eventlink versalite" href="{{event.url}}">{{ site.data.blurbs.events.more_info }}</a>{% endcapture %}
                                         {% endif %}
                                         <h3>{{event.title}}</h3>
                                         <h4>{{event.hours}}<span class="visible-xs">{{event.fee}}</span></h4>
@@ -104,7 +104,7 @@
                 <hr class="top none">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <a href="/events/" class="text-center"><span class="hidden-xs">Check All Our Talks, Workshops And Exhibitions</span><span class="visible-xs">Check All Our Events</span></a>
+                        <a href="/events/" class="text-center"><span class="hidden-xs">{{ site.data.blurbs.events.link_events.long }}</span><span class="visible-xs">{{ site.data.blurbs.events.link_events.sort }}</span></a>
                     </div>
                 </div>
                 <hr class="none">
@@ -120,14 +120,14 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <hgroup class="text-center">
-                                <h1 style="color:white">Space</h1>
-                                <h2 class="subheader" style="color:white"><span class="hidden-xs">Who We Are And How You Can Use The Fab Lab<br>for Your Own Creative Projects</span><span class="visible-xs">How You Can Use<br>the Fab Lab</span></h2>
+                                <h1 style="color:white">{{ site.data.blurbs.space.title }}</h1>
+                                <h2 class="subheader" style="color:white"><span class="hidden-xs">{{ site.data.blurbs.space.subtitle.long }}</span><span class="visible-xs">{{ site.data.blurbs.space.subtitle.sort }}</span></h2>
                             </hgroup>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 text-center uppercase">
-                            <a href="/space/" class="text-center white">Read More</a>
+                            <a href="/space/" class="text-center white">{{ site.data.blurbs.space.link_space }}</a>
                         </div>
                     </div>
                 </div>
@@ -141,8 +141,8 @@
                 <div class="row">
                     <div class="col-md-12">
                        <hgroup class="text-center">
-                            <h1>Research</h1>
-                            <h2 class="subheader"><span class="hidden-xs">We Are Exploring The Potential Of Digital Fabrication<br Class="visible-md visible-lg"> in Architecture And Design</span><span class="visible-xs">Exploring The Potential <br>of Digital Fabrication</span></h2>
+                            <h1>{{ site.data.blurbs.space.title }}</h1>
+                            <h2 class="subheader"><span class="hidden-xs">{{ site.data.blurbs.space.subtitle.long }}</span><span class="visible-xs">{{ site.data.blurbs.space.subtitle.short }}</span></h2>
                         </hgroup>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <hr class="top none">
-                        <a href="/made/" class="text-center"><span class="hidden-xs">See All Our Research Projects</span><span class="visible-xs">See All Our Research Projects</span></a>
+                        <a href="/made/" class="text-center"><span class="hidden-xs">{{ site.data.blurbs.space.link_made.long }}</span><span class="visible-xs">{{ site.data.blurbs.space.link_made.short }}</span></a>
                     </div>
                 </div>
                 <hr class="none">

@@ -32,9 +32,19 @@
         <p class="visible-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a></p>
       </div>
       {% endif %}
-      <div class="image {{ banner.slug }}"></div>
-      <style>
       {% assign banner-id = banner.path | remove: "_collection_homebanner/" | remove: page.layout | remove: ".md" %}
+      {% if banner.video %}
+      <div class="video {{ banner.slug }}">
+        <video autoplay="" loop="" class="fillWidth fadeIn animated" poster="/collection_homebanner/{{ banner-id }}.jpg" id="video-background">
+          <source src="/collection_homebanner/{{ banner-id }}.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+      </div>
+      {% else %}
+      <div class="image {{ banner.slug }}"></div>
+      {% endif %}
+      {% if banner.video %}
+      {% else %}
+      <style>
         {% if banner.responsive %}
           @media (max-width: 767px) {
             .image.{{ banner.slug }}{
@@ -57,6 +67,7 @@
           }
         {% endif %}
       </style>
+      {% endif %}
     </div>
     {% endfor %}
   </div>

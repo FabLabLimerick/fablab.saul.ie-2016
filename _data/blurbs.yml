@@ -28,4 +28,33 @@ footer:
       url: http://ul.ie
     - id: lcc
       url: http://limerickcityofculture.ie
-  credits: "Web design by <a class="gray" href="http://colaborativa.eu/en/">Colaborativa.eu</a>"
+  credits: "Web design by <a class='gray' href='http://colaborativa.eu/en/'>Colaborativa.eu</a>"
+
+events:
+  title: Events
+  subtitle:
+    sort: "Tutorials, workshops and talks"
+    long: "Tutorials, workshops, talks and much more"
+  recurring: "Every week, month and semester"
+  once-off: "Our once-off activities"
+  more_info: "MORE INFO"
+  more_info_soon: "MORE INFO SOON"
+  link_events:
+    sort: "Check All Our Events"
+    long: "Check All Our Talks, Workshops And Exhibitions"
+
+space:
+  title: Events
+  subtitle:
+    sort: "How You Can Use<br>the Fab Lab"
+    long: "Who We Are And How You Can Use The Fab Lab<br>for Your Own Creative Projects"
+  link_space: "Read More"
+
+made:
+  title: Made
+  subtitle:
+    sort: "Exploring The Potential <br>of Digital Fabrication"
+    long: "We Are Exploring The Potential Of Digital Fabrication<br Class='visible-md visible-lg'> in Architecture And Design"
+  link_made:
+    sort: "See All Our Research Projects"
+    long: "See All Our Research Projects"
