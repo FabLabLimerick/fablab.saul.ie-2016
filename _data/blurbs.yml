@@ -5,3 +5,27 @@ header:
     - title: Space
     - title: Us
     - title: Made
+
+footer:
+  address:
+    long: "Fab Lab Limerick, 7 Rutland Street, Limerick"
+    sort: "Fab Lab Limerick, 7 Rutland Street"
+  timetable:
+    long_1: "We are open from Monday to Friday, from 9:00 to 17:00."
+    long_2: "Late opening evening on Thursdays from 19.30 to 21.30"
+    sort: "Open: Monday to Friday, 9:00 to 17:00. Late opening evening on Thursdays 19.30 to 21.30"
+  external:
+    facebook: https://www.facebook.com/fablablimerick
+    twitter: https://twitter.com/fablablimerick
+    email: fablab(which is 'at' the)saul.ie
+    wiki: https://github.com/FabLabLimerick/fablablimerick.github.io/wiki
+    blog: http://fablablimerick.tumblr.com/
+    map: "http://www.openstreetmap.org/?mlat=52.66593&mlon=-8.62399#map=18/52.66593/-8.62399"
+  logos:
+    - id: saul
+      url: http://saul.ie
+    - id: ul
+      url: http://ul.ie
+    - id: lcc
+      url: http://limerickcityofculture.ie
+  credits: "Web design by <a class="gray" href="http://colaborativa.eu/en/">Colaborativa.eu</a>"
