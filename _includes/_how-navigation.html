@@ -1,11 +1,21 @@
 <ul class="ul-chapter">
 {% assign chapters = site.collection_how | where:"chapter", "true" %}
 {% for chapter in chapters %}
-  <li class="chapter"><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+  {% if chapter.url == page.url %}
+    {% assign active = "activo" %}
+  {% else %}
+    {% assign active = "" %}
+  {% endif %}
+  <li class="chapter {{active}}"><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
     <ul class="ul-item">
     {% assign items = site.collection_how | where:"category", chapter.slug %}
     {% for item in items %}
-      <li class="item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% if item.url == page.url %}
+        {% assign itemactive = "activo" %}
+      {% else %}
+        {% assign itemactive = "" %}
+      {% endif %}
+      <li class="item {{ itemactive }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
     </ul>
 {% endfor %}

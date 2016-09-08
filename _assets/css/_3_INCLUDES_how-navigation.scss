@@ -4,6 +4,9 @@
   margin-top: 2.5em;
   margin-bottom: 5em;
   padding-top: 1em;
+  li.activo a:link, li.activo a:visited, li.activo a:focus, li.activo a:active{
+    color: #d43;
+  }
   ul.ul-chapter {
     margin-left: 0em;
     padding-left: 0em;
