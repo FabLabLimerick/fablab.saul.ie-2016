@@ -10,6 +10,7 @@
 @import "_3_INCLUDES_header";
 @import "_3_INCLUDES_footer";
 @import "_3_INCLUDES_carousel";
+@import "_3_INCLUDES_how-navigation";
 @import "_4_LAYOUT_home";
 @import "_4_LAYOUT_space";
 
@@ -146,6 +147,12 @@ label{
   }
 }
 
+.header-hero-how{
+	width: 100%;
+  height:50%;
+  background-color: rgb(40,40,40);
+  position: relative;
+}
 .header-hero{
   width: 100%;
   height:100%;

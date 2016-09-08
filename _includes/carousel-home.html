@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h2 class="text-center">
-                      <span class="hidden-xs">A Space For Makers<br>in Limerick City</span><span class="visible-xs">A Space<br>for<br>makers In<br>limerick<br>city</span>
+                      <span class="hidden-xs">{{ site.data.blurbs.banner.long }}</span><span class="visible-xs">{{ site.data.blurbs.banner.short }}</span>
                     </h2>
                 </div>
             </div>
@@ -28,7 +28,7 @@
       {% endif %}
       {% if banner.caption.display !=  false %}
       <div class="carousel-caption">
-        <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.caption.description }}. Image by {{ banner.caption.credits }}</p>
+        <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.caption.description }}. {{ site.data.blurbs.banner.image_by }} {{ banner.caption.credits }}</p>
         <p class="visible-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a></p>
       </div>
       {% endif %}

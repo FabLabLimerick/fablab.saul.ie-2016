@@ -2,9 +2,14 @@ header:
   title: Fab Lab Limerick
   nav:
     - title: Events
-    - title: Space
+    - title: How
     - title: Us
     - title: Made
+
+banner:
+  long: "A Space For Makers<br>in Limerick City"
+  short: "A Space<br>for<br>makers In<br>limerick<br>city"
+  image_by: "Image by"
 
 footer:
   address:
@@ -44,10 +49,10 @@ events:
     long: "Check All Our Talks, Workshops And Exhibitions"
 
 space:
-  title: Events
+  title: How
   subtitle:
-    sort: "How You Can Use<br>the Fab Lab"
-    long: "Who We Are And How You Can Use The Fab Lab<br>for Your Own Creative Projects"
+    sort: "How you can use<br>the Fab Lab"
+    long: "How you can use the Fab Lab<br>for your own creative projects"
   link_space: "Read More"
 
 made:
@@ -56,5 +61,5 @@ made:
     sort: "Exploring The Potential <br>of Digital Fabrication"
     long: "We Are Exploring The Potential Of Digital Fabrication<br Class='visible-md visible-lg'> in Architecture And Design"
   link_made:
-    sort: "See All Our Research Projects"
-    long: "See All Our Research Projects"
+    sort: "See All Our Projects"
+    long: "See All Our Projects"

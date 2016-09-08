@@ -1,0 +1,48 @@
+@import "_2_THEME_variables&mixins";
+
+#how-navigation {
+  margin-top: 2.5em;
+  margin-bottom: 5em;
+  padding-top: 1em;
+  ul.ul-chapter {
+    margin-left: 0em;
+    padding-left: 0em;
+    margin-bottom: 1em;
+    list-style-type: none;
+  }
+  ul.ul-item {
+    margin-left: 0em;
+    padding-left: 0em;
+    margin-bottom: 1.25em;
+    list-style-type: none;
+  }
+  li.chapter {
+    margin-left: 0em;
+    padding-left: 0em;
+    margin-top: 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.5em;
+    list-style: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+    a:link{
+      text-decoration: none;
+      border-bottom: none;
+    }
+  }
+  li.item {
+    margin-left: 0em;
+    line-height: 1.4em;
+    padding-left: 0em;
+    margin-top: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-bottom: 0.5em;
+    list-style: none;
+    a:link{
+      text-decoration: none;
+      border-bottom: none;
+    }
+  }
+}
