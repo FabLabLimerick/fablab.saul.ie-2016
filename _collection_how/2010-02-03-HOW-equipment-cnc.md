@@ -6,11 +6,10 @@ category: equipment
 description: "Shopbot is a factory built CNC Router able to cut Wood, Plastic, Foam and soft metals. Maximum material size: 2440 x 1220 x 150mm. Many different sizes and types of cutting bits can be used."
 ---
 
-[Book Here](http://fablablimerick.schedulista.com/)
-## Intro
 Shopbot is a factory built CNC Router able to cut Wood, Plastic, Foam and soft metals. Maximum material size: 2440 x 1220 x 150mm. Many different sizes and types of cutting bits can be used.
 
 ## Cost
+
 Individual           | Cost/hour
 -----------          | ------------  
 SAUL Student         | €0         
@@ -19,8 +18,9 @@ Non Profit           | €30
 Commercial           | €40       
 
 ## Technical Data
-	Bed Size :      2440mm x 1220 x 150mm
-	Power:          4hp Spindle
+
+Bed Size   |  2440mm x 1220 x 150mm
+Power      |  4hp Spindle
 
 ## Preparing Drawings
 

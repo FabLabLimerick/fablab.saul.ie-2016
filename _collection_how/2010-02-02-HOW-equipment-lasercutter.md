@@ -6,8 +6,9 @@ category: equipment
 description: "Staff and students @ Fab Lab Limerick have worked together to build their very own Laser Cutter. 'Lasersaur' is an open-source laser cutter with the ability to cut paper, card, plastics, wood and textiles at a high velocity and accuracy."
 ---
 
+Laser cutting is a technology that uses a laser to cut materials, and is typically used for industrial manufacturing applications, but is also starting to be used by schools, small businesses, and hobbyists. Laser cutting works by directing the output of a high-power laser most commonly through optics. The laser optics and CNC (computer numerical control) are used to direct the material or the laser beam generated.
+
 ## Lasersaur
-[Book Here](http://fablablimerick.schedulista.com/)
 
 ### Intro
 Staff and students @ Fab Lab Limerick have worked together to build their very own Laser Cutter. 'Lasersaur' is an open-source laser cutter with the ability to cut **paper, card, plastics, wood** and **textiles** at a high velocity and accuracy.
