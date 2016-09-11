@@ -15,6 +15,7 @@ gem "jekyll", "3.2.1"
 gem "jekyll-assets", "2.2.8"
 gem "mini_magick"
 gem "jekyll-redirect-from"
+gem "kickster"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
