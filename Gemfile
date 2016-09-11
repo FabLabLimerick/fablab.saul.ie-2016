@@ -14,11 +14,6 @@ gem "jekyll", "3.2.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-assets", "2.2.8"
 gem "mini_magick"
-gem "guard"
-gem "guard-jekyll-plus"
-gem "guard-livereload"
-gem "rack-livereload"
-gem "thin"
 gem "jekyll-redirect-from"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
