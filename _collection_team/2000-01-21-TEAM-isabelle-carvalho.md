@@ -3,8 +3,7 @@ title: Isabelle Carvalho
 fullname: Isabelle Carvalho
 country: Brazil
 category: team
-published: false
+published: true
 position: Researcher
-image: isabelle-carvalho.jpg
-project: past
+project:
 ---

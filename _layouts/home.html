@@ -112,7 +112,7 @@
             <!-- EVENTS LINK -->
         </div>
     </section>
-    <section id="space">
+    <section id="how">
         <div class="container">
            <!--  <div class="imageTop"></div> -->
             <div class="visor">
@@ -134,7 +134,7 @@
             </div>
         </div>
     </section>
-    <section id="research">
+    <section id="made">
         <div class="container">
             <!-- RESEARCH HEADER -->
             <div class="section-header">
@@ -176,8 +176,63 @@
                         <a href="/made/" class="text-center"><span class="hidden-xs">{{ site.data.blurbs.made.link_made.long }}</span><span class="visible-xs">{{ site.data.blurbs.space.link_made.short }}</span></a>
                     </div>
                 </div>
-                <hr class="none">
+                <hr class="bottom">
             </div>
+        </div>
+    </section>
+    <section id="us">
+      <div class="container">
+          <div class="section-header">
+              <div class="row">
+                  <div class="col-md-12">
+                      <hgroup class="text-center">
+                          <h1>{{ site.data.blurbs.us.title }}</h1>
+                          <h2 class="subheader"><span class="hidden-xs">{{ site.data.blurbs.us.subtitle.long }}</span><span class="visible-xs">{{ site.data.blurbs.us.subtitle.short }}</span></h2>
+                      </hgroup>
+                  </div>
+              </div>
+          </div>
+          <div class="section-description">
+              <div class="row">
+                  <div class="col-md-6" lang="en">
+                      <p>{{ site.data.blurbs.us.description.column_1 }}</p>
+                  </div>
+                  <div class="col-md-6" lang="en">
+                      <p>{{ site.data.blurbs.us.description.column_2 }}</p>
+                  </div>
+              </div>
+            </div>
+          <div class="section-list">
+            <div class="row">
+                {% assign items = site.collection_news | sort: 'date' | reverse %}
+                {% for news in items limit:3 %}
+                {% if forloop.last %}
+                {% assign hiddensmall-news = "hidden-sm" %}
+                {% endif %}
+                {% capture link %}<a class="eventlink versalite" href="{{news.link}}">{{ site.data.blurbs.events.more_info }}</a>{% endcapture %}
+                <article class="col-md-4 col-xs-12 col-sm-6 news {{ hiddensmall-news }}">
+                        <div class="gradient">
+                            <div class="caption">
+                                <h3>{{ news.title | truncate: 60 }}</h3>
+                                <h4>{{ news.date | date: "%b %d %Y" }} · {{ news.medium }}<br></h4>
+                                <p>{{news.description | prepend: '˝'| truncate: 200 , '…˝' }}<br>{{ link }}</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                {% endfor %}
+            </div>
+          </div>
+          <!-- US LINKS -->
+          <div class="section-link">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <hr class="top">
+                      <a href="/made/" class="text-center"><span class="hidden-xs">{{ site.data.blurbs.us.link_us.long }}</span><span class="visible-xs">{{ site.data.blurbs.us.link_us.short }}</span></a>
+                  </div>
+              </div>
+              <hr class="none">
+          </div>
         </div>
     </section>
     <section id="subscribe">

@@ -1,12 +1,10 @@
 ---
 title: Lucia Poliokova
 fullname: Lucia Poliokova
-country: 
+country:
 category: team
 published: true
 position: Volunteer
-current: true
-image: lucia-poliokova.jpg
+current: false
 project: current
-
 ---

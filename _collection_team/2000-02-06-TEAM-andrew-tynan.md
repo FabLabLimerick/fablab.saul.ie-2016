@@ -5,8 +5,6 @@ country: ireland
 category: team
 published: true
 position: Volunteer
-current: true
-image: andrew-tynan.jpg
+current: false
 project: current
-
 ---

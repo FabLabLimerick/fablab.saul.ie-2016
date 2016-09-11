@@ -5,6 +5,5 @@ country: Brazil
 category: team
 published: true
 position: Researcher
-image: hottmar-loch.jpg
-project: past
+project: summer-research
 ---

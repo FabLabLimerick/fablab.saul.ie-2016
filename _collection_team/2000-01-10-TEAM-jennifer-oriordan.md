@@ -3,7 +3,7 @@ title: J. O'Riordan
 category: team
 published: true
 position: Volunteer
-current: true
+current: false
 image: jennifer-oriordan.jpg
 project: current
 ---

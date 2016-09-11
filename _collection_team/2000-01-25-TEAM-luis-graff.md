@@ -5,6 +5,5 @@ country: Brazil
 category: team
 published: true
 position: Researcher
-image: luis-graff.jpg
 project: past
 ---

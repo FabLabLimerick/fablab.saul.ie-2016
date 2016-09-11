@@ -5,6 +5,5 @@ country: Ireland
 category: team
 published: true
 position: Collaborator
-image: luke-benson.jpg
-project: past city-model
+project: city-model
 ---

@@ -6,6 +6,5 @@ category: team
 published: true
 position: Volunteer
 current: true
-image: ivor-oshea.jpg
-project: current
+project: 
 ---

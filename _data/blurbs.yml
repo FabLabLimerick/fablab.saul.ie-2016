@@ -3,8 +3,9 @@ header:
   nav:
     - title: Events
     - title: How
-    - title: Us
     - title: Made
+    - title: Us
+
 
 banner:
   long: "A Space For Makers<br>in Limerick City"
@@ -63,3 +64,27 @@ made:
   link_made:
     sort: "See All Our Projects"
     long: "See All Our Projects"
+
+us:
+  title: Us
+  subtitle:
+    sort: "A project by the School of Architecture at UL"
+    long: "A project by the School of Architecture at UL"
+  description:
+    column_1: "Fab Lab Limerick started in 2012 when we began to build our own 3D printers, CNC Routers and laser cutters as part of the elective programme at the School of Architecture, University of Limerick"
+    column_2: "We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!"
+  link_us:
+    sort: "learn more about us"
+    long: "learn more about us"
+
+news:
+  title: News
+  subtitle:
+    sort: "A project by the School of Architecture at UL"
+    long: "A project by the School of Architecture at UL"
+  description:
+    column_1: "Fab Lab Limerick started in 2012 when we began to build our own 3D printers, CNC Routers and laser cutters as part of the elective programme at the School of Architecture, University of Limerick"
+    column_2: "We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!"
+  link_news:
+    sort: "Read all the news"
+    long: "Read all the news"

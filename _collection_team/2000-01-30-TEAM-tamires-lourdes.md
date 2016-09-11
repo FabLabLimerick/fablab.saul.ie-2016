@@ -5,6 +5,5 @@ country: Brazil
 category: team
 published: true
 position: Researcher
-image: tamires-lourdes.jpg
 project: past
 ---

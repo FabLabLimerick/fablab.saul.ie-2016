@@ -51,6 +51,9 @@ collections:
     output: false
   collection_how:
     output: true
+  collection_news:
+    output: true
+
 
 defaults:
   -
@@ -81,6 +84,13 @@ defaults:
     values:
       layout: how
       permalink: /how/:categories/:slug/
+  -
+    scope:
+      path: ""
+      type: collection_news   # <= here you can specify a collection now!
+    values:
+      layout: how
+      permalink: /us/news/:slug/
 
 # Prose configuration
 prose:

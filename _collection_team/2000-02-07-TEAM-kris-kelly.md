@@ -5,8 +5,6 @@ country: Ireland
 category: team
 published: true
 position: Volunteer
-current: true
-image: kris-kelly.jpg
+current: false
 project: current
-
 ---

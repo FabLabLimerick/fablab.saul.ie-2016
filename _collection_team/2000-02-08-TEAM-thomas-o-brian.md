@@ -5,8 +5,6 @@ country: Ireland
 category: team
 published: true
 position: Volunteer
-current: true
-image: thomas-o-brian.jpg
+current: false
 project: current
-
 ---
