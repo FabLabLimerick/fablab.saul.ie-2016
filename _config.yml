@@ -12,11 +12,15 @@ author:
 include: ['.htaccess']
 
 exclude:
+  - .bowerrc
+  - .travis.yml
+  - bin/*
+  - bower.json
+  - circle.yml
   - Gemfile
   - Gemfile.lock
-  - Guardfile
   - README.md
-  - bower.json
+  - vendor/
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
@@ -25,7 +29,8 @@ show_drafts: true
 gems:
   - jekyll-assets
   - jekyll-redirect-from
-
+  - jekyll-sitemap
+  
 # Markdown library
 markdown: kramdown
 #   use_tex:    false
