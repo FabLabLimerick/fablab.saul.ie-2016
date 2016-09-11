@@ -15,7 +15,7 @@ banner:
 footer:
   address:
     long: "Fab Lab Limerick, 7 Rutland Street, Limerick"
-    sort: "Fab Lab Limerick, 7 Rutland Street"
+    short: "Fab Lab Limerick, 7 Rutland Street"
   timetable:
     long_1: "We are open from Monday to Friday, from 9:00 to 17:00."
     long_2: "Late opening evening on Thursdays from 19.30 to 21.30"
@@ -39,14 +39,15 @@ footer:
 events:
   title: Events
   subtitle:
-    sort: "Tutorials, workshops and talks"
+    short: "Tutorials, workshops and talks"
     long: "Tutorials, workshops, talks and much more"
   recurring: "Every week, month and semester"
   once-off: "Our once-off activities"
   more_info: "MORE INFO"
   more_info_soon: "MORE INFO SOON"
+  previous: "Previous Events"
   link_events:
-    sort: "Check All Our Events"
+    short: "Check All Our Events"
     long: "Check All Our Talks, Workshops And Exhibitions"
 
 space:
@@ -62,29 +63,32 @@ made:
     sort: "Exploring The Potential <br>of Digital Fabrication"
     long: "We Are Exploring The Potential Of Digital Fabrication<br Class='visible-md visible-lg'> in Architecture And Design"
   link_made:
-    sort: "See All Our Projects"
+    short: "See All Our Projects"
     long: "See All Our Projects"
 
 us:
   title: Us
   subtitle:
-    sort: "A project by the School of Architecture at UL"
-    long: "A project by the School of Architecture at UL"
+    sort: "How everything started"
+    long: "How everything started"
   description:
     column_1: "Fab Lab Limerick started in 2012 when we began to build our own 3D printers, CNC Routers and laser cutters as part of the elective programme at the School of Architecture, University of Limerick"
     column_2: "We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!"
+  team_title: "Meet the team"
+  collaborators: "Former Fab Lab Limerick collaborators:"
+  volunteer: "Become a Volunteer yourself! <a href='/assets/VolunteerDoc.pdf'>Check the guidelines</a><br class='hidden-xs'> and send us an <a href='mailto:fablab [at] saul.ie'>email</a>"
   link_us:
-    sort: "learn more about us"
+    short: "learn more about us"
     long: "learn more about us"
 
 news:
   title: News
   subtitle:
-    sort: "A project by the School of Architecture at UL"
-    long: "A project by the School of Architecture at UL"
+    sort: "Fab Lab Limerick in the media"
+    long: "Fab Lab Limerick in the media"
   description:
     column_1: "Fab Lab Limerick started in 2012 when we began to build our own 3D printers, CNC Routers and laser cutters as part of the elective programme at the School of Architecture, University of Limerick"
     column_2: "We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!"
   link_news:
-    sort: "Read all the news"
+    short: "Read all the news"
     long: "Read all the news"

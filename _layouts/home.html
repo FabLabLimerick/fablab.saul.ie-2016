@@ -136,7 +136,7 @@
     </section>
     <section id="made">
         <div class="container">
-            <!-- RESEARCH HEADER -->
+            <!-- MADE HEADER -->
             <div class="section-header">
                 <div class="row">
                     <div class="col-md-12">
@@ -149,7 +149,8 @@
             </div>
             <div class="section-list">
                 <div class="row">
-                    {% for made in site.collection_made limit:3 %}
+                    {% assign mades = site.collection_made | sort: 'date' | reverse %}
+                    {% for made in mades limit:3 %}
                     {% if forloop.last %}
                     {% assign hiddensmall = "hidden-sm hidden-xs" %}
                     {% endif %}
@@ -168,7 +169,7 @@
                     {% endfor %}
                 </div>
             </div>
-            <!-- RESEARCH LINKS -->
+            <!-- MADE LINKS -->
             <div class="section-link">
                 <div class="row">
                     <div class="col-md-12 text-center">

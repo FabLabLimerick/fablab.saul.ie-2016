@@ -27,8 +27,8 @@
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
                             <hgroup class="text-center">
-                                <h1>Made</h1>
-                                <h2 class="subheader"><span class="hidden-xs">We Are Exploring The Potential Of Digital Fabrication in Architecture And Design</span><span class="visible-xs">Exploring The Potential <br>of Digital Fabrication</span></h2>
+                                <h1>{{ site.data.blurbs.made.title }}</h1>
+                                <h2 class="subheader"><span class="hidden-xs">{{ site.data.blurbs.made.subtitle.long }}</span><span class="visible-xs">{{ site.data.blurbs.made.subtitle.short }}</span></h2>
                             </hgroup>
                         </div>
                     </div>
@@ -47,11 +47,8 @@
         <div class="container">
             <div class="section-list">
                 <div class="row">
-                    {% for made in site.collection_made limit:20 %}
-                    {% if forloop.last %}
-                    {% assign hiddensmall = "hidden-sm hidden-xs" %}
-                    {% endif %}
-                    <article class="col-md-4 col-xs-12 col-sm-6 research {{hiddensmall}}">
+                    {% for made in site.collection_made reversed %}
+                    <article class="col-md-4 col-xs-12 col-sm-6 research">
                         <a href="{{ made.url }}">
                             <div class="gradient">
                                 <div class="caption">

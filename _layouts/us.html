@@ -46,7 +46,7 @@
                 <div class="row list-header">
                     <div class="col-md-12">
                         <hr class="none">
-                        <h3 class="text-center">The Team</h3>
+                        <h3 class="text-center">{{ site.data.blurbs.us.team_title }}</h3>
                         <hr class="bottom">
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                 <br/>
                 <div class="row">
                   <div class="col-md-12">
-                  <p><strong>Former Fab Lab Limerick collaborators:</strong>
+                  <p><strong>{{ site.data.blurbs.us.collaborators }}</strong>
                     {% assign members = '' %}
                     {% for member in site.collection_team %}
                       {% if member.current != true %}
@@ -90,12 +90,9 @@
             </div>
             <div class="section-link">
                 <div class="row">
-                    <div class="col-md-12 text-center" style = "text-transform: lowercase;">
+                    <div class="col-md-12 text-center">
                         <hr class="top" >
-                        <!--<a class="text-center disabled">More soon!</a><br>-->
-                        <!-- added-by-ger -->
-                        <span style="color:red; text-transform: uppercase">NEW: </span><span style = "text-transform: capitalize;">If</span> you would like to become a Volunteer yourself, <a href="/assets/VolunteerDoc.pdf" download style = "text-transform: lowercase;">please check out this document.</a>
-                        <p><span style = "text-transform: capitalize;">and</span> send your request by email to <a href="mailto:fablab@saul.ie">fablab@saul.ie</a>.</p>
+                        <p>{{ site.data.blurbs.us.volunteer }}</p>
                         <hr class="none">
                     </div>
                 </div>
@@ -128,9 +125,6 @@
           <div class="row">
               {% assign items = site.collection_news | sort: 'date' | reverse %}
               {% for news in items limit:6 %}
-              {% if forloop.last %}
-              {% assign hiddensmall-news = "hidden-sm" %}
-              {% endif %}
               {% capture link %}<a class="eventlink versalite" href="{{news.link}}">{{ site.data.blurbs.events.more_info }}</a>{% endcapture %}
               <article class="col-md-4 col-xs-12 col-sm-6 news {{ hiddensmall-news }}">
                       <div class="gradient">
