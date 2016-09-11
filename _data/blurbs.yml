@@ -6,7 +6,6 @@ header:
     - title: Made
     - title: Us
 
-
 banner:
   long: "A Space For Makers<br>in Limerick City"
   short: "A Space<br>for<br>makers In<br>limerick<br>city"
@@ -23,7 +22,7 @@ footer:
   external:
     facebook: https://www.facebook.com/fablablimerick
     twitter: https://twitter.com/fablablimerick
-    email: fablab(which is 'at' the)saul.ie
+    email: fablab(still at)saul.ie
     wiki: https://github.com/FabLabLimerick/fablablimerick.github.io/wiki
     blog: http://fablablimerick.tumblr.com/
     map: "http://www.openstreetmap.org/?mlat=52.66593&mlon=-8.62399#map=18/52.66593/-8.62399"
@@ -76,7 +75,7 @@ us:
     column_2: "We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!"
   team_title: "Meet the team"
   collaborators: "Former Fab Lab Limerick collaborators:"
-  volunteer: "Become a Volunteer yourself! <a href='/assets/VolunteerDoc.pdf'>Check the guidelines</a><br class='hidden-xs'> and send us an <a href='mailto:fablab [at] saul.ie'>email</a>"
+  volunteer: "Become a Volunteer yourself! <a href='/assets/VolunteerDoc.pdf'>Check the guidelines</a><br class='hidden-xs'> and contact us fablab(still at)saul.ie"
   link_us:
     short: "learn more about us"
     long: "learn more about us"
