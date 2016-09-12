@@ -1,12 +1,18 @@
 ---
 title: "SPRINGBOARD CERTIFICATE IN DIGITAL FABRICATION"
-slug: springboard2016
+layout: single-event
+category: events
 published: true
+
+excerpt: "SPRINGBOARD CERTIFICATE IN DIGITAL FABRICATION
+Design and Manufacture, Level 7 (Ordinary Bachelors Degree-Level Certificate)"
+hours: "Part time course, 12 weeks"
+description: "SPRINGBOARD CERTIFICATE IN DIGITAL FABRICATION
+Design and Manufacture  - Level 7 (Ordinary Bachelors Degree-Level Certificate)"
+fee: "Free, book before Aug. 21st"
+slug: springboard2016
 soon: false
 past: false
-excerpt: "SPRINGBOARD CERTIFICATE IN DIGITAL FABRICATION Design and Manufacture, Level 7 (Ordinary Bachelors Degree-Level Certificate)"
-hours: "Part time course, 12 weeks"
-fee: "Free, book before Aug. 21st"
 
 imagedisplay: false
 imagetitle: ""
@@ -44,3 +50,5 @@ This course is available for free to eligible Springboard+ applicants, and acces
 
 To check your Springboard+ eligibility you can get more information by going to [www.springboardcourses.ie/eligibility](https://www.springboardcourses.ie/eligibility).
 For more information on any of the above, email [cpe@ul.ie](mailto:cpe@ul.ie) or [fablab@saul.ie](mailto:fablab@saul.ie).
+
+Please note, this course requires use of a laptop, and for many of the softwares you may require a mouse. If you do not have access to a laptop please let us know by email.

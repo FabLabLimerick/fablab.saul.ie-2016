@@ -1,12 +1,16 @@
 ---
 title: "Customise, Modify and Build an Electric Guitar"
-slug: makeyourownguitar
+layout: single-event
+category: events
 published: true
-soon: false
-past: false
+
 excerpt: "Create your own personalised Electric Guitar - with unique CNC cut designs and all electronic components included"
 hours: "4 sessions, beginning Sept. 24th"
+description: "Create your own personalised Electric Guitar - with unique CNC cut designs and all electronic components included"
 fee: "€300, book before Aug. 12th"
+slug: makeyourownguitar
+soon: false
+past: false
 
 imagedisplay: false
 imagetitle: ""
@@ -15,6 +19,7 @@ imageoriginal: ""
 ---
 
 ### Customise, modify and build an Electric Guitar
+
 
 Fab Lab Limerick would like to give everybody a chance to create a personalised electric guitar. Each participant will be given an electric guitar kit (everything necessary for a complete guitar). The course will teach how to digitally draw, how to use our laser cutter and how to use our CNC cutter. Each participant will create a custom design and execute it on the body of their guitar.
 

@@ -138,7 +138,7 @@
             <!-- EVENTS LIST PAST -->
             <div class="section-list">
                 {% assign counter=0 %}
-                {% for event in site.collection_events %}
+                {% for event in site.collection_events reversed %}
                 {% capture nowunix %}{{ site.time | date: '%s'}}{% endcapture %}
                 {% capture posttime %}{{ event.date | date: '%s' | plus: 89940}}{% endcapture %}
                 <!-- add 24 hours 59 min to date of post to keep it until celebrated  -->

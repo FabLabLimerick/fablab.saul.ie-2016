@@ -1,14 +1,16 @@
 ---
 title: Make your own Halloween LED Mask!
 layout: single-event
-
+category: events
 published: true
+
 excerpt: "This Halloween we invite kids aged 6 and up to make their own masks using LED lights. "
 hours: "October 31st"
 description: "This Halloween we invite kids aged 6 and up to make their own masks using LED lights. October 31st"
 fee: "€15 per child"
-slug: halloween-mask
+slug: halloweenmask
 past: true
+
 
 imagedisplay: true
 imagetitle:
