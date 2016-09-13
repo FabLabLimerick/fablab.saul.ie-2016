@@ -13,8 +13,6 @@ future: true
 
 exclude:
   - .bowerrc
-  - .travis.yml
-  - bin/*
   - bower.json
   - Gemfile
   - Gemfile.lock
