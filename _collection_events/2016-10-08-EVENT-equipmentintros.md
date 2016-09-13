@@ -1,20 +1,21 @@
 ---
-title: Saturday Equipment Introductions
-description: "First saturday of the month"
-description-formatted: "First<br>saturday<br>of the<br>month"
-title-formatted: "Equipment<br>Tutorials"
+title: "New: Saturday Equipment Introductions"
+layout: single-event
+category: events
 
-active: true
 excerpt: "One-Stop-Courses on how to use our CNC Routers, Laser Cutters and 3D Printers. No previous experience required"
-hours: "First Saturday of the month"
-fee: €18 for students/€30 for adults - discounts apply"
-slug: sat-equipment-intro
+hours: "courses begin: 10AM/12:30PM/3PM"
+description: "One-Stop-Courses on how to use our CNC Routers, Laser Cutters and 3D Printers. No previous experience required"
+fee: "€18 for students/€30 for adults - discounts apply"
+slug: equipmentintros
 past: false
+soon: false
+published: false
 
-imagedisplay: true
+imagedisplay: false
 imagetitle:
-imagecredits: "Lasersaur.com"
-imageoriginal: https://www.flickr.com/photos/stfnix/8469714592
+imagecredits: ""
+imageoriginal: ""
 ---
 
 Our Equipment Introduction Days consist of three courses, that may be taken separately or over a single day.

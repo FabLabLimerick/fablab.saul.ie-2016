@@ -9,6 +9,8 @@ author:
   name: Colaborativa.eu
   email: info@colaborativa.eu
 
+future: true
+
 exclude:
   - .bowerrc
   - .travis.yml
