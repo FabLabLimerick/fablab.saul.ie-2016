@@ -21,15 +21,7 @@ exclude:
 sass:
     sass_dir: assets/css
 
-# Markdown library
 markdown: kramdown
-#   use_tex:    false
-#   use_divs:   false
-#   png_engine: blahtex
-#   png_dir:    images/latex
-#   png_url:    /images/latex
-
-highlighter: true
 
 collections:
   collection_events:
