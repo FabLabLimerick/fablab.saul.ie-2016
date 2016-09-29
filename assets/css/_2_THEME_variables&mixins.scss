@@ -64,6 +64,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     padding-bottom: 0;
     margin-bottom: 0;
 	}
+	.section-header.news{
+		margin-top: 1em;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	.list-header h3{
+		text-transform: uppercase;
+		font-size: 1.3em;
+		line-height: 1.5em;
+	}
 	// This are the styles of the equipment list and similar lists
 	.section-list{
 		.list-header{

@@ -126,7 +126,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-12 text-center uppercase">
-                            <a href="/space/" class="text-center white">{{ site.data.blurbs.space.link_space }}</a>
+                            <a href="/how/" class="text-center white">{{ site.data.blurbs.space.link_space }}</a>
                         </div>
                     </div>
                 </div>
@@ -202,6 +202,15 @@
                   </div>
               </div>
             </div>
+          <div class="section-header news">
+              <div class="row">
+                  <div class="col-md-12">
+                      <hgroup class="text-center">
+                        <h3 class="subheader"><span class="hidden-xs">{{ site.data.blurbs.news.subtitle.long }}</span><span class="visible-xs">{{ site.data.blurbs.us.subtitle.short }}</span></h3>
+                    </hgroup>
+                  </div>
+              </div>
+          </div>
           <div class="section-list">
             <div class="row">
                 {% assign items = site.collection_news | sort: 'date' | reverse %}
@@ -228,7 +237,7 @@
               <div class="row">
                   <div class="col-md-12 text-center">
                       <hr class="top">
-                      <a href="/made/" class="text-center"><span class="hidden-xs">{{ site.data.blurbs.us.link_us.long }}</span><span class="visible-xs">{{ site.data.blurbs.us.link_us.short }}</span></a>
+                      <a href="/us/" class="text-center"><span class="hidden-xs">{{ site.data.blurbs.us.link_us.long }}</span><span class="visible-xs">{{ site.data.blurbs.us.link_us.short }}</span></a>
                   </div>
               </div>
               <hr class="none">

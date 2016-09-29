@@ -71,8 +71,8 @@ us:
     sort: "How everything started"
     long: "How everything started"
   description:
-    column_1: "Fab Lab Limerick started in 2012 when we began to build our own 3D printers, CNC Routers and laser cutters as part of the elective programme at the School of Architecture, University of Limerick"
-    column_2: "We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!"
+    column_1: "Fab Lab Limerick started in 2012 as an elective course at the School of Architecture, UL in which undergraduate students built open source 3D printers, CNC routers and laser cutters. In 2014 this self-build equipment was moved to an empty building in the city centre owned by Limerick City Council."
+    column_2: " Since then, Fab Lab Limerick has evolved into a fully functional digital fabrication laboratory that offers cultural, educational and research programmes on digital fabrication, bridging the gap between these technologies and creatives from all disciplines."
   team_title: "Meet the team"
   collaborators: "Former Fab Lab Limerick collaborators:"
   volunteer: "Become a Volunteer yourself! <a href='/assets/VolunteerDoc.pdf'>Check the guidelines</a><br class='hidden-xs'> and contact us fablab(still at)saul.ie"
@@ -86,8 +86,8 @@ news:
     sort: "Fab Lab Limerick in the media"
     long: "Fab Lab Limerick in the media"
   description:
-    column_1: "Fab Lab Limerick started in 2012 when we began to build our own 3D printers, CNC Routers and laser cutters as part of the elective programme at the School of Architecture, University of Limerick"
-    column_2: "We are a community of people passionate about digital fabrication technologies and their potential in creative projects. You are welcome to join us!"
+    column_1: ""
+    column_2: ""
   link_news:
     short: "Read all the news"
     long: "Read all the news"

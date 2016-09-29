@@ -19,6 +19,42 @@
 
 // WIDE WEBSITE ELEMENT STYLES
 
+//video en la homebanner
+.video{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+}
+.videoplayer {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+}
+@media (max-width: 768px) {
+   .videoplayer {
+      display:none;
+   }
+}
 body, html{
 	height: 100%;
 }
@@ -151,9 +187,35 @@ label{
 
 .header-hero-how{
 	width: 100%;
-  height:50%;
-  background-color: rgb(40,40,40);
-  position: relative;
+	height:50%;
+	background-color: rgb(40,40,40);
+	background-image: url("/assets/img/how.jpg");
+	position: relative;
+	background-position: center, center;
+}
+.header-hero-us{
+	width: 100%;
+	height:50%;
+	background-color: rgb(40,40,40);
+	background-image: url("/collection_homebanner/2010-01-17-HOMEBANNER-3dprinter.jpg");
+	position: relative;
+	background-position: center, center;
+}
+.header-hero-news{
+	width: 100%;
+	height:50%;
+	background-color: rgb(40,40,40);
+	background-image: url("/collection_homebanner/2010-01-16-HOMEBANNER-cnc.jpg");
+	position: relative;
+	background-position: center, center;
+}
+#how .visor{
+	width: 100%;
+	height:50%;
+	background-color: rgb(40,40,40);
+	background-image: url("/assets/img/how.jpg");
+	position: relative;
+	background-position: center, center;
 }
 .header-hero{
   width: 100%;

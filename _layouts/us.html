@@ -17,7 +17,7 @@
     <header id="header">
         {% include header.html %}
     </header>
-    <section class="header-hero-how">
+    <section class="header-hero-us">
     </section>
     <section class="body-who">
         <div class="container">
@@ -100,14 +100,10 @@
     </section>
     <section id="us">
       <div class="container">
-        <div class="section-header">
-            <div class="row">
-                <div class="col-md-12">
-                    <hgroup class="text-center">
-                      <h1>{{ site.data.blurbs.news.title }}</h1>
-                      <h2 class="subheader"><span class="hidden-xs">{{ site.data.blurbs.news.subtitle.long }}</span><span class="visible-xs">{{ site.data.blurbs.us.subtitle.short }}</span></h2>
-                  </hgroup>
-                </div>
+        <div class="row list-header">
+            <div class="col-md-12">
+                <hr class="none">
+                <h3 class="text-center">{{ site.data.blurbs.news.subtitle.long }}</h3>
             </div>
         </div>
         <div class="section-description">

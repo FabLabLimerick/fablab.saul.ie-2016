@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Open Night
 slug: opennight
 link: /events/opennight/
