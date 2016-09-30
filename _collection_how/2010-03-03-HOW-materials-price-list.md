@@ -6,6 +6,8 @@ slug: material-price-list
 description: "This is a list of the materials we generally stock. You should check with us if you are unsure, but this should help you to make your own calculations based on your material expenses."
 ---
 
+This is a list of the materials we generally stock. You should check with us if you are unsure, but this should help you to make your own calculations based on your material expenses.
+
  Material| Material             | Thickness (mm)| Size (mm)     | Total €  | Source
  --------| -----------          | ------------  | ------------- | -------- | ------
 TIMBER | Birch Ply | 1.5 | 1.5x1500x1500 | 40.59 | IWP
