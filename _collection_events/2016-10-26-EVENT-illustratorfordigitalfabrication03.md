@@ -24,16 +24,16 @@ We will focus on making and preparation of vector files that can be further cut 
 
 The cost of the full course is 60 euros for students and 100 euros for adults. Capacity of this course is 12 people and classes will be on four consecutive Wednesdays from 19:30-21:30 starting Wednesday 26th of October. It is essential to have an Illustrator app already installed on your computer, otherwise contact us in advance, and we can provide a 30-day trial version.
 
-###Week 1
+### Week 1
 Introduction to various projects that have been realized in Fab Lab by using the Adobe Illustrator in conjunction with laser cutting machines. Installation of the program and introduction of the program’s interface.
 
-###Week 2
+### Week 2
 We will be covering all the essential tools that are commonly used so that you can get started and have a feel of how Illustrator works.
 
-###Week 3
+### Week 3
 Further exploration of various vector-creating techniques like drawing, shape building, typography and tracing.
 
-###Week 4
+### Week 4
 Final stage of digital fabrication where we will realize everyone’s individual project of choice created through out the course, on a laser cutter. Material will be provided by Fab Lab Limerick and each learner will be able to take home their individual projects.
 
 You can book your place [here](http://fablablimerick.ticketleap.com/illustratorfordigitalabrication03)
