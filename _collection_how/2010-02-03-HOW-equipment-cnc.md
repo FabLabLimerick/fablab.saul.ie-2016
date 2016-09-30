@@ -59,3 +59,5 @@ When you have your file created in V carve pro or Partworks 3D, save the toolpat
 
 ### Post-Processing
 Once the Shopbot is finished cutting, turn off extraction. Remove screws from work piece and move workpiece to workbench provided. If you turn the workpiece upside down, you can cut tabs out cleanly with sharp chisel.
+
+[Book Here](http://fablablimerick.schedulista.com/)
