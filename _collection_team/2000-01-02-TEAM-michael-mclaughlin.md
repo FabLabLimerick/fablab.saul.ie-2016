@@ -1,5 +1,5 @@
 ---
-title: M. McLaughlin
+title: Michael McLaughlin
 category: team
 position: Coordinator
 fullname: Michael McLaughlin
