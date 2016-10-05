@@ -76,4 +76,4 @@ Mac
 #### Ultimaker 2
 With the Ultimaker 2 sending the file to print is a quick and easy job. From Cura save your file onto an SD card. Slot the card into the front of the machine and select your file for printing.
 
-[Book Here](http://fablab.saul.ie/how/booking/)
+[Book Here](http://fablab.saul.ie/how/how/booking/)

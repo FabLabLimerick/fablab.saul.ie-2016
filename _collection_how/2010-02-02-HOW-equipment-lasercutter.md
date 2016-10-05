@@ -113,4 +113,4 @@ To use adobe illustrator to prepare the lasercutting drawings please abide the f
 - To send, click JC, then print, then print again.
 - The JC (job control software) will flash. Click on it to open it.
 
-[Book Here](http://fablab.saul.ie/how/booking/)
+[Book Here](http://fablab.saul.ie/how/how/booking/)
