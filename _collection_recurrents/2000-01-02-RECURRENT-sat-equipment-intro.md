@@ -22,10 +22,10 @@ Our Equipment Introduction Days consist of three courses, that may be taken sepa
 ### 10:00am : Laser Cutting
 Learn to make your own designs in plastic, textile, paper, cardboard, timber at a high speed with an incredible degree of accuracy, with our professional Trotec Laser Engraver. Learn how to prepare your own designs, the huge range of materials possible, safety and operation of the machine.
 
-### 12:30pm : CNC Routing
+### 1:00pm : CNC Routing
 In this course, we go through the basics of going from your 2D drawing to your very own routed, engraved or cut object. Our CNC router can be used to cut many types of timbers, plastics and some soft metals, with a size up to 2440mm x 1220mm x 200mm.
 
-### 3:00pm : 3D Printing
+### 4:00pm : 3D Printing
 This course will explain the concept of 3D printing and demonstrate how to use a 3D printer with demonstrations on our Ultimaker2 and more. 3D printing is an extremely versatile prototyping technology which has a large variety of available materials. And 3D printing is a very accessible technology, advancing all the time with dedicated online communities and open source designs.
 
 The courses are each introductory courses, so no previous experience is required. All ages are welcome (under 14's must be accompanied by an adult)
