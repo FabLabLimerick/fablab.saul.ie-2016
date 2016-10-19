@@ -24,4 +24,4 @@ imageoriginal: ""
 
 Capacity of this course is 12 people and classes will be on four consecutive Tuesdays from the 15th of November, from 7:30pm to 9:30 pm in Fab Lab Limerick. The course is €60 for Students and €100 for Adults.
 
-You can book your place [here](fablablimerick.ticketleap.com/sketchupfordigitalfabrication04)
+You can book your place [here](http://fablablimerick.ticketleap.com/sketchupfordigitalfabrication04)
