@@ -1,12 +1,12 @@
 ---
-title: "Digital Veil, a talk by Aoife Browne"
+title: "DIGITAL VEIL, A TALK BY AOIFE BROWNE"
 layout: single-event
 category: events
 
-excerpt: "Digital Veil, an exploration of our boundary condition norms from your Grannies' Lace Curtains to the Digital Veil"
-hours: "OCT. 25th, FROM 7:30PM"
-description: "Digital Veil, an exploration of our boundary condition norms from your Grannies' Lace Curtains to the Digital Veil"
-fee: "Free"
+excerpt: "Digital Veil, an exploration of our boundary condition norms from your Grannies\' Lace Curtains to the Digital Veil"
+hours: "OCT. 25TH, FROM 7:30PM"
+description: "Digital Veil, an exploration of our boundary condition norms from your Grannies\' Lace Curtains to the Digital Veil"
+fee: "FREE, NO BOOKING REQUIRED"
 slug: digitalveil
 past: false
 soon: false
