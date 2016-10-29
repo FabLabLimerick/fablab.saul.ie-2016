@@ -6,7 +6,7 @@ category: events
 excerpt: "In conjunction with CoderDojo Limerick: 2 workshops for adults interested in learning Python programming"
 hours: "TUES, NOV. 22ND & 29TH, 7:30PM - 9:30PM"
 description: "In conjunction with CoderDojo Limerick: 2 workshops for adults interested in learning Python programming"
-fee: "FREE"
+fee: "PAY WHAT YOU CAN"
 slug: pythonforbeginners3
 past: false
 soon: false
