@@ -22,7 +22,11 @@
                 {% include carousel-single.html %}
             </section>
         {% else %}
+          {% if page.imagebackground %}
+            <div class="header-single-image" style="background-image: url(/collection_events/{{ page.path | remove: "_collection_events/" | remove: ".md" | append: "-background.jpg" }})"></div>
+          {% else %}
             <div class="header-single-image" style="background-image: url(/collection_events/{{ page.path | remove: "_collection_events/" | remove: ".md" | append: ".jpg" }})"></div>
+          {% endif %}
         {% endif %}
          <div class="header-single-title">
             <div class="container">
@@ -55,9 +59,13 @@
                 <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
                     <h2 class="body-single-excerpt text-center">{{ page.excerpt }}</h2>
                     <div class="body-single-info">
-                        <hr class="top">
-                        <h5 class="text-center">{{ page.fee }}</h5>
-                        <hr class="bottom">
+                        {% if page.fee %}
+                          <hr class="top">
+                          <h5 class="text-center">{{ page.fee }}</h5>
+                          <hr class="bottom">
+                        {% else %}
+                          <hr class="bottom">
+                        {% endif %}
                     </div>
                     <div class="body-single-content" lang="en">
                         {{ content }}

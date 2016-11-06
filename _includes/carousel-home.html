@@ -30,7 +30,7 @@
       {% endif %}
       {% if banner.caption.display !=  false %}
       <div class="carousel-caption">
-        <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.caption.description }}. {{ site.data.blurbs.banner.image_by }} {{ banner.caption.credits }}</p>
+        <p class="hidden-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a>. {{ banner.caption.description }}. {% if banner.caption.credits %}{{ site.data.blurbs.banner.image_by }} {{ banner.caption.credits }}{% endif %}</p>
         <p class="visible-xs"><a href="{{ banner.link }}" class="white"><span class="title">{{ banner.title }}</span></a></p>
       </div>
       {% endif %}
