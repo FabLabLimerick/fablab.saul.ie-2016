@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Open source prosthetics Workshop"
 layout: single-event
 category: events
@@ -11,7 +10,7 @@ fee: "Free event"
 slug: opensourceprosthetics
 past: false
 soon: true
-published: false
+published: true
 
 imagedisplay: false
 imagetitle:
