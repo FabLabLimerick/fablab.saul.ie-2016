@@ -10,7 +10,7 @@ description: ""
 fee: "Free event"
 slug: opensourceprosthetics
 past: false
-soon: false
+soon: true
 published: false
 
 imagedisplay: false
