@@ -28,3 +28,5 @@ More info at [e-NABLE](http://enablingthefuture.org)
 Jen Owen is the founder of enablingthefuture.org, a website dedicated to sharing the stories and the open source designs and resources created by e-NABLE Community, a global movement of makers who are using 3D printing technology to create free and low cost upper limb devices for those in need.
 
 She has been documenting the progress of the e-NABLE Community since 2013 when her husband Ivan Owen, co-created the first 3D printed hand for a child in South Africa and then released the design files as open source instead of patenting them.
+
+Organized by Fab Lab Limerick in collaboration with the Health Hub. Fab Lab Limerick is a project by the School of Architecture, University of Limerick.
