@@ -30,3 +30,5 @@ Jen Owen is the founder of enablingthefuture.org, a website dedicated to sharing
 She has been documenting the progress of the e-NABLE Community since 2013 when her husband Ivan Owen, co-created the first 3D printed hand for a child in South Africa and then released the design files as open source instead of patenting them.
 
 Organized by Fab Lab Limerick in collaboration with the Health Hub. Fab Lab Limerick is a project by the School of Architecture, University of Limerick.
+
+The Health Hub is a health promotion site in Limerick city centre. It is led by  the University of Limerick and is a place for community groups, students and professionals to collaborate on health issues that are important to them.
