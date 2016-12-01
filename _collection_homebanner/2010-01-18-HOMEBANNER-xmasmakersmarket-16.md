@@ -6,7 +6,7 @@ slug: xmasmakersmarket-16
 video: false
 caption:
   display: true
-  description: "Xmas Makers Market · Call Open!"
+  description: "Xmas Makers Market"
 motto:
   display: false
 responsive: false
