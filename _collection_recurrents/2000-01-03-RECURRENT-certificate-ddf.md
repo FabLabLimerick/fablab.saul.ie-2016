@@ -48,4 +48,6 @@ This course is available for free to eligible Springboard+ applicants, and acces
 To check your Springboard+ eligibility you can get more information by going to [www.springboardcourses.ie/eligibility](https://www.springboardcourses.ie/eligibility).
 For more information on any of the above, email [cpe@ul.ie](mailto:cpe@ul.ie) or [fablab@saul.ie](mailto:fablab@saul.ie).
 
+UPDATE: APPLICATIONS NOW OPEN UNTIL 8/1/2017 [Apply Now](https://www.springboardcourses.ie/details/4692)
+
 Please note, this course requires use of a laptop, and for many of the softwares you may require a mouse. If you do not have access to a laptop please let us know by email.
