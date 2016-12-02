@@ -39,8 +39,7 @@ TIMBER | Birch Ply | 1.5 | 1.5x1500x1500 | 40.59 | IWP
  | Flexi Ply Short | 12 | 12x1220x2440 | 105.53 | IWP
  |  | 15 | 15x1220x2440 | 123.12 | IWP
  | Pine Board | 25 | 25x2440x1220 | 74.42 | IWP
- | Plain MDF | 2 | 2x600x913 | 2.50 | SS
- |  | 2.5 | 2.5x600x913 | 2.50 | SS
+ | Plain MDF | 2.5 | 2.5x600x913 | 2.50 | SS
  |  | 4 | 4x1220x2440 | 8.10 | IWP
  |  | 6 | 6x1220x2440 | 12.12 | IWP
  |  | 9 | 9x1220x2440 | 16.14 | IWP
