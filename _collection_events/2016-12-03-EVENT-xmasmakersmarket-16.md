@@ -3,7 +3,7 @@ title: "Xmas Makers Market"
 layout: single-event
 category: events
 
-excerpt: "Fab Lab Limerick is delighted to announce its first Xmas Makers Market on Saturday December 10th. Illustrations, ceramics, jewelry, arts, crafts and much more made by local makers."
+excerpt: "Fab Lab Limerick is delighted to announce its first Xmas Makers Market on Saturday December 10th. Illustrations, ceramics, jewellery, arts, crafts and much more made by local makers."
 hours: "Saturday 10th December, 10AM - 4PM"
 description: "Fab Lab Limerick is delighted to announce its first Xmas Makers Market on Saturday December 10th. Illustrations, ceramics, jewelry, arts, crafts and much more made by local makers."
 fee:
@@ -39,3 +39,6 @@ Participants:
 - Karen Cuneen, crafts
 - Shan Vaughan, poet and hand made books
 - Michael Mc Laughlin, woodworker
+- Stephen	Duggan, wool hats
+- Martina	Gleeson, illustrator
+- Clare Reidy, weaving
