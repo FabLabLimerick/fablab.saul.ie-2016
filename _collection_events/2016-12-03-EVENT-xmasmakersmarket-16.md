@@ -24,7 +24,7 @@ imagebackground: yes
 Participants:
 - Sarah Bolger, illustrator
 - Audrey Doran, crochet
-- Marie Mc, hat designer
+- Marie McCormack, hat designer
 - Monika Kolakowska, ceramist
 - Ger Walsh, designer
 - Aoife Daly, ceramist
