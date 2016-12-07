@@ -37,7 +37,7 @@ Participants:
 - Robyn Long, illustrator
 - Mary Conroy, ceramist
 - Karen Cuneen, crafts
-- Shan Vaughan, poet and hand made books
+- Shane Vaughan, poet and hand made books
 - Michael Mc Laughlin, woodworker
 - Stephen	Duggan, wool hats
 - Martina	Gleeson, illustrator
