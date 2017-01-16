@@ -16,9 +16,9 @@ footer:
     long: "Fab Lab Limerick, 7 Rutland Street, Limerick"
     short: "Fab Lab Limerick, 7 Rutland Street"
   timetable:
-    long_1: "We are open from Monday to Friday, from 9:00 to 17:00."
+    long_1: "We are open from Monday to Saturday, from 9:00 to 17:00."
     long_2: "Late opening evening on Thursdays from 19.30 to 21.30"
-    sort: "Open: Monday to Friday, 9:00 to 17:00. Late opening evening on Thursdays 19.30 to 21.30"
+    sort: "Open: Monday to Saturday, 9:00 to 17:00. Late opening evening on Thursdays 19.30 to 21.30"
   external:
     facebook: https://www.facebook.com/fablablimerick
     twitter: https://twitter.com/fablablimerick
