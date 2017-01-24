@@ -6,7 +6,7 @@ category: how
 description: "To use our machines, please book in advance"
 ---
 
-In order to use any Fab Lab equipment please book [here](http://fablablimerick.schedulista.com).
+Hello. In order to use any Fab Lab equipment please book [here](http://fablablimerick.schedulista.com).
 
 And please note, to use a machine, you need to have completed the relevant Introductory course, which you can find out about [here](http://fablab.saul.ie/recurrents/sat-equipment-intro/)
 
