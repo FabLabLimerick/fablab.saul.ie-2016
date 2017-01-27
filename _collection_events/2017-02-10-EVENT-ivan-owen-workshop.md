@@ -4,13 +4,13 @@ layout: single-event
 category: events
 
 excerpt: "U.S. artist Ivan Owen and local puppeteer Emma Fisher join forces to host an imaginative masterclass guiding puppeteers,artists and designers through designing & building their own laser cut mechanical shadow puppets! For professionals and beginners alike."
-hours: "TBD"
+hours: "FEB. 10TH/11TH"
 description: "U.S. artist Ivan Owen and local puppeteer Emma Fisher join forces to host an imaginative masterclass guiding puppeteers,artists and designers through designing & building their own laser cut mechanical shadow puppets! For professionals and beginners alike."
-fee: "TBD"
+fee: "€100 per person, 10 places"
 slug: ivan-owen-workshop
 past: false
 soon: false
-published: false
+published: true
 
 imagedisplay: false
 imagetitle:
@@ -26,8 +26,11 @@ This workshop has been designed to cater to people with a wide range of skill le
 
 ![pretty bird parts]({{site.url}}/collection_events/2017-02-11-EVENT-ivan-owen-workshop2.jpg)
 
+### To book your place:
+Please [follow this link](https://fablablimerick.ticketleap.com/workshop-ivan-owen/). There are limited spaces, so please reserve your place soon!
+
 ### What you’ll need:
-Please bring a laptop with Fusion 360 installed. Fusion can be installed  & used for free for 3 years & can can be downloaded here: [autodesk.com/products/fusion-360/](http://www.autodesk.com/products/fusion-360/)
+Please bring a laptop with Fusion 360 installed. Fusion can be installed & used for free for 3 years & can can be downloaded here: [autodesk.com/products/fusion-360/](http://www.autodesk.com/products/fusion-360/)
 
 ### Ivan Owen:
 Makerspace Lab Manager at the University of Washington, Bothell & an interdisciplinary artist exploring a wide range of topics. Co-inventor of the first open-source 3D printable hand prosthesis & a volunteer for the e-NABLE open prosthetics community. His past work has included musical composition, metal casting, jewelry, recreations of medieval armor and costume and prop making for stage and screen including Modern Family and Outrageous Acts of Science. His most recent project has been working with Emma Fischer to create a functional, wearable mechanical artistic creation & with her exploring ways in which digital fabrication can be utilized in puppetry.
