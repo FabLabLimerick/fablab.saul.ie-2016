@@ -24,7 +24,7 @@ Join U.S. artist Ivan Owen and local puppeteer Emma Fisher as they lead this wor
 
 This workshop has been designed to cater to people with a wide range of skill levels. Participants who are new to design will be welcome to select from pre-made templates which they can customize as a way to ease into design. Participants who have more experience will be helped through the design process to create their own idea from the ground-up. Stay tuned for example photos and videos of what can be made possible through this process!
 
-![pretty bird parts]({{site.url}}/collection_events/2017-02-11-EVENT-ivan-owen-workshop2.jpg)
+![pretty bird parts]({{site.url}}/collection_events/2017-02-10-EVENT-ivan-owen-workshop2.jpg)
 
 ### To book your place:
 Please [follow this link](https://fablablimerick.ticketleap.com/workshop-ivan-owen/). There are limited spaces, so please reserve your place soon!
