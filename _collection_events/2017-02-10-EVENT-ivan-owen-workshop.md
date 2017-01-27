@@ -3,9 +3,9 @@ title: "Shadows cast by lasers: Using digital fabrication to explore the beauty 
 layout: single-event
 category: events
 
-excerpt: "U.S. artist Ivan Owen and local puppeteer Emma Fisher join forces to host an imaginative masterclass guiding puppeteers,artists and designers through designing & building their own laser cut mechanical shadow puppets! For professionals and beginners alike."
+excerpt: "U.S. artist Ivan Owen and local puppeteer Emma Fisher join forces to host an imaginative masterclass to guide you through designing & building their own laser cut mechanical shadow puppets! For professionals and beginners alike."
 hours: "FEB. 10TH/11TH"
-description: "U.S. artist Ivan Owen and local puppeteer Emma Fisher join forces to host an imaginative masterclass guiding puppeteers,artists and designers through designing & building their own laser cut mechanical shadow puppets! For professionals and beginners alike."
+description: "U.S. artist Ivan Owen and local puppeteer Emma Fisher join forces to host an imaginative masterclass to guide you through designing & building their own laser cut mechanical shadow puppets! For professionals and beginners alike."
 fee: "€100 per person, 10 places"
 slug: ivan-owen-workshop
 past: false
