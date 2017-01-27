@@ -29,6 +29,10 @@ This workshop has been designed to cater to people with a wide range of skill le
 ### To book your place:
 Please [follow this link](https://fablablimerick.ticketleap.com/workshop-ivan-owen/). There are limited spaces, so please reserve your place soon!
 
+The workshop comprises two sessions:
+ + 1pm to 5pm on Friday, and
+ + 10am to 5pm on Saturday.
+
 ### What you’ll need:
 Please bring a laptop with Fusion 360 installed. Fusion can be installed & used for free for 3 years & can can be downloaded here: [autodesk.com/products/fusion-360/](http://www.autodesk.com/products/fusion-360/)
 
