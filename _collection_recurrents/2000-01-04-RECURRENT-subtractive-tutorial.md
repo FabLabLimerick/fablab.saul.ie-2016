@@ -34,4 +34,4 @@ The courses are each introductory courses, so no previous experience is required
 Each class is €18 for students and €30 for adults.
 For booking **2 classes together**, prices are €30 for students and €50 for adults.
 
-You can book your place [here.](http://fablablimerick.ticketleap.com/saturday-introductory-tutorials)
+You can book your place [here.](https://fablablimerick.ticketleap.com/saturday-introduction-subtractive-manufacturing/)
