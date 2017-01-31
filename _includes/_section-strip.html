@@ -1,5 +1,5 @@
 <div class="section-strip">
-    <div class="row">
+    <div class="row" style="display: flex;">
         {% for event in site.collection_recurrents %}
         <article class="col-md-4 col-sm-4 col-xs-4 text-center event-strip">
             <a {% if event.active %}href="{{ event.url }}"{% else %}{% endif %}>

@@ -3,7 +3,7 @@ title: "Shadows cast by lasers: Using digital fabrication to explore the beauty 
 layout: single-event
 category: events
 
-excerpt: "U.S. artist Ivan Owen and local puppeteer Emma Fisher will host an imaginative masterclass to guide you through designing & building your own laser cut mechanical shadow puppets! For professionals and beginners alike."
+excerpt: "An imaginative masterclass to guide you through designing & building your own laser cut mechanical shadow puppets! For professionals and beginners alike."
 hours: "FEB. 10TH/11TH"
 description: "U.S. artist Ivan Owen and local puppeteer Emma Fisher will host an imaginative masterclass to guide you through designing & building your own laser cut mechanical shadow puppets! For professionals and beginners alike."
 fee: "€100 per person, 10 places"
@@ -30,8 +30,8 @@ This workshop has been designed to cater to people with a wide range of skill le
 Please [follow this link](https://fablablimerick.ticketleap.com/workshop-ivan-owen/). There are limited spaces, so please reserve your place soon!
 
 The workshop comprises two sessions:
- + 1pm to 5pm on Friday, and
- + 10am to 5pm on Saturday.
+ * 1pm to 5pm on Friday, and
+ * 10am to 5pm on Saturday.
 
 ### What you’ll need:
 Please bring a laptop with Fusion 360 installed. Fusion can be installed & used for free for 3 years & can can be downloaded here: [autodesk.com/products/fusion-360/](http://www.autodesk.com/products/fusion-360/)

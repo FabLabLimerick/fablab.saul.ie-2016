@@ -3,7 +3,7 @@ title: "Beginners Jewellery Workshop"
 layout: single-event
 category: events
 
-excerpt: "Learn the techniques needed to work precious metal. Using pliers, files, hammers, blowtorches, etc. students will form silver wire to create a spiral pendant and forge sheet to make a textured silver ring."
+excerpt: "Learn the techniques needed to work precious metal. Use pliers, files, hammers, blowtorches, etc. students will create a silver spiral pendant and make a textured silver ring."
 hours: "MARCH 11TH, 10AM TO 4:30PM"
 description: "Beginners' Jewellery Skills workshops with Fergus Grant-Stevenson."
 fee: "€95 (incl. €20 deposit)"
