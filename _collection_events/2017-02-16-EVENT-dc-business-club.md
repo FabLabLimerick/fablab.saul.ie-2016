@@ -18,7 +18,7 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-Do you have a dream idea, side project or start-up business you want move forward?
+Do you have a dream idea, side project or start-up business you want to move forward?
 Would you like to get honest feedback and support from like-minded people dealing with similar issues and challenges as you?
 To find out more join us at Fab Lab Limerick on Thursday Feb 16th at 7.30pm
 
@@ -37,7 +37,7 @@ FREE EVENT but registration is essential as places are limited
 TO REGISTER: log on to [eventbrite](https://www.eventbrite.com/e/dreamcatcher-business-club-tickets-31482096799)
 Or contact Fergal O’ Farrell at 087 4176498
 
-### About Fergal
+### About your facilitator, Fergal O' Farrell
 I love working with individuals and groups of people who are pushing personal and work boundaries, I really admire those who are challenging the status quo, pushing their personal limits as they grow personally and develop their ideas/projects/start-up enterprise.
 I have over 20 years’ experience working in an international retail environment in financial, planning and organisation development roles. I have been involved in food and technology start-ups and I understand the challenges – the highs and the lows. I have an MSc in Business Practice as well as qualifications in coaching, and accountancy.
 
