@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: "Certificate in Digital Fabrication"
 slug: certificate-ddf
 
