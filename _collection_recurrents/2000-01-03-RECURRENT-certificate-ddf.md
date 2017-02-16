@@ -18,7 +18,7 @@ imageoriginal:
 ---
 
 ### Description
-This certificate will give participants an insight into digital fabrication which is underpinning a technological and manufacturing revolution. Covering a range of technologies the course will look in a critical way at issues of localisation, personalisation, flexibility and sustainability. It is a 12 week course consisting of 3 modules, totalling 24 ECTS credits.
+This certificate will give participants an insight into digital fabrication which is underpinning a technological and manufacturing revolution. Covering a range of technologies the course will look in a critical way at issues of localisation, personalisation, flexibility and sustainability. It is a 12 week course consisting of 3 modules, totalling 24 ECTS credits. The course is a part-time daytime course, Monday to Friday.
 
 
 ### Module 1: Fab Learning Portfolio
@@ -52,5 +52,3 @@ Next course will begin in September 2017. Applications open in August 2017.
 For more information on any of the above, email [cpe@ul.ie](mailto:cpe@ul.ie) or [fablab@saul.ie](mailto:fablab@saul.ie).
 
 Please note, this course requires use of a laptop, and for many of the softwares you may require a mouse. If you do not have access to a laptop please let us know by email.
-
-
