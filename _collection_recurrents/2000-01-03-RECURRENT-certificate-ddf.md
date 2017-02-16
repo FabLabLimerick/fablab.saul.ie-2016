@@ -46,8 +46,11 @@ Participants require basic computer skills, Leaving Certificate or equivalent. A
 This course is available for free to eligible Springboard+ applicants, and accessible directly to CAO and mature applicants, for more details about this process, email [cpe@ul.ie](mailto:cpe@ul.ie).
 
 To check your Springboard+ eligibility you can get more information by going to [www.springboardcourses.ie/eligibility](https://www.springboardcourses.ie/eligibility).
+
+Next course will begin in September 2017. Applications open in August 2017.
+
 For more information on any of the above, email [cpe@ul.ie](mailto:cpe@ul.ie) or [fablab@saul.ie](mailto:fablab@saul.ie).
 
-UPDATE: APPLICATIONS NOW OPEN UNTIL 8/1/2017 [Apply Now](https://www.springboardcourses.ie/details/4692)
-
 Please note, this course requires use of a laptop, and for many of the softwares you may require a mouse. If you do not have access to a laptop please let us know by email.
+
+
