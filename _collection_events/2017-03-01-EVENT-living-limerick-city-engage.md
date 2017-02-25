@@ -1,10 +1,10 @@
 ---
-title: "Living Limerick - Street Design Work"
+title: "Living Limerick - Street Design Workshop"
 layout: single-event
 category: events
 
 excerpt: "A critical opportunity to make real change in the city through a series of community engagement events in the city to gather public opinion about the future the city"
-hours: "MAR 1ST, FROM 2PM"
+hours: "MARCH 1ST, FROM 2PM"
 description: "A critical opportunity to make real change in the city through a series of community engagement events in the city to gather public opinion about the future the city"
 fee: "FREE, ALL WELCOME"
 slug: living-limerick-city-engage
