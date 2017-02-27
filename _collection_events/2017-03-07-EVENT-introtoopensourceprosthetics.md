@@ -23,3 +23,4 @@ Drawing inspiration from the global [e-Nable network](http://enablingthefuture.o
 Within the project there are many roles to fill and various opportunities to tackle new challenges around providing local community members with a helping hand. This first workshop will be an introduction to the project and a first opportunity to network and collectively create amongst like minded people.
 
 The workshop starts at 6.30 pm. The event is free, all are welcome though **registration is required**.
+Please register your place [here!](https://drive.google.com/open?id=1kabc13rezZssztxEnKnpVwBsbkJiEl1vOnlpOWk6FLM)
