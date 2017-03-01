@@ -53,4 +53,4 @@ My role is to help you figure out how to move forward, achieve your goals and se
 
 *“Follow your dreams they know the way”*
 
-[www.dreamcatcherbusinessclub.com](www.dreamcatcherbusinessclub.com)
+[www.dreamcatcherbusinessclub.com](http://www.dreamcatcherbusinessclub.com)
