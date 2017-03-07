@@ -22,4 +22,4 @@ Kids will be encouraged to explore their own creativity and imagination with the
 
 All materials will be provided by Fab Lab Limerick and each child will be able to take home their individual projects. The camp will be over two days - Friday the 14th and Saturday the 15th, from 10:30am to 3:30pm.
 
-There is a limit of 8 spaces for the camp, and to reserve your space, please pay a deposit of €20. To reserve your tickets [please click here](https://fablablimerick.ticketleap.com/easter-camp-2017/)
+Please note, this event is now <span style="color:red">SOLD OUT</span>, but we will shortly announce details of our Summer Camp for all interested!
