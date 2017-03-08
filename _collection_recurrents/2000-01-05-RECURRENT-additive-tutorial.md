@@ -19,8 +19,6 @@ imagecredits: ""
 imageoriginal:
 ---
 
-<span style="color: red">Note:</span> For the **Saturday Equipment Tutorial on March 4th**, you can still book through [this page.](https://fablablimerick.ticketleap.com/saturday-introductory-tutorials/dates/Mar-04-2017_at_1000AM)
-
 Our 3D Printing Introduction consists of two courses, that may be taken separately or over a single day.
 
 ### 10:00am : 3D Printing, Introduction & FDM Printing
