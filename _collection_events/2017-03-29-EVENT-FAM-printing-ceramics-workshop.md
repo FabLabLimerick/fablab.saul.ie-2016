@@ -7,7 +7,7 @@ series: "FUTURE ARTIST MAKERS"
 excerpt: "This workshop taught by Jonathan Keep will explore the possibilities of 3D printing using ceramic materials in our new Wasp 3D printer"
 hours: "Tuesday 28th March- Wednesday 29th March"
 description: "This workshop taught by Jonathan Keep will explore the possibilities of 3D printing using ceramic materials in our new Wasp 3D printer"
-fee: "FREE, REGISTRATION REQUIRED"
+fee: "Free, registration required"
 slug: FAM-printing-ceramics-workshop
 past: false
 soon: false

@@ -7,7 +7,7 @@ series: "FUTURE ARTIST MAKERS"
 excerpt: "Ceramist Jonathan Keep will be presenting his work on ceramics, multimedia, virtual reality and 3D printing"
 hours: "29th March. 7:30pm"
 description: "Ceramist Jonathan Keep will be presenting his work on ceramics, multimedia, virtual reality and 3D printing"
-fee: "FREE, ALL WELCOME"
+fee: "Free, all welcome"
 slug: FAM-jonathan-keep-talk
 past: false
 soon: false

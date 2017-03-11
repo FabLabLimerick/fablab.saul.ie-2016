@@ -10,7 +10,7 @@ excerpt: "Exhibition and event programme launch and talk from curator Declan She
 hours: "March 15th 7pm"
 description: "Exhibition and event programme launch and talk from curator Declan Sheehan"
 
-fee: "FREE, ALL WELCOME"
+fee: "Free, all welcome"
 slug: FAM-launch
 soon: false
 past: false

@@ -7,7 +7,7 @@ series: "FUTURE ARTIST MAKERS"
 excerpt: "Juan José Tara from Dsruptive will be presenting their work on body implantable technology"
 hours: "16th March 7:30pm"
 description: "Juan José Tara from Dsruptive will be presenting their work on body implantable technology"
-fee: "FREE, ALL WELCOME"
+fee: "Free, all welcome"
 slug: FAM-dsruptive-talk
 past: false
 soon: false
