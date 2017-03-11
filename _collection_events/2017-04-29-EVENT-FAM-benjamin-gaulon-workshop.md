@@ -1,13 +1,13 @@
 ---
-title: "FAM Jonathan Keep Talk"
+title: "FAM Benjamin Gaulon workshop"
 layout: single-event
 category: events
 
 excerpt: ""
-hours: "29th March. 7:30pm"
+hours: "28th April - 29th April"
 description: ""
 fee: "Free"
-slug: FAM-jonathan-keep-talk
+slug: FAM-benjamin-gaulon-workshop
 past: false
 soon: true
 published: false
@@ -18,7 +18,6 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-Jonathan Keep (Johannesburg, SA, 1958) is a UK-based artist noted for his freethinking approach to pottery and the ceramic form. Jonathan pushes the boundaries of his medium with a creative convergence of ceramics, multimedia, virtual reality and 3D printing. http://www.keep-art.co.uk. Talk beginning at 7:30pm. Admission is free, all are welcome and no advance booking required
 
 ---
 <br/>

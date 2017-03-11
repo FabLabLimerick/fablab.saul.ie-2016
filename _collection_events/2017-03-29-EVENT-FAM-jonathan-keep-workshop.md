@@ -10,7 +10,7 @@ fee: "Free"
 slug: FAM-jonathan-keep-workshop
 past: false
 soon: true
-published: true
+published: false
 
 imagedisplay: false
 imagetitle:
