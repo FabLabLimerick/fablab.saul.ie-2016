@@ -3,6 +3,7 @@ title: "Future Artist Makers"
 layout: single-event
 category: events
 published: true
+series: FAM
 
 excerpt: "Exhibition and event programme launch and talk from curator Declan Sheehan"
 

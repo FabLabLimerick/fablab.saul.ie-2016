@@ -2,6 +2,7 @@
 title: "FAM Easter Camp for Kids"
 layout: single-event
 category: events
+series: FAM
 
 excerpt: "Future Artist Makers invites kids aged 9 to 12 to take part in a 2-day Easter camp. Boys and girls will explore their imagination and creativity using digital technologies!"
 hours: "April 14th & 15th, 10:30am TO 3:30pm"

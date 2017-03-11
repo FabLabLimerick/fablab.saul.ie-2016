@@ -2,6 +2,7 @@
 title: "FAM Dsruptive Talk"
 layout: single-event
 category: events
+series: FAM
 
 excerpt: "Juan José Tara from Dsruptive will be presenting their work on body implantable technology"
 hours: "16th March 7:30pm"

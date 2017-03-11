@@ -2,6 +2,7 @@
 title: "FAM Jonathan Keep Talk"
 layout: single-event
 category: events
+series: FAM
 
 excerpt: ""
 hours: "29th March. 7:30pm"

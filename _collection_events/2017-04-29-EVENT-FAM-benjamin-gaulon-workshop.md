@@ -2,6 +2,7 @@
 title: "FAM Benjamin Gaulon workshop"
 layout: single-event
 category: events
+series: FAM
 
 excerpt: ""
 hours: "28th April - 29th April"

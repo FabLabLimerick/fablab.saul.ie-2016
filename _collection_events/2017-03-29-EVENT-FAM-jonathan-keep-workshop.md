@@ -2,6 +2,7 @@
 title: "FAM Jonathan Keep ceramic 3D printing workshop"
 layout: single-event
 category: events
+series: FAM
 
 excerpt: "This workshop will explore the possibilities of 3D printing using ceramic materials in our new Wasp 3D printer"
 hours: "Tuesday 28th March- Wednesday 29th March"

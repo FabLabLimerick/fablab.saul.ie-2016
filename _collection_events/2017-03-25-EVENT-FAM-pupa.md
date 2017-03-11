@@ -2,6 +2,7 @@
 title: "FAM Pupa"
 layout: single-event
 category: events
+series: FAM
 
 excerpt: "Beyond The Bark presents Pupa, The freakish metamorphic tale of us at the Belltable theatre"
 hours: "23rd March – 25th March. 4pm, 6pm & 8pm"
