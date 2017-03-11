@@ -1,17 +1,17 @@
 ---
-title: "FAM Benjamin Gaulon workshop"
+title: "Benjamin Gaulon workshop"
 layout: single-event
 category: events
-series: FAM
+series: "FUTURE ARTIST MAKERS"
 
 excerpt: ""
 hours: "28th April - 29th April"
 description: ""
-fee: "Free"
+fee: "FREE, REGISTRATION REQUIRED"
 slug: FAM-benjamin-gaulon-workshop
 past: false
-soon: true
-published: false
+soon: false
+published: true
 
 imagedisplay: false
 imagetitle:

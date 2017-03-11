@@ -269,6 +269,21 @@ label{
     }
   }
 }
+.series-events{
+	ul{
+		padding: 0px;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		list-style: none;
+		li{
+			padding-top: 0.2em;
+			padding-bottom: 0.2em;
+			.title{
+				text-transform: uppercase;
+			}
+		}
+	}
+}
 .body-single{
   .body-single-content{
     img{

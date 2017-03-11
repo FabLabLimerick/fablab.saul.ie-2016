@@ -1,8 +1,8 @@
 ---
-title: "FAM monozith-workshop"
+title: "monozith-workshop"
 layout: single-event
 category: events
-series: FAM
+series: "FUTURE ARTIST MAKERS"
 
 excerpt: "Build a MonoZith - a single stringed, fretted electric zither with Ed Devane"
 hours: "3rd April. 6:30pm to 9:30pm"
@@ -10,7 +10,7 @@ description: "Build a MonoZith - a single stringed, fretted electric zither with
 fee: "Free"
 slug: FAM-monozith-workshop
 past: false
-soon: true
+soon: false
 published: true
 
 imagedisplay: false

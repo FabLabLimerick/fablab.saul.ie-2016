@@ -1,17 +1,17 @@
 ---
-title: "FAM Benjamin Gaulon Talk"
+title: "Benjamin Gaulon Talk"
 layout: single-event
 category: events
-series: FAM
+series: "FUTURE ARTIST MAKERS"
 
-excerpt: ""
+excerpt: "Artist, researcher and art college lecturer Benjamin Gaulon will be presenting his work"
 hours: "28th April. 7:30pm"
-description: ""
-fee: "Free"
+description: "Artist, researcher and art college lecturer Benjamin Gaulon will be presenting his work"
+fee: "FREE, ALL WELCOME"
 slug: FAM-benjamin-gaulon-talk
 past: false
-soon: true
-published: false
+soon: false
+published: true
 
 imagedisplay: false
 imagetitle:

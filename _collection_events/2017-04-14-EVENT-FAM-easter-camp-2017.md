@@ -1,12 +1,12 @@
 ---
-title: "FAM Easter Camp for Kids"
+title: "Easter Camp for Kids"
 layout: single-event
 category: events
-series: FAM
+series: "FUTURE ARTIST MAKERS"
 
-excerpt: "Future Artist Makers invites kids aged 9 to 12 to take part in a 2-day Easter camp. Boys and girls will explore their imagination and creativity using digital technologies!"
+excerpt: "Fab Lab Limerick invites kids aged 9 to 12 to take part in a 2-day Easter camp. Boys and girls will explore their imagination and creativity using digital technologies!"
 hours: "April 14th & 15th, 10:30am TO 3:30pm"
-description: "Future Artist Makers invites kids aged 9 to 12 to take part in a 2-day Easter camp. Boys and girls will explore their imagination and creativity using digital technologies!"
+description: "Fab Lab Limerick invites kids aged 9 to 12 to take part in a 2-day Easter camp. Boys and girls will explore their imagination and creativity using digital technologies!"
 fee: "€75 per child"
 slug: FAM-easter-camp-2017
 past: false

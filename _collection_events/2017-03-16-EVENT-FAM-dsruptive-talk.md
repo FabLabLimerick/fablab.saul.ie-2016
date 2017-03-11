@@ -1,13 +1,13 @@
 ---
-title: "FAM Dsruptive Talk"
+title: "Dsruptive Talk"
 layout: single-event
 category: events
-series: FAM
+series: "FUTURE ARTIST MAKERS"
 
 excerpt: "Juan José Tara from Dsruptive will be presenting their work on body implantable technology"
 hours: "16th March 7:30pm"
 description: "Juan José Tara from Dsruptive will be presenting their work on body implantable technology"
-fee: "Free"
+fee: "FREE, ALL WELCOME"
 slug: FAM-dsruptive-talk
 past: false
 soon: false
