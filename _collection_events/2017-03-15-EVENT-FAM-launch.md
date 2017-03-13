@@ -1,15 +1,16 @@
 ---
-title: "Future Artist Makers"
+title: "Future Artist Makers Launch"
 layout: single-event
 category: events
 published: true
+series: "FUTURE ARTIST MAKERS"
 
 excerpt: "Exhibition and event programme launch and talk from curator Declan Sheehan"
 
 hours: "March 15th 7pm"
 description: "Exhibition and event programme launch and talk from curator Declan Sheehan"
 
-fee: "FREE, ALL WELCOME"
+fee: "Free, all welcome"
 slug: FAM-launch
 soon: false
 past: false

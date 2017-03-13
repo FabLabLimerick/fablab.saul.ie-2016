@@ -1,0 +1,31 @@
+<section class="body-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+                <div class="body-single-info">
+                      <hr class="top">
+                      <h5 class="text-center">Related Events</h5>
+                      <hr class="bottom">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="series-events">
+    <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-sm-8 col-md-8 col-md-offset-2 col-sm-offset-2">
+            <ul>
+            {% for event in site.collection_events %}
+              {% if event.series == page.series %}
+                <a href="{{event.url}}">
+                <li><span class="title">{{event.title}}</span></li>
+                </a>
+              {% endif %}
+            {% endfor %}
+            </ul>
+            <hr class="bottom">
+          </div>
+        </div>
+    </div>
+</section>

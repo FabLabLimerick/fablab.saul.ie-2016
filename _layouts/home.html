@@ -79,14 +79,14 @@
                                         {% endif %}
                                         <h3>{{event.title}}</h3>
                                         <h4>{{event.hours}}<span class="visible-xs">{{event.fee}}</span></h4>
-                                        <p class="visible-sm">{{event.excerpt }} {{ link }}</p>
-                                        <p class="visible-xs">{{event.excerpt }}  {{ link }}</p>
+                                        <p class="visible-sm">{% if event.series %}{{event.series}}.{% endif %} {{event.excerpt }} {{ link }}</p>
+                                        <p class="visible-xs">{% if event.series %}{{event.series}}.{% endif %} {{event.excerpt }}  {{ link }}</p>
                                         <p class="fee hidden-xs">{{event.fee}}</p>
                                     </div>
                                 </div>
                                 <div class="col-md-4 hidden-xs hidden-sm">
                                     <div class="description" lang="en">
-                                        <p>{{event.excerpt }}  {{ link }}</p>
+                                        <p>{% if event.series %}{{event.series}}.{% endif %} {{event.excerpt }}  {{ link }}</p>
                                     </div>
                                 </div>
                             </div>

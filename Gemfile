@@ -18,6 +18,7 @@ gem "html-proofer"
 gem "jekyll-sitemap"
 gem "sass"
 gem "uglifier"
+gem "jekyll-livereload"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
