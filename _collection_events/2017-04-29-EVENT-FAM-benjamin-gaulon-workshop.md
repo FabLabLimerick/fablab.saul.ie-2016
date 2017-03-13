@@ -4,13 +4,13 @@ layout: single-event
 category: events
 series: "FUTURE ARTIST MAKERS"
 
-excerpt: ""
+excerpt: "To be confirmed"
 hours: "28th April - 29th April"
-description: ""
+description: "To be confirmed"
 fee: "Free, registration required"
 slug: FAM-benjamin-gaulon-workshop
 past: false
-soon: false
+soon: true
 published: true
 
 imagedisplay: false

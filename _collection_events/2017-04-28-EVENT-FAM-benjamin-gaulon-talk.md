@@ -4,13 +4,13 @@ layout: single-event
 category: events
 series: "FUTURE ARTIST MAKERS"
 
-excerpt: "Artist, researcher and art college lecturer Benjamin Gaulon will be presenting his work"
+excerpt: "To be confirmed"
 hours: "28th April. 7:30pm"
-description: "Artist, researcher and art college lecturer Benjamin Gaulon will be presenting his work"
+description: "To be confirmed"
 fee: "Free, all welcome"
 slug: FAM-benjamin-gaulon-talk
 past: false
-soon: false
+soon: true
 published: true
 
 imagedisplay: false

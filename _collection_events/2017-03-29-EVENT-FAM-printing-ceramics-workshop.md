@@ -4,9 +4,9 @@ layout: single-event
 category: events
 series: "FUTURE ARTIST MAKERS"
 
-excerpt: "This workshop taught by Jonathan Keep will explore the possibilities of 3D printing using ceramic materials in our new Wasp 3D printer"
+excerpt: "This workshop taught by Jonathan Keep will explore the possibilities of 3D printing using clay in our new Wasp 3D printer"
 hours: "Tuesday 28th March- Wednesday 29th March"
-description: "This workshop taught by Jonathan Keep will explore the possibilities of 3D printing using ceramic materials in our new Wasp 3D printer"
+description: "This workshop taught by Jonathan Keep will explore the possibilities of 3D printing using clay in our new Wasp 3D printer"
 fee: "Free, registration required"
 slug: FAM-printing-ceramics-workshop
 past: false
@@ -19,9 +19,9 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-This workshop will explore the possibilities of 3D printing using a basic paste layer deposition extrusion process. While the workshop will start by using clay as a print material participants will be urged to explore the potential to use other materials. All participants must have a laptop. Admission is free, but space is very limited. Contact us fablab@saul.ie
+This workshop will explore the possibilities of 3D printing using a only looking at the strengths and weaknesses of the extrusion ceramic 3D printing with clay, from generating digital files to preparing clay and then printing. All participants must have a laptop. Admission is free, but space is very limited. Contact us fablab@saul.ie
 
-Jonathan Keep is a UK-based artist noted for his freethinking approach to pottery and the ceramic form. Jonathan pushes the boundaries of his medium with a creative convergence of ceramics, multimedia, virtual reality and 3D printing. http://www.keep-art.co.uk.
+Jonathan Keep is an independent practising artist potter and a leading exponent of studio based ceramic 3D printing. His ceramics are recognizable for a strong sculptural quality and emphasis on form. The shapes of his pots are generated in computer code. He has developed this working process out of an interest in the way computer code can mimic natural codes, patterns and growth structures. A graduate of the Royal College of Art, London he exhibits internationally and lectures, undertakes artist residencies and workshops in the UK and abroad. Jonathan initiated the widely popular ‘Make Your Own Ceramic 3D Printer’ project. http://www.keep-art.co.uk.
 
 ---
 <br/>

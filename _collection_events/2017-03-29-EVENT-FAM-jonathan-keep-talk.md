@@ -19,7 +19,7 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-Jonathan Keep is a UK-based artist noted for his freethinking approach to pottery and the ceramic form. Jonathan pushes the boundaries of his medium with a creative convergence of ceramics, multimedia, virtual reality and 3D printing. http://www.keep-art.co.uk. Talk beginning at 7:30pm. Admission is free, all are welcome and no advance booking required
+Jonathan Keep is an independent practising artist potter and a leading exponent of studio based ceramic 3D printing. His ceramics are recognizable for a strong sculptural quality and emphasis on form. The shapes of his pots are generated in computer code. He has developed this working process out of an interest in the way computer code can mimic natural codes, patterns and growth structures. A graduate of the Royal College of Art, London he exhibits internationally and lectures, undertakes artist residencies and workshops in the UK and abroad. Jonathan initiated the widely popular ‘Make Your Own Ceramic 3D Printer’ project. Talk beginning at 7:30pm. Admission is free, all are welcome and no advance booking required
 
 ---
 <br/>
