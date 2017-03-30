@@ -1,5 +1,3 @@
-
-
 ---
 title: "Machine Learning with Julia"
 layout: single-event
