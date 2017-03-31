@@ -10,7 +10,7 @@ fee: "Free, no booking required!"
 slug: FAM-opennight
 past: false
 soon: false
-published: false
+published: true
 
 imagedisplay: false
 imagetitle:
