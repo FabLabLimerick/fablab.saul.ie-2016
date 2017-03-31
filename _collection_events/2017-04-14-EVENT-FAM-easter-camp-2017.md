@@ -5,7 +5,7 @@ category: events
 series: "FUTURE ARTIST MAKERS"
 
 excerpt: "Fab Lab Limerick invites kids aged 9 to 12 to take part in a 2-day Easter camp. Boys and girls will explore their imagination and creativity using digital technologies!"
-hours: "April 14th & 15th, 10:30am TO 3:30pm"
+hours: "April 14th & 15th, 10:30am to 3:30pm"
 description: "Fab Lab Limerick invites kids aged 9 to 12 to take part in a 2-day Easter camp. Boys and girls will explore their imagination and creativity using digital technologies!"
 fee: "€75 per child"
 slug: FAM-easter-camp-2017
