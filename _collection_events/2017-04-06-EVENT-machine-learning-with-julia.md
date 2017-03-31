@@ -4,7 +4,7 @@ layout: single-event
 category: events
 
 excerpt: "Machine Learning, Visualization,  Distributed and High-Performance Computing in Julia"
-hours: "7pm Tuesday 4th April"
+hours: "7pm Thursday 6th April"
 description: "Machine Learning, Visualization,  Distributed and High-Performance Computing in Julia"
 fee: "Free"
 slug: machine-learning-with-julia
