@@ -5,7 +5,7 @@ category: events
 series: "FUTURE ARTIST MAKERS"
 
 excerpt: "Build a MonoZith - a single stringed, fretted electric zither with Ed Devane"
-hours: "3rd April. 6:30pm to 9:30pm"
+hours: "April 3rd, 6:30pm to 9:30pm"
 description: "Build a MonoZith - a single stringed, fretted electric zither with Ed Devane"
 fee: "€75 per person"
 slug: FAM-monozith-workshop
