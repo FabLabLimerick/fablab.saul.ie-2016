@@ -4,7 +4,7 @@ layout: single-event
 category: events
 
 excerpt: "Four week course on Adobe Illustrator for Digital Fabrication"
-hours: "FROM APR. 4TH, 7:30PM TO 9:30PM"
+hours: "From April 4th, 7:30pm to 9:30pm"
 description: "Four week course on Adobe Illustrator for Digital Fabrication"
 fee: "€60 for students/€100 for professionals"
 slug: illustrator-for-digital-fabrication-04
