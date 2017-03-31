@@ -21,5 +21,7 @@ imageoriginal: ""
 
 
 ---
+
+[ticket link](http://fablablimerick.ticketleap.com/benjamin-gaulon-workshop/)
 <br/>
 FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union, and developed by [The Nerve Centre](http://nervecentre.org) in Derry, [Ultralab](http://ultra-lab.net) in Madrid and Fab Lab Limerick. To contact us, please email [fablab@saul.ie](mailto:fablab@saul.ie)
