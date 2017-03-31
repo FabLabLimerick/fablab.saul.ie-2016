@@ -4,7 +4,7 @@ layout: single-event
 category: events
 
 excerpt: "Build your very own DoodleBot! for kids from ages 7 years and up"
-hours: "MARCH 25TH, 10AM OR 2PM"
+hours: "March 25th, 10am or 2pm"
 description: "Build your very own DoodleBot!"
 fee: "€15 PER CHILD"
 slug: doodle-bot-2017
