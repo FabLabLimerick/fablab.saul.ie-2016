@@ -3,7 +3,7 @@ title: "Open Night"
 layout: single-event
 category: events
 
-excerpt: "Open Night with tutorials and activities on 3D printing, scanning and laser cutting, from 5:30pm"
+excerpt: "& Limerick Lifelong Learning Festival. Open Night with tutorials and activities on 3D printing, scanning and laser cutting, from 5:30pm"
 hours: "April 7th, 17:30-20:30"
 description: "Open Night with tutorials and activities on 3D printing, scanning and laser cutting"
 fee: "Free, no booking required!"
@@ -19,7 +19,7 @@ imageoriginal:
 series: "FUTURE ARTIST MAKERS"
 ---
 
-FUTURE ARTIST MAKERS in collaboration with the Limerick Lifelong Learning Festival present a broad range of exciting and innovative technologies, with demonstrations and activities for all. Check out our open source digital fabrication machines in action - including laser cutting, 3D printing, CNC cutting - and much more!
+FUTURE ARTIST MAKERS in collaboration with the Limerick Lifelong Learning Festival 2017 present a broad range of exciting and innovative technologies, with demonstrations and activities for all. Check out our open source digital fabrication machines in action - including laser cutting, 3D printing, CNC cutting - and much more!
 
 This event has free admission and no previous reservation is required.
 
