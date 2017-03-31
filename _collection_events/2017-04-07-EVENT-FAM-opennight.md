@@ -4,7 +4,7 @@ layout: single-event
 category: events
 
 excerpt: "& Limerick Lifelong Learning Festival. Open Night with tutorials and activities on 3D printing, scanning and laser cutting, from 5:30pm"
-hours: "April 7th, 17:30-20:30"
+hours: "April 7th, 5:30pm to 8:30pm"
 description: "Open Night with tutorials and activities on 3D printing, scanning and laser cutting"
 fee: "Free, no booking required!"
 slug: FAM-opennight
