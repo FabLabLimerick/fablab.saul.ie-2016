@@ -2,7 +2,7 @@
 category: events
 layout: "single-event"
 published: true
-title: "e-NABLE Ireland Workshop on Open Source Design"
+title: "Workshop on Open Source Design"
 slug: "opensourceprostheticws1"
 
 hours: "Saturday, April 22nd 10am–5pm"
