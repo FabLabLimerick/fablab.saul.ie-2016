@@ -3,14 +3,14 @@ title: "DREAMCATCHER BUSINESS CLUB"
 layout: single-event
 category: events
 
-excerpt: "Do you have an idea, side project or startup you want move forward? Would you like feedback and support from like-minded people dealing with similar issues & challenges?"
+excerpt: "Have an idea, side project or startup you want move forward? Get feedback and support with others like yourself, set goals, make new connections, learn practical business tips and tools."
 hours: "April 27th at 7.30pm"
-description: "Do you have a dream idea, side project or startup you want move forward? Would you like to get honest feedback and support from like-minded people dealing with similar issues and challenges as you?"
+description: "Have an idea, side project or startup you want move forward? Get feedback and support with others like yourself, set goals, make new connections, learn practical business tips and tools."
 fee: "FREE (registration required)"
 slug: dc-business-club-apr
 past: false
 soon: false
-published: false
+published: true
 
 imagedisplay: false
 imagetitle:
@@ -31,11 +31,7 @@ What’s involved:
 
 *“Also listening to my colleagues outline their challenges resonated with me and what I need to overcome in order to move forward“* **-Marie**
 
-This is a great opportunity to clarify your thinking, set goals, make new connections, learn from others and pick up practical business tips and tools.
-
-FREE EVENT but registration is essential as places are limited
-TO REGISTER: log on to [eventbrite](https://www.eventbrite.com/e/dreamcatcher-business-club-tickets-31482096799)
-Or contact Fergal O’ Farrell at 087 4176498
+This event is free, but registration is essential as places are limited. To register log on to [eventbrite](https://www.eventbrite.ie/e/dreamcatcher-business-club-tickets-33428591818), or contact Fergal O’ Farrell at 087 4176498
 
 ### About your facilitator, Fergal O' Farrell
 I love working with individuals and groups of people who are pushing personal and work boundaries, I really admire those who are challenging the status quo, pushing their personal limits as they grow personally and develop their ideas/projects/start-up enterprise.
