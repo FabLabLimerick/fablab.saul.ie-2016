@@ -11,7 +11,7 @@ fee: "Free, all welcome"
 slug: FAM-benjamin-gaulon-talk
 past: false
 soon: true
-published: true
+published: false
 
 imagedisplay: false
 imagetitle:
