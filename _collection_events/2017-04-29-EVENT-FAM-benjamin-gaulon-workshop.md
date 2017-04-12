@@ -10,8 +10,8 @@ description: "To be confirmed"
 fee: "Free, registration required"
 slug: FAM-benjamin-gaulon-workshop
 past: false
-soon: true
-published: true
+soon: false
+published: false
 
 imagedisplay: false
 imagetitle:
