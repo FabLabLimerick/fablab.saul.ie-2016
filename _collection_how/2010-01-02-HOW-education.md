@@ -31,13 +31,13 @@ Our tutorial courses are available for each of the machines at the Fab Lab. Afte
 
 Tutorials typically take 2 hours. Through a tutorial the students will learn the origin and concept behind the technology, health and safety, normal operation protocol, and preparing files.
 
-We can do tutorials in a variety of different softwares, if your group has a particular preference, let us know. We teach through Illustrator, Inkscape, DraftSight, AutoCAD, and many more. In fact if you would like to learn more programs like these yourself, we regularly offer such software courses on http://fablab.saul.ie/events .
+We can do tutorials in a variety of different softwares, if your group has a particular preference, let us know. We teach through Illustrator, Inkscape, DraftSight, AutoCAD, and many more. In fact if you would like to learn more programs like these yourself, we regularly offer such software courses on our [events page](http://fablab.saul.ie/events).
 
 Costs: Introductory workshop €300. 25 students max.
 
-**Please Note:**
-• Teachers must be in attendance for the entire tutorial.
-• For access to machines, participants are required to have attended the respective tutorials, whether in class structure as outlined above or by our public introductory tutorials, which you can see here: http://fablab.saul.ie/events
+**Please Note:**<br>
+• Teachers must be in attendance for the entire tutorial.<br>
+• For access to machines, participants are required to have attended the respective tutorials, whether in class structure as outlined above or by our public introductory tutorials, which you can see [here](http://fablab.saul.ie/events).<br>
 • Students/Teachers, unless otherwise specified, laptops are not required for tutorials.
 
 After a class has completed an introductory workshop, they are welcome to return under the teacher’s guidance to use the equipment. If they require further instruction/guidance from Fab Lab staff it will be charged at €30/hour. Laptops may are required.
@@ -71,7 +71,7 @@ Workshops generally take a looser format, take place under the tutorship of Fab 
 
 <sub><sup>[2] The student rate for using the Laser Cutter is €25/hour. If you are using the CNC, the 3D printers or any other of the machines, details are found [here](http://fablab.saul.ie/how/), and then go to the respective machine page, to find the respective cost for those machines.</sup></sub>
 
-**Please Note:**
-• Teachers must be in attendance for the entire workshop.
-• For access to machines, participants are required to have attended the respective tutorials first. This can be done through our public introductory tutorials, which you can see here: http://fablab.saul.ie/events
+**Please Note:**<br>
+• Teachers must be in attendance for the entire workshop.<br>
+• For access to machines, participants are required to have attended the respective tutorials first. This can be done through our public introductory tutorials, which you can see [here](http://fablab.saul.ie/events).<br>
 • Students/Teachers may bring their own laptops to workshops, discuss this with us first.
