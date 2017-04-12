@@ -3,7 +3,7 @@ published: false
 title: "Education Programme"
 slug: education
 category: how
-description: ""
+description: "information for schools, organisations and other community groups about Fab Lab Limerick's Educational Programme"
 ---
 
 ### About Fab Lab Limerick
@@ -46,11 +46,28 @@ After a class has completed an introductory workshop, they are welcome to return
 
 Workshops generally take a looser format, take place under the tutorship of Fab Lab staff, but allow a class or group extended use of the machine(s)
 
-|Tutor Rate|€30/hr|
-|Machine Rate<sup>[2]</sup>|€25/hr|
-|Space Rate|€25/hr|
-|Hours|€25/hr|
-|**Total**|**€315.00**|
+<table >
+	<tr>
+    	<td>Tutor Rate</td>
+    	<td>30 €/hr</td>
+  	</tr>
+  	<tr>
+    	<td>Machine Rate<sup>[2]</sup></td>
+    	<td>25 €/hr</td>
+  	</tr>
+  	<tr>
+    	<td>Space Rate</td>
+    	<td>50 €/hr</td>
+  	</tr>
+  	<tr>
+    	<td>Hours</td>
+    	<td>x 3 hrs</td>
+  	</tr>
+  	<tr>
+  		<td><b>Total</b></td>
+    	<td>315</td>
+  	</tr>
+</table>
 
 <sub><sup>[2] The student rate for using the Laser Cutter is €25/hour. If you are using the CNC, the 3D printers or any other of the machines, details are found [here](http://fablab.saul.ie/how/), and then go to the respective machine page, to find the respective cost for those machines.</sup></sub>
 
