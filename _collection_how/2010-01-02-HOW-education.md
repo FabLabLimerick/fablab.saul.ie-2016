@@ -42,15 +42,16 @@ Costs: Introductory workshop €300. 25 students max.
 
 After a class has completed an introductory workshop, they are welcome to return under the teacher’s guidance to use the equipment. If they require further instruction/guidance from Fab Lab staff it will be charged at €30/hour. Laptops may are required.
 
-### Workshops
+### Workshops
 
 Workshops generally take a looser format, take place under the tutorship of Fab Lab staff, but allow a class or group extended use of the machine(s)
 
+|---|---|---|
 |Tutor Rate| |€30/hr|
 |Machine Rate<sup>[2]</sup>||€25/hr|
 |Space Rate||€25/hr|
 |Hours||€25/hr|
-|<em>Total</em>||€315.00|
+|**Total**||**€315.00**|
 
 <sub><sup>[2] The student rate for using the Laser Cutter is €25/hour. If you are using the CNC, the 3D printers or any other of the machines, details are found [here](http://fablab.saul.ie/how/), and then go to the respective machine page, to find the respective cost for those machines.</sup></sub>
 
