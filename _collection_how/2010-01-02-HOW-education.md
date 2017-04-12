@@ -46,7 +46,6 @@ After a class has completed an introductory workshop, they are welcome to return
 
 Workshops generally take a looser format, take place under the tutorship of Fab Lab staff, but allow a class or group extended use of the machine(s)
 
-| --- | --- |
 |Tutor Rate|€30/hr|
 |Machine Rate<sup>[2]</sup>|€25/hr|
 |Space Rate|€25/hr|
