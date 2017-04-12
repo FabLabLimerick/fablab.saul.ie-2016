@@ -10,7 +10,7 @@ description: "To be confirmed"
 fee: "Free, all welcome"
 slug: FAM-benjamin-gaulon-talk
 past: false
-soon: true
+soon: false
 published: false
 
 imagedisplay: false
