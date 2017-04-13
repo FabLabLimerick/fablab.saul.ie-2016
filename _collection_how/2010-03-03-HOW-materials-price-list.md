@@ -6,10 +6,10 @@ slug: material-price-list
 description: "This is a list of the materials we generally stock. You should check with us if you are unsure, but this should help you to make your own calculations based on your material expenses."
 ---
 
-## YOUR MATERIALS
+### YOUR MATERIALS
 You are welcome to bring in your own materials on the day you plan to use them. Unfortunately we do not have space to store them for any length of time. 
 
-## OUR STOCK MATERIALS
+### OUR STOCK MATERIALS
 This is a list of the materials we usually stock. We have included a handling & stocking charge in the price of these materials. 
 
 | Material                         | Thickness (mm) | Size (mm)                      | Price (€) |
@@ -74,7 +74,7 @@ This is a list of the materials we usually stock. We have included a handling & 
 | 2.3 Standard Laser Rubber Sheets | 2.3            | 2.3x297x420                    | 11        |
 | 2.3 Eco Laser Rubber Sheets      | 2.3            | 2.3x297x420                    | 23        |
 
-## OUR SPECIAL REQUEST MATERIALS
+### OUR SPECIAL REQUEST MATERIALS
 Below is a list of materials that we can order on request. Depending on the supplier, it could take up to one month for these materials to arrive. 
 
 | Material                         | Thickness (mm) | Size (mm)                      | Price (€) |
@@ -168,9 +168,9 @@ Below is a list of materials that we can order on request. Depending on the supp
 | 16.0 Acetal white                | 16             | 16x600x3000                    | 600       |
 | 18.0 Melamine faced Birch white  | 18             | 18x1220x2440                   | 146       |
 | 1.0 Cardboard Brown              | 1              | 1x700x1000                     | 1.5       |
-| Cardboard white 1300µ            |                | 841 x 594                      | 4.5       |
-| Cardboard black 1300µ            |                | 841 x 594                      | 4.5       |
-| Thin White Card 600µ             |                | 841 x 594                      | 2         |
+| Cardboard white                  | 1300µ          | 841 x 594                      | 4.5       |
+| Cardboard black                  | 1300µ          | 841 x 594                      | 4.5       |
+| Thin White Card                  | 600µ           | 841 x 594                      | 2         |
 | 3.0 Foam board                   | 3              | 841 x 594                      | 6         |
 | 60.0 Styrofoam High Density      | 60             | 60x600x1200                    | 5         |
 
