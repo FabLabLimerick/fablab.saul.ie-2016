@@ -77,6 +77,7 @@ This is a list of the materials we usually stock. We have included a handling & 
 ### OUR SPECIAL REQUEST MATERIALS
 Below is a list of materials that we can order on request. Depending on the supplier, it could take up to one month for these materials to arrive. 
 
+
 | Material                         | Thickness (mm) | Size (mm)                      | Price (€) |
 |----------------------------------|----------------|--------------------------------|-----------|
 | 9.0 Birch Ply                    | 9              | 9x1220x2440                    | 61        |
@@ -174,4 +175,4 @@ Below is a list of materials that we can order on request. Depending on the supp
 | 3.0 Foam board                   | 3              | 841 x 594                      | 6         |
 | 60.0 Styrofoam High Density      | 60             | 60x600x1200                    | 5         |
 
-If you require anymore info on materials email us on fablab@saul.ie
+If you require anymore info on materials email us on [fablab@saul.ie](mailto:fablab@saul.ie).
