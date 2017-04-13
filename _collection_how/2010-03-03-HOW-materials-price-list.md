@@ -169,10 +169,10 @@ Below is a list of materials that we can order on request. Depending on the supp
 | 16.0 Acetal white                | 16             | 16x600x3000                    | 600       |
 | 18.0 Melamine faced Birch white  | 18             | 18x1220x2440                   | 146       |
 | 1.0 Cardboard Brown              | 1              | 1x700x1000                     | 1.5       |
-| Cardboard white                  | 1300µ          | 841 x 594                      | 4.5       |
-| Cardboard black                  | 1300µ          | 841 x 594                      | 4.5       |
-| Thin White Card                  | 600µ           | 841 x 594                      | 2         |
-| 3.0 Foam board                   | 3              | 841 x 594                      | 6         |
+| Cardboard white                  | 1.3            | 1.3x841x594                    | 4.5       |
+| Cardboard black                  | 1.3            | 1.3x841x594                    | 4.5       |
+| Thin White Card                  | 0.6            | 0.6x841x594                    | 2         |
+| 3.0 Foam board                   | 3              | 3x841x594                      | 6         |
 | 60.0 Styrofoam High Density      | 60             | 60x600x1200                    | 5         |
 
 If you require anymore info on materials email us on [fablab@saul.ie](mailto:fablab@saul.ie).
