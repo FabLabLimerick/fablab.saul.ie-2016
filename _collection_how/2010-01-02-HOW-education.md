@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Education Programme"
 slug: education
 category: how
