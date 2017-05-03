@@ -3,9 +3,9 @@ title: "SKECTHUP FOR DIGITAL FABRICATION"
 layout: single-event
 category: events
 
-excerpt: "Four week course on SketchUp for Digital Fabrication"
-hours: "FROM MAY 23RD, 7:30PM TO 9:30PM"
-description: "Four week course on SketchUp for Digital Fabrication"
+excerpt: "Four week course to learn SketchUp for Digital Fabrication"
+hours: "From May 23rd, 7:30pm TO 9:30pm"
+description: "Four week course to learn SketchUp for Digital Fabrication"
 fee: "€60 for students/€100 for professionals"
 slug: sketchupfordigitalfabrication05
 past: false
