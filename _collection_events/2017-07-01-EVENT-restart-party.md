@@ -3,7 +3,7 @@ category: events
 layout: "single-event"
 published: true
 title: "Restarter Party - iPhone repair workshop"
-slug: "retart-party"
+slug: "restart-party"
 
 hours: "July, TBD"
 fee: "Free, registration req'd"
