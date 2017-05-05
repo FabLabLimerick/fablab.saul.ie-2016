@@ -17,7 +17,7 @@ imagecredits: "therestartproject.org"
 ---
 
 *Restarter-Limerick* and Fab Lab Limerick will host an iPhone repair event at Fab Lab Limerick in July (exact date and time to be confirmed) This event gives people the opportunity to repair their broken/damaged iPhones free of charge. It will cover **iPhone 5, 5c, 5s and iPhone 6 devices only** and offers repairs to replace screens, batteries and lightning charger connectors.
-Participants will have the opportunity to book a 1 hour slot on the event when they register for the workshop. In order to book a space, please send an email to [restarter.limerick@gmail.com](mailto:restarter.limerick@gmail.com) for more details.
+Repairs are for free, but availability is limited. Participants are invited to book a 1-hour slot (1 repair per booking) when they register for the workshop. In order to register, please send an email to [restarter.limerick@gmail.com](mailto:restarter.limerick@gmail.com) for more details.
 
 ### About Restarter.Limerick
 The Restarter-Limerick project is funded by [Science Foundation Ireland](http://www.sfi.ie/) through the SFI Discovery program. It aims to uses electronics repair as a means of engagement with the general public on topics related to critical raw materials.
