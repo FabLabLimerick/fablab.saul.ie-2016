@@ -31,4 +31,4 @@ On our final day we will turn into real designers, makers and innovators. We wil
 
 All materials will be provided by Fab Lab Limerick and each child will be able to take home their individual projects. No personal computers/tablets are permitted at the camp.
 
-[Sign up for Summer Camp Here](http://fablablimerick.ticketleap.com/summer-camp-2017/)
+[Sign up for Summer Camp Here](http://fablablimerick.ticketleap.com/summer-camp-for-kids-7-9/)
