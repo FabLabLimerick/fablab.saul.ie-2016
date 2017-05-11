@@ -2,8 +2,8 @@
 category: events
 layout: "single-event"
 published: true
-title: "Summer Camp for Kids!"
-slug: "summercamp2017"
+title: "Summer Camp for Kids! (7 to 9 years)"
+slug: "summercamp2017-79"
 
 hours: "11th of July, from 11:30 - 15:30"
 fee: €120 per child
@@ -11,13 +11,14 @@ soon: false
 past: false
 
 imagedisplay: false
-excerpt: "Fab Lab Limerick invites kids aged 9 to 12 years to take part in a 4-day Summer Camp, to explore their imagination and creativity using digital technologies!"
-description: "Fab Lab Limerick invites kids aged 9 to 12 years to take part in a 4-day Summer Camp, to explore their imagination and creativity using digital technologies!"
+excerpt: "Fab Lab Limerick invites kids aged 7 to 9 years to take part in a 4-day Summer Camp, to explore their imagination and creativity using digital technologies!"
+description: "Fab Lab Limerick invites kids aged 7 to 9 years to take part in a 4-day Summer Camp, to explore their imagination and creativity using digital technologies!"
 imagecredits:
 ---
 
-The Summer Camp promises loads of great activities!
-And this Summer, we will be holding two camps. From **11th - 14th of July**, and **18th - 21st of July**, from 11:30am to 3:30pm each day.
+The Summer Camp promises loads of great activities! From **11th - 14th of July**, from 11:30am to 3:30pm each day.
+
+We also have an older kids' Summer Camp, from the **18th to the 21st of July**. You can get more details about that [here](http://fablab.saul.ie/events/summercamp2017-912).
 
 Building Digitally Fabricated Structures with papier maché, cardboard and other lightweight materials.
 Kids will be make 3D doodles, get the chance print out on Fab Lab's 3D printers, and take home their very own design!
