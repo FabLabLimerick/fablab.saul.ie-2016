@@ -4,7 +4,7 @@ layout: single-event
 category: events
 
 excerpt: "Come along and learn about how 3D printing technology is used in making prosthetic hands and more!"
-hours: "May 20th, 10am to 5pm"
+hours: "May 20th, 12:00 to 16:00"
 description: "Come along and learn about how 3D printing technology is used in making prosthetic hands and more!"
 fee: "Free, no registration required"
 slug: 3d-printing-prosthetic-open-day
@@ -18,7 +18,7 @@ imagecredits: ""
 imageoriginal: ""
 ---
 
-The Open Creators Limerick Community, a Fab Lab initiative, exhibits some of their work with 3D printing prosthesis for people in need.
-Come along to see what has been achieved so far, learn about 3D printing technology and other topics related to prosthetic design.
-
-**More detailed info coming soon.**
+Open Creators Limerick, in collaboration with the Fab Lab Limerick, School of Architecture, UL and the Health Hub Limerick, UL invite you to come along and learn about 3D printing technology and other topics related to prosthetic design.
+Open Creators Limerick are a community of volunteers collaborating to create assistive products that make life a little easier for others. From prosthetic arms to tactile learning aids for the visually impaired, they produce and share free open source designs using digital fabrication technologies like 3D printing and laser cutting. 
+On the day, a number of current projects will be displayed and activities will run throughout the day for visitors to join in on. 
+The community is always delighted to welcome new volunteers, regardless of skills or background, so please drop by or send an e-mail if you are interested in lending a hand.
