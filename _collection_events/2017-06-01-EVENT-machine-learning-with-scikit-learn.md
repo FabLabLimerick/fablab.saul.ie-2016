@@ -10,7 +10,7 @@ fee: "Free"
 slug: machine-learning-with-scikit-learn
 past: false
 soon: false
-published: false
+published: true
 
 imagedisplay: false
 imagetitle:
