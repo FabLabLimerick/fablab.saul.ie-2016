@@ -4,7 +4,7 @@ layout: single-event
 category: events
 
 excerpt: "Machine Learning with Python & Scikit-Learn"
-hours: "Thursday June 1st, 7:00pm"
+hours: "Thursday June 1st, 7:30pm"
 description: "Machine Learning with Python & Scikit-Learn"
 fee: "Free"
 slug: machine-learning-with-scikit-learn
