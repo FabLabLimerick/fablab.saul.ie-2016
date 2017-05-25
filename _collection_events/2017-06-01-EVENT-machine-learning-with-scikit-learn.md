@@ -22,6 +22,6 @@ There are several Python libraries which provide solid implementations of a rang
 
 In this presentation, we will demonstrate some of the best known algorithms, including clustering algorithms, randof Forest and Logistic Regression. 
 
-Azure notebooks will be provided so that you can try out the examples yourself. (See notebooks.azure.com for more details)
+Azure notebooks will be provided so that you can try out the examples yourself. (See [notebooks.azure.com](http://notebooks.azure.com) for more details)
 
 Sign up on the [MeetUp page](https://www.meetup.com/DataScientistsIreland/events/240178935/)
