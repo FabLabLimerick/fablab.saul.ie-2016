@@ -31,7 +31,7 @@ What’s involved:
 
 *“Also listening to my colleagues outline their challenges resonated with me and what I need to overcome in order to move forward“* **-Marie**
 
-This event is free, but registration is essential as places are limited. To register log contact Fergal O’ Farrell at 087 4176498. (Eventbrite link coming soon!)
+This event is free, but registration is essential as places are limited. To register log on to the [Eventbrite page](https://www.eventbrite.ie/e/dreamcatcher-business-club-tickets-34907891443)) or contact Fergal O’ Farrell at 087 4176498.
 
 ### About your facilitator, Fergal O' Farrell
 I love working with individuals and groups of people who are pushing personal and work boundaries, I really admire those who are challenging the status quo, pushing their personal limits as they grow personally and develop their ideas/projects/start-up enterprise.
