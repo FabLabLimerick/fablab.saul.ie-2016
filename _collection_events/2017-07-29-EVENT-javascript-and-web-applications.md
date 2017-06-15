@@ -11,8 +11,8 @@ soon: false
 past: false
 
 imagedisplay: true
-excerpt: "Replace screens, batteries and lightning charger connectors - repair broken/damaged iPhones free of charge, with our professional guidance"
-description: "Replace screens, batteries and lightning charger connectors - repair broken/damaged iPhones free of charge, with our professional guidance"
+excerpt: "Coding for Web Applications - HTML, CSS, Javascript, ExpressJS & Database"
+description: "Coding for Web Applications - HTML, CSS, Javascript, ExpressJS & Database"
 imagecredits: "educatedmachine.com"
 ---
 
