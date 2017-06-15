@@ -5,7 +5,7 @@ published: true
 title: "Fretworking for Jewellery and Metalwork"
 slug: "jewellery-skills-2"
 
-hours: "July, TBD"
+hours: "Saturday July 15th, 10am - 5pm"
 fee: "€95 incl. metals"
 soon: false
 past: false
