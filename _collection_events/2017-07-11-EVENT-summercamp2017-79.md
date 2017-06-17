@@ -20,8 +20,8 @@ The Summer Camp promises loads of great activities! From **11th - 14th of July**
 
 We also have an older kids' Summer Camp, from the **18th to the 21st of July**. You can get more details about that [here](http://fablab.saul.ie/events/summercamp2017-912).
 
-Building Digitally Fabricated Structures with papier maché, cardboard and other lightweight materials.
-Kids will be make 3D doodles, get the chance print out on Fab Lab's 3D printers, and take home their very own design!
+We will build Digitally Fabricated Structures with papier maché, cardboard and other lightweight materials.
+Kids will be able to make 3D doodles, get the chance print out on Fab Lab's 3D printers, and take home their very own design!
 
 Then, with the Laser Cutter, we will create custom frames for our craft art, toys and jigsaws. Each piece can be painted and decorated after to make it unique and personal to everyone’s style. We will learn and try out techniques that can translate 2D drawings into 3D objects.
 
