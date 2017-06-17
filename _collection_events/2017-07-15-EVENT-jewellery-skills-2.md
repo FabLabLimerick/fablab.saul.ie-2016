@@ -18,7 +18,7 @@ imagecredits: "forgottensilverjewellery.com "
 
 Explore the versatile technique of fretworking. Any line you can draw, you can cut with a hand fret saw - so the possibilities are endless. In this fun and creative full day workshop students will master the technique by designing and making a pair of earrings and a silver tree pendant.
 
-Book your place [here](http://fablablimerick.ticketleap.com/fretworking-for-jewellery-and-metalwork/)!
+Book your place [here](http://fablablimerick.ticketleap.com/fretworking-for-jewellery-and-metalwork/)! <br>
 Email [info@forgottensilverjewellery.com](mailto:info@forgottensilverjewellery.com) for more details.
 
 **All tools and silver supplied. No previous experience necessary. 16 yrs+
