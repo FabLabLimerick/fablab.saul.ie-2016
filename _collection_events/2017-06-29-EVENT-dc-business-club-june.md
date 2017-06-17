@@ -6,7 +6,7 @@ category: events
 excerpt: "Have an idea, side project or startup you want move forward? Get feedback and support with others like yourself, set goals, make new connections, learn practical business tips and tools."
 hours: "June 29th at 7.30pm"
 description: "Have an idea, side project or startup you want move forward? Get feedback and support with others like yourself, set goals, make new connections, learn practical business tips and tools."
-fee: "Free (registration required)"
+fee: "Free, registration req'd"
 slug: dc-business-club-june
 past: false
 soon: false
