@@ -11,8 +11,8 @@ soon: false
 past: false
 
 imagedisplay: true
-excerpt: "Learn the techniques needed to work precious metal. Use pliers, files, hammers, blowtorches, etc. Students will designing and make earrings, and pendants from Silver and other precious metals"
-description: "Learn the techniques needed to work precious metal. Use pliers, files, hammers, blowtorches, etc. Students will designing and make earrings, and pendants from Silver and other precious metals"
+excerpt: "Learn the techniques needed to work precious metal with pliers, files, hammers, blowtorches - design and make earrings, pendants from Silver and other precious metals"
+description: "Learn the techniques needed to work precious metal with pliers, files, hammers, blowtorches - design and make earrings, pendants from Silver and other precious metals"
 imagecredits: "forgottensilverjewellery.com "
 ---
 
