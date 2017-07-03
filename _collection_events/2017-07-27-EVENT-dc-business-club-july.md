@@ -10,7 +10,7 @@ fee: "Free, registration req'd"
 slug: dc-business-club-july
 past: false
 soon: false
-published: false
+published: true
 
 imagedisplay: false
 imagetitle:
