@@ -4,7 +4,7 @@ layout: single-event
 category: events
 
 excerpt: "Have an idea, side project or startup you want move forward? Get feedback and support with others like yourself, set goals, make new connections, learn practical business tips and tools."
-hours: "June 27th at 7.30pm"
+hours: "July 27th at 7.30pm"
 description: "Have an idea, side project or startup you want move forward? Get feedback and support with others like yourself, set goals, make new connections, learn practical business tips and tools."
 fee: "Free, registration req'd"
 slug: dc-business-club-july
@@ -20,7 +20,7 @@ imageoriginal: ""
 
 Do you have a dream idea, side project or start-up business you want to move forward?
 Would you like to get honest feedback and support from a diverse group of 5 to 7 like-minded people who have dealt with or are dealing with similar issues and challenges?
-To find out more join us at Fab Lab Limerick on Thursday, Julye 27th at 7.30pm
+To find out more join us at Fab Lab Limerick on Thursday, July 27th at 7.30pm
 
 What’s involved:
 * Individual presents opportunity/challenge that they want feedback on,
