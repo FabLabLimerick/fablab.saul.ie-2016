@@ -1,6 +1,6 @@
 ---
-title: Thomas O'Brian
-fullname: Thomas O'Brian
+title: Thomas O'Brien
+fullname: Thomas O'Brien
 country: Ireland
 category: team
 published: true
