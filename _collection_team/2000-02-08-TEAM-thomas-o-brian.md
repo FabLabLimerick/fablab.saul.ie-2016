@@ -5,6 +5,6 @@ country: Ireland
 category: team
 published: true
 position: Volunteer
-current: false
+current: true
 project: current
 ---
