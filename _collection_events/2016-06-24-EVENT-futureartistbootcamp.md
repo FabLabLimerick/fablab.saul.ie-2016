@@ -121,3 +121,6 @@ Form link: https://fablablimerick.typeform.com/to/Q3H7vd <br/>
 ---
 <br/>
 *FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union.*
+
+![Creative Europe Logo](http://fablab.saul.ie/assets/img/CreativeEuropeLogo.png "co-funded by the Creative Europe programme")
+
