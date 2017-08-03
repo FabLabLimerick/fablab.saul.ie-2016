@@ -30,3 +30,5 @@ The exhibition launches on Wednesday March 15th 2017 7pm with a talk from curat
 Curated by Declan Sheehan with assistance from Javi BuronGarcia, Fab Lab Limerick director, and Gustavo Valera, Ultra-Lab Madrid.
 
 FUTURE ARTIST MAKERS is co-funded by Creative Europe programme of the European Union, and developed by [The Nerve Centre](http://nervecentre.org) in Derry, [Ultralab](http://ultra-lab.net) in Madrid and Fab Lab Limerick. To contact us, please email [fablab@saul.ie](mailto:fablab@saul.ie)
+
+![Creative Europe Logo](http://fablab.saul.ie/assets/img/CreativeEuropeLogo.png "co-funded by the Creative Europe programme")
