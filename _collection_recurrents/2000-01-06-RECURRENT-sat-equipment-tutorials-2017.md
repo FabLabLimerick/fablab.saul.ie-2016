@@ -11,7 +11,7 @@ fee: €18 for students/€30 for adults - discounts apply"
 slug: sat-equipment-tutorials-2017
 past: false
 
-published: false
+published: true
 
 imagedisplay: true
 imagetitle:
