@@ -11,7 +11,7 @@ fee: €18 for students/€30 for adults - discounts apply"
 slug: add-equipment-intro
 past: false
 
-published: true
+published: false
 
 imagedisplay: true
 imagetitle:
