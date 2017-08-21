@@ -21,14 +21,17 @@ To book, please register your details [here](https://www.eventbrite.ie/e/learn-i
 
 ### 11.30am - 12.15pm: Learn it LEGO Education, Early Engineers, Age 4 - 6 years.
 "Through the use of Duplo LEGO bricks budding engineers build, test and explore ways familiar objects work, having fun exploring & experiment with concepts such as force, motion, balance, stability and buoyancy."
-NB: Parents must be present throughout the workshop.
+
+*NB: Parents must be present throughout the workshop.*
 
 ### 12.45pm - 2pm & 2.15pm - 3.30pm: Learn it LEGO Education, WeDo® Junior Robotics, Age 6 - 9 years.
 "Using LEGO to build fun models with motors and sensors at the start, children then connect with a computer to program behavior to bring their creations to life."
-NB: Parents presence at their own discretion.
+
+*NB: Parents presence at their own discretion.*
 
 ### 4pm - 5.15pm: Learn it LEGO Education, Machines & Mechanisms, Age 9+ years.
 "Through the use of LEGO children engage complex topics such as forces and motion and explore the concepts of energy by building mechanisms to make accurate observations, measure and record and even design their own solutions."
-NB: Parents presence at their own discretion.
+
+*NB: Parents presence at their own discretion.*
 
 Visit [elementalfestival.com](http://www.elementalfestival.com/) for more details.
