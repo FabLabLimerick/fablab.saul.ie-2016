@@ -6,7 +6,7 @@ title: "Aardmann Model Making"
 slug: "aardmannmodelmaking"
 
 hours: "Saturday, Sept. 9th, from 11am"
-fee: "Tickets €11.23"
+fee: "Booking: €11.23"
 soon: false
 past: false
 
