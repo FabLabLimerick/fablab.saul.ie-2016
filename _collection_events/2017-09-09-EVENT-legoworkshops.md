@@ -2,8 +2,8 @@
 category: events
 layout: "single-event"
 published: true
-title: "LEARN IT - BUILDING TOMORROWS ENGINEERS"
-slug: "legoworkshops"
+title: "LearnIT - BUILDING TOMORROWS ENGINEERS"
+slug: "learnitworkshops"
 
 hours: "Saturday, Sept. 9th, from 11:30am"
 fee: "Booking: €11.23"
