@@ -3,6 +3,6 @@ title: Michael McLaughlin
 category: team
 position: Coordinator
 fullname: Michael McLaughlin
-current: true
+current: false
 project: cnc-assembly
 ---
