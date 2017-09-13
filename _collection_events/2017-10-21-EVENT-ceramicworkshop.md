@@ -4,7 +4,7 @@ layout: single-event
 category: events
 
 excerpt: "3D printing workshop exploring the advantages of ceramic material - its versatility, beauty and structural benefits make this medium perfect for a wide range of purposes."
-hours: "Oct 21st & 22nd, 10:00 to 16:00"
+hours: "Oct 21st, 10:00 to 16:00"
 description: "3D printing workshop exploring the advantages of ceramic material - its versatility, beauty and structural benefits make this medium perfect for a wide range of purposes."
 fee: "TBD"
 slug: ceramicsworkshop

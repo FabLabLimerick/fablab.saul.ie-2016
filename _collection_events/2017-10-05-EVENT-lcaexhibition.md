@@ -3,9 +3,9 @@ title: "A PIG'S TALE: LIMERICK CERAMIC ARTISTS EXHIBITION"
 layout: single-event
 category: events
 
-excerpt: "A unique art experience, showcasing the varied uses and processes of contemporary ceramic by local experienced artists, inspired by Limerick’s legendary pork butchers and the part they played in the city’s economic, cultural and social history"
+excerpt: "A showcase of contemporary ceramic by local artists, inspired by Limerick’s legendary pork butchers & their part in the city’s economic, cultural and social history"
 hours: "Opening October 5th, from 7:30pm"
-description: "A unique art experience, showcasing the varied uses and processes of contemporary ceramic by local experienced artists, inspired by Limerick’s legendary pork butchers and the part they played in the city’s economic, cultural and social history"
+description: "A showcase of contemporary ceramic by local artists, inspired by Limerick’s legendary pork butchers & their part in the city’s economic, cultural and social history"
 fee: "Free, no registration required"
 slug: lcaexhibition
 past: false

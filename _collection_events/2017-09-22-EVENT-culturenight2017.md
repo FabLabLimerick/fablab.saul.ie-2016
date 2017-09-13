@@ -3,9 +3,9 @@ title: "Culture Night 2017"
 layout: single-event
 category: events
 
-excerpt: "free tutorials and activities on 3D printing, laser cutting and much more."
+excerpt: "Free tutorials and activities on 3D printing, laser cutting and much more."
 hours: "FRI, SEPT. 22ND, 5:30PM TO 9PM"
-description: "free tutorials and activities on 3D printing, laser cutting and much more."
+description: "Free tutorials and activities on 3D printing, laser cutting and much more."
 fee: "Free"
 slug: culturenight2017
 past: false
