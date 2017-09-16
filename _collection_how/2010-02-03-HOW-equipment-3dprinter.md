@@ -78,9 +78,7 @@ Unfortunately, Cura v2 and later do not support delta printers. As described [he
 In the file menu, go to `Machine > Add New Machine`. Then, in the dialog box, click `Next`. Select `Other (Ex: RepRap, MakerBot, WitBox)`, and then `DeltaBot Style`. Then click `OK` to finish the setup process. The "DeltaBot Style" machine is a good template for other delta printers, and we just need to change the dimensions now to suit the Wasp 3D printers. In the file menu again, go to `Machine > Machine Settings`, click the machine name, `DeltaBot Style` from the tabs at the top of the window. Now change the **Maximum Width (mm)**, **Maximum Depth (mm)** and **Maximum Height (mm)** settings. For the Wasp 2040, these should be 200, 200 and 400 respectively; and for the 4070, these should be 400, 400 and 700. You can click `Change Machine Name` at the bottom of the window, to give the machine a more descriptive name.
 
 #### Configuration files:
-For the Wasp 2040 printer, Wasp has supplied the following configuration profiles: [PLA](http://fablab.saul.ie/assets/downloads/Configurazioni_Delta%202040_PLA.ini), and 
-[ABS](http://fablab.saul.ie/assets/downloads/Configurazioni_Delta%202040_ABS.ini); and for the 4070: [PLA](http://fablab.saul.ie/assets/downloads/Configurazioni_Delta%204070_ABS.ini), and
-[ABS](http://fablab.saul.ie/assets/downloads/Configurazioni_Delta%204070_PLA.ini). To load a preconfigured profile in Cura, go to File > Open Profile and choose the location of the above files.
+With our the Wasp 2040 printer, we use a [Spitfire Black hotend](http://www.wasproject.it/w/en/3d-printer-extruder-spitfire/) - for which Wasp has supplied the following configuration profile for Cura: [Spitfire LT PLA.ini](http://fablab.saul.ie/assets/downloads/Spitfire-LT-PLA.ini). To load a preconfigured profile in Cura, go to File > Open Profile and choose the location of the above files.
 
 #### Other slicing programs - Slic3r, Simplify3D
 
