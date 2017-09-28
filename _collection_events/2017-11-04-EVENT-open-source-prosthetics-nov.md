@@ -4,10 +4,10 @@ layout: single-event
 category: events
 
 excerpt: "Come along and learn about how 3D printing technology is used in making prosthetic hands and more!"
-hours: "October 28th, 12:00 to 16:00"
+hours: "November 4th, 12:00 to 16:00"
 description: "Come along and learn about how 3D printing technology is used in making prosthetic hands and more!"
 fee: "Free, no registration required"
-slug: open-source-prosthetics-oct
+slug: open-source-prosthetics-nov
 past: false
 soon: false
 published: true
